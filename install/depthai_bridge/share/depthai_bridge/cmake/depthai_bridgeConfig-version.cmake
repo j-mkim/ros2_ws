@@ -1,0 +1,1 @@
+/home/orin/ros2_ws/build/depthai_bridge/ament_cmake_core/depthai_bridgeConfig-version.cmake

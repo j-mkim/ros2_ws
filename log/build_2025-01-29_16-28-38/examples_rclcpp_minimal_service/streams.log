@@ -1,0 +1,72 @@
+[0.011s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake /home/orin/ros2_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/examples_rclcpp_minimal_service
+[3.978s] -- The C compiler identification is GNU 11.4.0
+[3.979s] -- The CXX compiler identification is GNU 11.4.0
+[3.979s] -- Detecting C compiler ABI info
+[3.979s] -- Detecting C compiler ABI info - done
+[3.979s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.979s] -- Detecting C compile features
+[3.979s] -- Detecting C compile features - done
+[3.980s] -- Detecting CXX compiler ABI info
+[3.980s] -- Detecting CXX compiler ABI info - done
+[3.990s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.990s] -- Detecting CXX compile features
+[3.990s] -- Detecting CXX compile features - done
+[3.990s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.990s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.991s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.991s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.991s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.991s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.991s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.991s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.992s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.992s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.992s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.992s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.992s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.992s] -- Looking for pthread.h
+[3.992s] -- Looking for pthread.h - found
+[3.992s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.993s] -- Found Threads: TRUE  
+[4.015s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.390s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.402s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.403s] -- Configured cppcheck include dirs: 
+[4.403s] -- Configured cppcheck exclude dirs and/or files: 
+[4.403s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.403s] -- Configured cpplint exclude dirs and/or files: 
+[4.403s] -- Added test 'lint_cmake' to check CMake code style
+[4.406s] -- Added test 'uncrustify' to check C / C++ code style
+[4.406s] -- Configured uncrustify additional arguments: 
+[4.406s] -- Added test 'xmllint' to check XML markup files
+[4.413s] -- Configuring done
+[4.441s] -- Generating done
+[4.446s] -- Build files have been written to: /home/orin/ros2_ws/build/examples_rclcpp_minimal_service
+[4.500s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake /home/orin/ros2_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/examples_rclcpp_minimal_service
+[4.506s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_service -- -j6 -l6
+[7.199s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[13.083s] [100%] [32m[1mLinking CXX executable service_main[0m
+[13.460s] [100%] Built target service_main
+[13.554s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_service -- -j6 -l6
+[13.627s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_service
+[13.649s] -- Install configuration: ""
+[13.650s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[13.654s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main" to ""
+[13.654s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[13.655s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[13.657s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[13.657s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[13.658s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[13.681s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[13.683s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[13.683s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[13.683s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[13.684s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[13.684s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[13.684s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[13.684s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[13.684s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[13.684s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[13.720s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_service

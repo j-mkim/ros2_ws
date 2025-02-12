@@ -1,0 +1,29 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orin/ros2_ws/build/ros2_control_demo_example_13
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/ros2_control/threedofbot.ros2_control.xacro
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/urdf/three_robots.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/rviz/three_robots.rviz
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/launch/three_robots.launch.py
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/config/three_robots_controllers.yaml
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/config/three_robots_position_command_publishers.yaml
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_13
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_13
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/ament_prefix_path.sh
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/ament_prefix_path.dsv
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/path.sh
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/path.dsv
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.bash
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.sh
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.zsh
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.dsv
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/package.dsv
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/packages/ros2_control_demo_example_13
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/cmake/ros2_control_demo_example_13Config.cmake
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/cmake/ros2_control_demo_example_13Config-version.cmake
+-- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/package.xml

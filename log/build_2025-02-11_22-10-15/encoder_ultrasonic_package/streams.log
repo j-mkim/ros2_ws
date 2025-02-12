@@ -1,0 +1,34 @@
+[4.057s] Invoking command in '/home/orin/ros2_ws/build/encoder_ultrasonic_package': PYTHONPATH=/home/orin/ros2_ws/build/encoder_ultrasonic_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/encoder_ultrasonic_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/encoder_ultrasonic_package/build --no-deps symlink_data --force
+[5.258s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.258s]   warnings.warn(msg)
+[6.193s] running develop
+[6.193s] /home/orin/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.193s] !!
+[6.194s] 
+[6.194s]         ********************************************************************************
+[6.197s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.197s]         Instead, use pypa/build, pypa/installer or other
+[6.197s]         standards-based tools.
+[6.198s] 
+[6.198s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.198s]         ********************************************************************************
+[6.198s] 
+[6.198s] !!
+[6.198s]   easy_install.initialize_options(self)
+[7.597s] running egg_info
+[7.710s] writing encoder_ultrasonic_package.egg-info/PKG-INFO
+[7.718s] writing dependency_links to encoder_ultrasonic_package.egg-info/dependency_links.txt
+[7.722s] writing entry points to encoder_ultrasonic_package.egg-info/entry_points.txt
+[7.722s] writing requirements to encoder_ultrasonic_package.egg-info/requires.txt
+[7.722s] writing top-level names to encoder_ultrasonic_package.egg-info/top_level.txt
+[7.970s] reading manifest file 'encoder_ultrasonic_package.egg-info/SOURCES.txt'
+[7.978s] writing manifest file 'encoder_ultrasonic_package.egg-info/SOURCES.txt'
+[8.062s] running build_ext
+[8.063s] Creating /home/orin/ros2_ws/install/encoder_ultrasonic_package/lib/python3.10/site-packages/encoder-ultrasonic-package.egg-link (link to .)
+[8.063s] Installing encoder_ultrasonic_node script to /home/orin/ros2_ws/install/encoder_ultrasonic_package/lib/encoder_ultrasonic_package
+[8.063s] 
+[8.068s] Installed /home/orin/ros2_ws/build/encoder_ultrasonic_package
+[8.068s] running symlink_data
+[8.069s] symbolically linking /home/orin/ros2_ws/build/encoder_ultrasonic_package/resource/encoder_ultrasonic_package -> /home/orin/ros2_ws/install/encoder_ultrasonic_package/share/ament_index/resource_index/packages
+[8.069s] symbolically linking /home/orin/ros2_ws/build/encoder_ultrasonic_package/package.xml -> /home/orin/ros2_ws/install/encoder_ultrasonic_package/share/encoder_ultrasonic_package
+[8.375s] Invoked command in '/home/orin/ros2_ws/build/encoder_ultrasonic_package' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/encoder_ultrasonic_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/encoder_ultrasonic_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/encoder_ultrasonic_package/build --no-deps symlink_data --force

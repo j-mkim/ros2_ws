@@ -1,0 +1,15 @@
+/home/orin/ros2_ws/install/depthai-ros/share/ament_index/resource_index/package_run_dependencies/depthai-ros
+/home/orin/ros2_ws/install/depthai-ros/share/ament_index/resource_index/parent_prefix_path/depthai-ros
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/environment/ament_prefix_path.sh
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/environment/ament_prefix_path.dsv
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/environment/path.sh
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/environment/path.dsv
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/local_setup.bash
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/local_setup.sh
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/local_setup.zsh
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/local_setup.dsv
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/package.dsv
+/home/orin/ros2_ws/install/depthai-ros/share/ament_index/resource_index/packages/depthai-ros
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/cmake/depthai-rosConfig.cmake
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/cmake/depthai-rosConfig-version.cmake
+/home/orin/ros2_ws/install/depthai-ros/share/depthai-ros/package.xml

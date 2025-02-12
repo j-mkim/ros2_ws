@@ -1,0 +1,30 @@
+[4.176s] Invoking command in '/home/orin/ros2_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/orin/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/orin/ros2_ws/build/launch_testing_examples/build install --record /home/orin/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data
+[4.868s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.871s]   warnings.warn(msg)
+[5.267s] running egg_info
+[5.349s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[5.351s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[5.352s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[5.353s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[5.506s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[5.512s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[5.514s] running build
+[5.514s] running build_py
+[5.515s] copying launch_testing_examples/set_param_launch_test.py -> /home/orin/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.515s] copying launch_testing_examples/__init__.py -> /home/orin/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.516s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/orin/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.516s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/orin/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.518s] copying launch_testing_examples/hello_world_launch_test.py -> /home/orin/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.518s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/orin/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.520s] copying launch_testing_examples/check_node_launch_test.py -> /home/orin/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.520s] running install
+[5.532s] running install_lib
+[5.609s] running install_data
+[5.611s] copying resource/launch_testing_examples -> /home/orin/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.612s] copying package.xml -> /home/orin/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[5.614s] running install_egg_info
+[5.694s] removing '/home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.2-py3.10.egg-info' (and everything under it)
+[5.697s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.2-py3.10.egg-info
+[5.717s] running install_scripts
+[6.256s] writing list of installed files to '/home/orin/ros2_ws/build/launch_testing_examples/install.log'
+[6.367s] Invoked command in '/home/orin/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/orin/ros2_ws/build/launch_testing_examples/build install --record /home/orin/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data

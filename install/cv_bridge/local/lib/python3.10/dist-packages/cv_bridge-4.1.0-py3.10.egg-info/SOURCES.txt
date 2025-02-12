@@ -1,0 +1,1 @@
+/home/orin/ros2_ws/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge.egg-info/SOURCES.txt

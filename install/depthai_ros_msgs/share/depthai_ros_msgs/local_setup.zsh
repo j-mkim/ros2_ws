@@ -1,0 +1,1 @@
+/home/orin/ros2_ws/build/depthai_ros_msgs/ament_cmake_environment_hooks/local_setup.zsh

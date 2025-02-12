@@ -1,0 +1,25 @@
+[0.634s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer': /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer -- -j6 -l6
+[1.075s] [ 50%] Built target timer_lambda
+[1.424s] [100%] Built target timer_member_function
+[1.762s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer -- -j6 -l6
+[2.415s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer': /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer
+[2.444s] -- Install configuration: ""
+[2.450s] -- Execute custom install script
+[2.455s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[2.458s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[2.461s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[2.463s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[2.467s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[2.469s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[2.471s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[2.471s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[2.472s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[2.482s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[2.482s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[2.482s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[2.482s] -- Symlinking: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[2.525s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[2.527s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[2.532s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[2.532s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[2.547s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer

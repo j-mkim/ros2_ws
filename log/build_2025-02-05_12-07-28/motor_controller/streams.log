@@ -1,0 +1,72 @@
+[0.019s] Invoking command in '/home/orin/ros2_ws/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/motor_controller
+[0.778s] -- The C compiler identification is GNU 11.4.0
+[1.167s] -- The CXX compiler identification is GNU 11.4.0
+[1.196s] -- Detecting C compiler ABI info
+[1.394s] -- Detecting C compiler ABI info - done
+[1.413s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.414s] -- Detecting C compile features
+[1.416s] -- Detecting C compile features - done
+[1.427s] -- Detecting CXX compiler ABI info
+[1.638s] -- Detecting CXX compiler ABI info - done
+[1.655s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.656s] -- Detecting CXX compile features
+[1.657s] -- Detecting CXX compile features - done
+[1.676s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.837s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.008s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.030s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.062s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.326s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.337s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.610s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.710s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.822s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.855s] -- Looking for pthread.h
+[4.040s] -- Looking for pthread.h - found
+[4.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.217s] -- Found Threads: TRUE  
+[4.393s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[4.872s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.088s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.089s] -- Configured cppcheck include dirs: /home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/include
+[5.089s] -- Configured cppcheck exclude dirs and/or files: 
+[5.090s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.091s] -- Added test 'lint_cmake' to check CMake code style
+[5.093s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.098s] -- Added test 'uncrustify' to check C / C++ code style
+[5.101s] -- Configured uncrustify additional arguments: 
+[5.101s] -- Added test 'xmllint' to check XML markup files
+[5.107s] -- Configuring done
+[5.228s] -- Generating done
+[5.234s] -- Build files have been written to: /home/orin/ros2_ws/build/motor_controller
+[5.286s] Invoked command in '/home/orin/ros2_ws/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/motor_controller
+[5.287s] Invoking command in '/home/orin/ros2_ws/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/motor_controller -- -j6 -l6
+[5.419s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_controller.dir/src/arduino_interface.cpp.o[0m
+[11.325s] [01m[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduino_controller::CallbackReturn arduino_controller::ArduinoInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[11.326s] [01m[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[11.326s]    52 |   [01;31m[Knode_[m[K = std::make_shared<rclcpp::Node>("velocity_publisher_node");
+[11.326s]       |   [01;31m[K^~~~~[m[K
+[11.326s]       |   [32m[Kmode_t[m[K
+[11.341s] [01m[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[11.341s]    53 |   [01;31m[Kpublisher_[m[K = node_->create_publisher<std_msgs::msg::Float32>("w_velocity", 10);
+[11.341s]       |   [01;31m[K^~~~~~~~~~[m[K
+[11.342s]       |   [32m[Krmw_publisher_t[m[K
+[11.342s] [01m[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:53:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[11.342s]    53 |   publisher_ = node_->create_publisher<std_msgs::msg::Float32[01;31m[K>[m[K("w_velocity", 10);
+[11.343s]       |                                                              [01;31m[K^[m[K
+[11.343s] [01m[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:53:64:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[11.343s]    53 |   publisher_ = node_->create_publisher<std_msgs::msg::Float32>([01;35m[K"w_velocity"[m[K, 10);
+[11.343s]       |                                                                [01;35m[K^~~~~~~~~~~~[m[K
+[11.397s] [01m[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduino_controller::ArduinoInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[11.397s] [01m[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:370:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[11.398s]   370 |     [01;31m[Kpublisher_[m[K->publish(velocity_msg);
+[11.398s]       |     [01;31m[K^~~~~~~~~~[m[K
+[11.398s]       |     [32m[Krmw_publisher_t[m[K
+[12.801s] gmake[2]: *** [CMakeFiles/motor_controller.dir/build.make:76: CMakeFiles/motor_controller.dir/src/arduino_interface.cpp.o] Error 1
+[12.802s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_controller.dir/all] Error 2
+[12.803s] gmake: *** [Makefile:146: all] Error 2
+[12.815s] Invoked command in '/home/orin/ros2_ws/build/motor_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/motor_controller -- -j6 -l6

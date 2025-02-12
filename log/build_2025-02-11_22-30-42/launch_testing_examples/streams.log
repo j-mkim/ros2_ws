@@ -1,0 +1,32 @@
+[11.126s] Invoking command in '/home/orin/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/orin/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data --force
+[12.694s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[12.695s]   warnings.warn(msg)
+[14.591s] running develop
+[14.602s] /home/orin/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[14.602s] !!
+[14.602s] 
+[14.602s]         ********************************************************************************
+[14.603s]         Please avoid running ``setup.py`` and ``easy_install``.
+[14.603s]         Instead, use pypa/build, pypa/installer or other
+[14.603s]         standards-based tools.
+[14.603s] 
+[14.603s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[14.603s]         ********************************************************************************
+[14.603s] 
+[14.604s] !!
+[14.604s]   easy_install.initialize_options(self)
+[16.702s] running egg_info
+[16.847s] writing launch_testing_examples.egg-info/PKG-INFO
+[16.847s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[16.847s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[16.847s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[17.037s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[17.040s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[17.109s] running build_ext
+[17.110s] Creating /home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[17.134s] 
+[17.135s] Installed /home/orin/ros2_ws/build/launch_testing_examples
+[17.146s] running symlink_data
+[17.146s] symbolically linking /home/orin/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/orin/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[17.146s] symbolically linking /home/orin/ros2_ws/build/launch_testing_examples/package.xml -> /home/orin/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[18.218s] Invoked command in '/home/orin/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data --force

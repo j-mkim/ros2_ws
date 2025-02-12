@@ -1,0 +1,6 @@
+Invoking command in '/home/orin/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/vision_opencv/image_geometry -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/image_geometry
+Invoked command in '/home/orin/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/vision_opencv/image_geometry -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/image_geometry
+Invoking command in '/home/orin/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/image_geometry
+Invoked command in '/home/orin/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/image_geometry
+Invoking command in '/home/orin/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/image_geometry
+Invoked command in '/home/orin/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/image_geometry

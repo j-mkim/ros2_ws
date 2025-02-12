@@ -1,0 +1,111 @@
+[0.036s] Invoking command in '/home/orin/ros2_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/orin/ros2_ws/build/my_bot_description -- -j6 -l6
+[0.081s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.403s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.574s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.602s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.606s] -- Added test 'lint_cmake' to check CMake code style
+[0.608s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.619s] -- Added test 'xmllint' to check XML markup files
+[0.621s] -- Configuring done
+[0.630s] -- Generating done
+[0.633s] -- Build files have been written to: /home/orin/ros2_ws/build/my_bot_description
+[0.692s] Invoked command in '/home/orin/ros2_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/orin/ros2_ws/build/my_bot_description -- -j6 -l6
+[0.767s] Invoking command in '/home/orin/ros2_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/orin/ros2_ws/build/my_bot_description
+[0.786s] -- Install configuration: ""
+[0.787s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config
+[0.787s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot
+[0.788s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/base.yaml
+[0.788s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/motor.yaml
+[0.789s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/front_wheel.yaml
+[0.789s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/back_wheel.yaml
+[0.790s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/wheel.yaml
+[0.790s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/imu.yaml
+[0.790s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/sensors.yaml
+[0.791s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description
+[0.791s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf.xacro
+[0.792s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/imu.xacro
+[0.792s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/my_bot.urdf.xacro
+[0.793s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/depth_camera.xacro
+[0.793s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf
+[0.793s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes
+[0.793s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components
+[0.794s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components/wheel.stl
+[0.794s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors
+[0.794s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/rplidar_main.stl
+[0.794s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/OAK-D-LITE.stl
+[0.794s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot
+[0.794s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_rim.stl
+[0.795s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/dead_plate.stl
+[0.795s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate.stl
+[0.795s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate_original.stl
+[0.795s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/top_plate.stl
+[0.795s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_tire.stl
+[0.795s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/motor.stl
+[0.795s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/inertial_macros.xacro
+[0.796s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot_core.xacro
+[0.796s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/camera.xacro
+[0.796s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/ros2_control.xacro
+[0.796s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/lidar.xacro
+[0.796s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch
+[0.796s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/rsp.launch.py
+[0.796s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/display.launch.py
+[0.796s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds
+[0.797s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds/empty.world
+[0.797s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds/obstacles.world
+[0.798s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf
+[0.800s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/my_bot.urdf.xacro
+[0.800s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include
+[0.801s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/addon_macro.urdf.xacro
+[0.801s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/common_macros.urdf.xacro
+[0.801s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/robot.gazebo.xacro
+[0.801s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/common_sensors.xacro
+[0.802s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description
+[0.802s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf.xacro
+[0.803s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/imu.xacro
+[0.804s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/my_bot.urdf.xacro
+[0.804s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/depth_camera.xacro
+[0.805s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf
+[0.805s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes
+[0.805s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components
+[0.806s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components/wheel.stl
+[0.806s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors
+[0.806s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/rplidar_main.stl
+[0.807s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/OAK-D-LITE.stl
+[0.807s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot
+[0.808s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_rim.stl
+[0.808s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/dead_plate.stl
+[0.808s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate.stl
+[0.809s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate_original.stl
+[0.809s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/top_plate.stl
+[0.809s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_tire.stl
+[0.810s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/motor.stl
+[0.811s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/inertial_macros.xacro
+[0.812s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot_core.xacro
+[0.812s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/camera.xacro
+[0.813s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/ros2_control.xacro
+[0.813s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/lidar.xacro
+[0.814s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config
+[0.814s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot
+[0.814s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/base.yaml
+[0.815s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/motor.yaml
+[0.815s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/front_wheel.yaml
+[0.816s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/back_wheel.yaml
+[0.818s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/wheel.yaml
+[0.819s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/imu.yaml
+[0.819s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/sensors.yaml
+[0.819s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+[0.820s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+[0.820s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+[0.820s] -- Installing: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+[0.821s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/path.sh
+[0.821s] -- Installing: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv
+[0.821s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.bash
+[0.822s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.sh
+[0.822s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh
+[0.823s] -- Installing: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv
+[0.823s] -- Installing: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/package.dsv
+[0.823s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+[0.824s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+[0.824s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+[0.824s] -- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/package.xml
+[0.824s] Invoked command in '/home/orin/ros2_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/orin/ros2_ws/build/my_bot_description

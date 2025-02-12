@@ -1,0 +1,39 @@
+[7.455s] Invoking command in '/home/orin/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data --force
+[9.275s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[9.278s]   warnings.warn(msg)
+[10.553s] running develop
+[10.556s] /home/orin/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[10.559s] !!
+[10.560s] 
+[10.562s]         ********************************************************************************
+[10.565s]         Please avoid running ``setup.py`` and ``easy_install``.
+[10.568s]         Instead, use pypa/build, pypa/installer or other
+[10.572s]         standards-based tools.
+[10.574s] 
+[10.575s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[10.577s]         ********************************************************************************
+[10.580s] 
+[10.582s] !!
+[10.584s]   easy_install.initialize_options(self)
+[12.692s] running egg_info
+[12.980s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[12.993s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[12.999s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[13.006s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[13.011s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[13.470s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[13.474s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[13.538s] running build_ext
+[13.541s] Creating /home/orin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[13.543s] Installing callback_group script to /home/orin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[13.546s] Installing composed script to /home/orin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[13.547s] Installing custom_callback_group script to /home/orin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[13.547s] Installing custom_executor script to /home/orin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[13.547s] Installing listener script to /home/orin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[13.547s] Installing talker script to /home/orin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[13.547s] 
+[13.547s] Installed /home/orin/ros2_ws/build/examples_rclpy_executors
+[13.547s] running symlink_data
+[13.556s] symbolically linking /home/orin/ros2_ws/build/examples_rclpy_executors/resource/examples_rclpy_executors -> /home/orin/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[13.556s] symbolically linking /home/orin/ros2_ws/build/examples_rclpy_executors/package.xml -> /home/orin/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[15.403s] Invoked command in '/home/orin/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data --force

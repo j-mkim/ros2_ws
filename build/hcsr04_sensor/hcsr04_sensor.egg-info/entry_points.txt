@@ -1,0 +1,2 @@
+[console_scripts]
+hcsr04_publisher = hcsr04_sensor.hcsr04_publisher:main

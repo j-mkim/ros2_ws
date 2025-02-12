@@ -1,0 +1,8 @@
+In file included from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:15[m[K:
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/include/my_bot_ros2_control/diffbot_system.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/handle.hpp: No such file or directory
+   22 | #include [01;31m[K"hardware_interface/handle.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/my_bot_description.dir/build.make:76: CMakeFiles/my_bot_description.dir/hardware/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/my_bot_description.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

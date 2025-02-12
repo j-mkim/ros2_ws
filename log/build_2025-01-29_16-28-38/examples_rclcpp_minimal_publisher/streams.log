@@ -1,0 +1,96 @@
+[0.037s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake /home/orin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.316s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.545s] -- Detecting C compiler ABI info - done
+[0.564s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.564s] -- Detecting C compile features
+[0.565s] -- Detecting C compile features - done
+[0.584s] -- Detecting CXX compiler ABI info
+[0.836s] -- Detecting CXX compiler ABI info - done
+[0.850s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.850s] -- Detecting CXX compile features
+[0.856s] -- Detecting CXX compile features - done
+[0.879s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.002s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.278s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.411s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.427s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.451s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.656s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.661s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.927s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.009s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.174s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.224s] -- Looking for pthread.h
+[3.425s] -- Looking for pthread.h - found
+[3.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.647s] -- Found Threads: TRUE  
+[3.815s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.117s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.120s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.121s] -- Configured cppcheck include dirs: 
+[4.124s] -- Configured cppcheck exclude dirs and/or files: 
+[4.125s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.126s] -- Configured cpplint exclude dirs and/or files: 
+[4.128s] -- Added test 'lint_cmake' to check CMake code style
+[4.132s] -- Added test 'uncrustify' to check C / C++ code style
+[4.134s] -- Configured uncrustify additional arguments: 
+[4.134s] -- Added test 'xmllint' to check XML markup files
+[4.144s] -- Configuring done
+[4.196s] -- Generating done
+[4.201s] -- Build files have been written to: /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher
+[4.263s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake /home/orin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher
+[4.269s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[4.754s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[15.960s] [ 16%] [32m[1mLinking CXX executable publisher_lambda[0m
+[16.476s] [ 16%] Built target publisher_lambda
+[16.537s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[28.159s] [ 33%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[28.599s] [ 33%] Built target publisher_not_composable
+[28.657s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[40.324s] [ 50%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[40.778s] [ 50%] Built target publisher_wait_for_all_acked
+[40.831s] [ 58%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[53.127s] [ 66%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[53.588s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[53.645s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[70.824s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[71.432s] [ 83%] Built target publisher_member_function_with_type_adapter
+[71.570s] [ 91%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[83.908s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[84.350s] [100%] Built target publisher_member_function
+[84.409s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[84.561s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher
+[84.576s] -- Install configuration: ""
+[84.577s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[84.612s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[84.612s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[84.616s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[84.616s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[84.620s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[84.620s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[84.624s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[84.624s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[84.638s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[84.639s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[84.652s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[84.654s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[84.656s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[84.659s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[84.661s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[84.662s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[84.666s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[84.669s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[84.672s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[84.674s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[84.676s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[84.680s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[84.682s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[84.682s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[84.688s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[84.692s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[85.256s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher

@@ -1,0 +1,1 @@
+/home/orin/ros2_ws/build/depthai_ros_msgs/ament_cmake_core/depthai_ros_msgsConfig.cmake

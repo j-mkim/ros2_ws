@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target depthai_filters[0m
+[100%] Built target depthai_filters
+-- Install configuration: ""
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/launch
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_tracker.launch.py
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_3d.launch.py
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/launch/spatial_bb.launch.py
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/config
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/config/detection.yaml
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/config/wls.yaml
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/config/feature_tracker.yaml
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/config/spatial_bb.yaml
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/lib/libdepthai_filters.so
+-- Set runtime path of "/home/orin/ros2_ws/install/depthai_filters/lib/libdepthai_filters.so" to ""
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include/depthai_filters
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include/depthai_filters/spatial_bb.hpp
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include/depthai_filters/wls_filter.hpp
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include/depthai_filters/features_3d.hpp
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/include/depthai_filters/utils.hpp
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/environment/path.sh
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/environment/path.dsv
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/local_setup.bash
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/local_setup.sh
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/local_setup.zsh
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/local_setup.dsv
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/package.dsv
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake
+-- Installing: /home/orin/ros2_ws/install/depthai_filters/share/depthai_filters/package.xml

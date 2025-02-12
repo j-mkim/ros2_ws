@@ -1,0 +1,76 @@
+[0.044s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake /home/orin/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/examples_rclcpp_minimal_timer
+[4.434s] -- The C compiler identification is GNU 11.4.0
+[4.434s] -- The CXX compiler identification is GNU 11.4.0
+[4.435s] -- Detecting C compiler ABI info
+[4.435s] -- Detecting C compiler ABI info - done
+[4.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.435s] -- Detecting C compile features
+[4.435s] -- Detecting C compile features - done
+[4.435s] -- Detecting CXX compiler ABI info
+[4.435s] -- Detecting CXX compiler ABI info - done
+[4.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.436s] -- Detecting CXX compile features
+[4.436s] -- Detecting CXX compile features - done
+[4.436s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.436s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.436s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.436s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.437s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.437s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.442s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.442s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.442s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.442s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.442s] -- Looking for pthread.h
+[4.442s] -- Looking for pthread.h - found
+[4.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.443s] -- Found Threads: TRUE  
+[4.443s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.443s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.443s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.443s] -- Configured cppcheck include dirs: 
+[4.443s] -- Configured cppcheck exclude dirs and/or files: 
+[4.444s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.444s] -- Configured cpplint exclude dirs and/or files: 
+[4.444s] -- Added test 'lint_cmake' to check CMake code style
+[4.444s] -- Added test 'uncrustify' to check C / C++ code style
+[4.444s] -- Configured uncrustify additional arguments: 
+[4.444s] -- Added test 'xmllint' to check XML markup files
+[4.444s] -- Configuring done
+[4.444s] -- Generating done
+[4.445s] -- Build files have been written to: /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer
+[4.466s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake /home/orin/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/examples_rclcpp_minimal_timer
+[4.467s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer -- -j6 -l6
+[10.262s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[13.328s] [ 50%] [32m[1mLinking CXX executable timer_lambda[0m
+[13.619s] [ 50%] Built target timer_lambda
+[13.679s] [ 75%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[21.594s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[21.893s] [100%] Built target timer_member_function
+[21.974s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer -- -j6 -l6
+[22.082s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer
+[22.097s] -- Install configuration: ""
+[22.098s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[22.101s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+[22.102s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[22.102s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+[22.102s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[22.102s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[22.114s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[22.114s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[22.114s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[22.114s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[22.114s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[22.114s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[22.115s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[22.115s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[22.115s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[22.115s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[22.115s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[22.126s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[22.126s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[22.127s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_timer

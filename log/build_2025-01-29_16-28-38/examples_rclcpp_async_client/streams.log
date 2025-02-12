@@ -1,0 +1,72 @@
+[0.667s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake /home/orin/ros2_ws/src/examples/rclcpp/services/async_client -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/examples_rclcpp_async_client
+[0.820s] -- The C compiler identification is GNU 11.4.0
+[0.979s] -- The CXX compiler identification is GNU 11.4.0
+[0.997s] -- Detecting C compiler ABI info
+[1.203s] -- Detecting C compiler ABI info - done
+[1.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.239s] -- Detecting C compile features
+[1.240s] -- Detecting C compile features - done
+[1.251s] -- Detecting CXX compiler ABI info
+[1.534s] -- Detecting CXX compiler ABI info - done
+[1.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.567s] -- Detecting CXX compile features
+[1.567s] -- Detecting CXX compile features - done
+[1.578s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.747s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.063s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.183s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.202s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.239s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.618s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.751s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.770s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.213s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.322s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.596s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.648s] -- Looking for pthread.h
+[4.943s] -- Looking for pthread.h - found
+[4.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.323s] -- Found Threads: TRUE  
+[5.645s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.187s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.198s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.202s] -- Configured cppcheck include dirs: 
+[6.203s] -- Configured cppcheck exclude dirs and/or files: 
+[6.211s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.212s] -- Configured cpplint exclude dirs and/or files: 
+[6.223s] -- Added test 'lint_cmake' to check CMake code style
+[6.231s] -- Added test 'uncrustify' to check C / C++ code style
+[6.232s] -- Configured uncrustify additional arguments: 
+[6.239s] -- Added test 'xmllint' to check XML markup files
+[6.248s] -- Configuring done
+[6.279s] -- Generating done
+[6.286s] -- Build files have been written to: /home/orin/ros2_ws/build/examples_rclcpp_async_client
+[6.355s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake /home/orin/ros2_ws/src/examples/rclcpp/services/async_client -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/examples_rclcpp_async_client
+[6.356s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_async_client -- -j6 -l6
+[6.648s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[38.402s] [100%] [32m[1mLinking CXX executable client_main[0m
+[40.815s] [100%] Built target client_main
+[41.095s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_async_client -- -j6 -l6
+[41.392s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_async_client
+[41.480s] -- Install configuration: ""
+[41.491s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[41.491s] -- Set runtime path of "/home/orin/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main" to ""
+[41.523s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[41.535s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[41.551s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[41.560s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[41.564s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[41.576s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[41.579s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[41.584s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[41.593s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[41.596s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[41.599s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[41.618s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[41.631s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[41.635s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[41.639s] -- Installing: /home/orin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[41.670s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_async_client

@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.001163] (-) JobUnselected: {'identifier': 'arduino_odometry'}
+[0.001354] (-) JobUnselected: {'identifier': 'arduino_serial_comm'}
+[0.001649] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.002105] (-) JobUnselected: {'identifier': 'autonomous_vehicle_description'}
+[0.002371] (-) JobUnselected: {'identifier': 'bno055_publisher'}
+[0.002674] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.002771] (-) JobUnselected: {'identifier': 'depthai-ros'}
+[0.002843] (-) JobUnselected: {'identifier': 'depthai_bridge'}
+[0.002912] (-) JobUnselected: {'identifier': 'depthai_descriptions'}
+[0.002977] (-) JobUnselected: {'identifier': 'depthai_filters'}
+[0.003040] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.003104] (-) JobUnselected: {'identifier': 'depthai_ros_msgs'}
+[0.003167] (-) JobUnselected: {'identifier': 'encoder_ultrasonic_package'}
+[0.003231] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.003297] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.003363] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.003428] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.003491] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.003557] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.003621] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.003678] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.003746] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003799] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003851] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.004008] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.004115] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.004165] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.004211] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.004266] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.004308] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.004363] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.004513] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.004578] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.004650] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.004702] (-) JobUnselected: {'identifier': 'gazebo_dev'}
+[0.004742] (-) JobUnselected: {'identifier': 'gazebo_msgs'}
+[0.004779] (-) JobUnselected: {'identifier': 'gazebo_plugins'}
+[0.004839] (-) JobUnselected: {'identifier': 'gazebo_ros'}
+[0.004897] (-) JobUnselected: {'identifier': 'gazebo_ros_pkgs'}
+[0.004950] (-) JobUnselected: {'identifier': 'hcsr04_sensor'}
+[0.004994] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005103] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.005165] (-) JobUnselected: {'identifier': 'motion_planner'}
+[0.005231] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.005271] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.005312] (-) JobUnselected: {'identifier': 'my_bot_imu'}
+[0.005420] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.005478] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.005542] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.005586] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.005623] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.005660] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.005724] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.005831] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.005891] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.005934] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.005985] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.006372] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.006451] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.006516] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.006579] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.006640] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.006701] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.006761] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.006821] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.006880] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.006942] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.007004] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.007087] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.007152] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.007213] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.007266] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.007324] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.007371] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.007421] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.007530] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.007591] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.007675] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.007719] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.007759] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.007863] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.007921] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.007987] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.008028] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.008099] (-) JobUnselected: {'identifier': 'wheel_encoder_odometry'}
+[0.008152] (depthai_examples) JobQueued: {'identifier': 'depthai_examples', 'dependencies': OrderedDict([('cv_bridge', '/home/orin/ros2_ws/install/cv_bridge'), ('depthai_descriptions', '/home/orin/ros2_ws/install/depthai_descriptions'), ('depthai_ros_msgs', '/home/orin/ros2_ws/install/depthai_ros_msgs'), ('depthai_bridge', '/home/orin/ros2_ws/install/depthai_bridge')])}
+[0.008244] (depthai_examples) JobStarted: {'identifier': 'depthai_examples'}
+[0.038242] (depthai_examples) JobProgress: {'identifier': 'depthai_examples', 'progress': 'cmake'}
+[0.039871] (depthai_examples) JobProgress: {'identifier': 'depthai_examples', 'progress': 'build'}
+[0.041305] (depthai_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/ros2_ws/build/depthai_examples', '--', '-j6', '-l6'], 'cwd': '/home/orin/ros2_ws/build/depthai_examples', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/home/orin/ros2_ws/install/cv_bridge/lib:/home/orin/ros2_ws/install/ros2_control_demo_example_5/lib:/home/orin/ros2_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '2308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2283,unix/nano:/tmp/.ICE-unix/2283'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2f39cae_58f9_4072_b0b8_45d2ac144176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/depthai_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:/home/orin/ros2_ws/build/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:/home/orin/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.100025] (-) TimerEvent: {}
+[0.188399] (depthai_examples) StdoutLine: {'line': b'[ 10%] Built target crop_control_service\n'}
+[0.200245] (-) TimerEvent: {}
+[0.257369] (depthai_examples) StdoutLine: {'line': b'[ 20%] Built target stereo_node\n'}
+[0.300554] (-) TimerEvent: {}
+[0.323286] (depthai_examples) StdoutLine: {'line': b'[ 30%] Built target yolov4_spatial_node\n'}
+[0.387723] (depthai_examples) StdoutLine: {'line': b'[ 40%] Built target yolov4_node\n'}
+[0.400741] (-) TimerEvent: {}
+[0.464977] (depthai_examples) StdoutLine: {'line': b'[ 50%] Built target tracker_yolov4_node\n'}
+[0.500907] (-) TimerEvent: {}
+[0.530390] (depthai_examples) StdoutLine: {'line': b'[ 60%] Built target tracker_yolov4_spatial_node\n'}
+[0.600145] (depthai_examples) StdoutLine: {'line': b'[ 70%] Built target feature_tracker\n'}
+[0.600896] (-) TimerEvent: {}
+[0.671390] (depthai_examples) StdoutLine: {'line': b'[ 80%] Built target stereo_inertial_node\n'}
+[0.701115] (-) TimerEvent: {}
+[0.736693] (depthai_examples) StdoutLine: {'line': b'[ 90%] Built target rgb_stereo_node\n'}
+[0.801409] (-) TimerEvent: {}
+[0.807487] (depthai_examples) StdoutLine: {'line': b'[100%] Built target mobilenet_node\n'}
+[0.839338] (depthai_examples) CommandEnded: {'returncode': 0}
+[0.901557] (-) TimerEvent: {}
+[0.964367] (depthai_examples) JobProgress: {'identifier': 'depthai_examples', 'progress': 'install'}
+[0.989200] (depthai_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/ros2_ws/build/depthai_examples'], 'cwd': '/home/orin/ros2_ws/build/depthai_examples', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/home/orin/ros2_ws/install/cv_bridge/lib:/home/orin/ros2_ws/install/ros2_control_demo_example_5/lib:/home/orin/ros2_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '2308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2283,unix/nano:/tmp/.ICE-unix/2283'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2f39cae_58f9_4072_b0b8_45d2ac144176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/depthai_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:/home/orin/ros2_ws/build/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:/home/orin/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[1.001661] (-) TimerEvent: {}
+[1.012821] (depthai_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.013277] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/params\n'}
+[1.013751] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/params/camera\n'}
+[1.014162] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/params/camera/right.yaml\n'}
+[1.014492] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/params/camera/left.yaml\n'}
+[1.014831] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/params/camera/color.yaml\n'}
+[1.015152] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz\n'}
+[1.015430] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialROS1.rviz\n'}
+[1.015609] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud.rviz\n'}
+[1.015775] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/rgb_camera.rviz\n'}
+[1.015935] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertial.rviz\n'}
+[1.016125] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlign.rviz\n'}
+[1.016336] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud_v1.rviz\n'}
+[1.016482] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/pointCloud.rviz\n'}
+[1.016650] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlignROS2.rviz\n'}
+[1.016824] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_config.rviz\n'}
+[1.016957] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_nodelet.rviz\n'}
+[1.017085] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/resources\n'}
+[1.017210] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/resources/yolov4_tiny_coco_416x416_openvino_2021.4_6shave_bgr.blob\n'}
+[1.017339] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/resources/mobilenet-ssd_openvino_2021.2_6shave.blob\n'}
+[1.017507] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/resources/deeplab_v3_plus_mnv2_decoder_256_openvino_2021.4.blob\n'}
+[1.017644] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/launch\n'}
+[1.017774] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/launch/tracker_yolov4_node.launch.py\n'}
+[1.017901] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/launch/stereo_inertial_node.launch.py\n'}
+[1.018052] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/launch/mobile_publisher.launch.py\n'}
+[1.018186] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/launch/tracker_yolov4_spatial_node.launch.py\n'}
+[1.018346] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/launch/rgb_stereo_node.launch.py\n'}
+[1.018478] (depthai_examples) StdoutLine: {'line': b'-- Installing: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/launch/stereo.launch.py\n'}
+[1.018610] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/launch/yolov4_publisher.launch.py\n'}
+[1.018778] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/crop_control_service\n'}
+[1.018909] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/mobilenet_node\n'}
+[1.019039] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/rgb_stereo_node\n'}
+[1.019166] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/stereo_inertial_node\n'}
+[1.019369] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/stereo_node\n'}
+[1.020005] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/yolov4_spatial_node\n'}
+[1.021111] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/yolov4_node\n'}
+[1.021739] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/feature_tracker\n'}
+[1.022363] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/tracker_yolov4_node\n'}
+[1.022990] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/lib/depthai_examples/tracker_yolov4_spatial_node\n'}
+[1.023369] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/ament_index/resource_index/package_run_dependencies/depthai_examples\n'}
+[1.023541] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/ament_index/resource_index/parent_prefix_path/depthai_examples\n'}
+[1.023726] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.sh\n'}
+[1.023892] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.dsv\n'}
+[1.024103] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/environment/path.sh\n'}
+[1.024322] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/environment/path.dsv\n'}
+[1.024511] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/local_setup.bash\n'}
+[1.024653] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/local_setup.sh\n'}
+[1.024793] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/local_setup.zsh\n'}
+[1.024942] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/local_setup.dsv\n'}
+[1.025107] (depthai_examples) StdoutLine: {'line': b'-- Installing: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/package.dsv\n'}
+[1.025264] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/ament_index/resource_index/packages/depthai_examples\n'}
+[1.025397] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig.cmake\n'}
+[1.025523] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig-version.cmake\n'}
+[1.025648] (depthai_examples) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/depthai_examples/share/depthai_examples/package.xml\n'}
+[1.029730] (depthai_examples) CommandEnded: {'returncode': 0}
+[1.101800] (-) TimerEvent: {}
+[1.196712] (depthai_examples) JobEnded: {'identifier': 'depthai_examples', 'rc': 0}
+[1.198917] (-) EventReactorShutdown: {}

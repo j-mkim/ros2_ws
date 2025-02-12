@@ -1,0 +1,31 @@
+[13.434s] Invoking command in '/home/orin/ros2_ws/build/examples_rclpy_pointcloud_publisher': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data
+[16.318s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[16.319s]   warnings.warn(msg)
+[18.312s] running develop
+[18.321s] /home/orin/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[18.321s] !!
+[18.321s] 
+[18.322s]         ********************************************************************************
+[18.322s]         Please avoid running ``setup.py`` and ``easy_install``.
+[18.322s]         Instead, use pypa/build, pypa/installer or other
+[18.322s]         standards-based tools.
+[18.322s] 
+[18.322s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[18.322s]         ********************************************************************************
+[18.336s] 
+[18.336s] !!
+[18.336s]   easy_install.initialize_options(self)
+[20.198s] running egg_info
+[20.662s] writing examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[20.667s] writing dependency_links to examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[20.670s] writing entry points to examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[20.675s] writing requirements to examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[20.680s] writing top-level names to examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[21.158s] reading manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[21.175s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[21.334s] running build_ext
+[21.340s] Creating /home/orin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+[21.347s] Installing pointcloud_publisher script to /home/orin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[21.352s] 
+[21.352s] Installed /home/orin/ros2_ws/build/examples_rclpy_pointcloud_publisher
+[21.354s] running symlink_data

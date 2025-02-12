@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000886] (-) JobUnselected: {'identifier': 'arduino_odometry'}
+[0.010262] (-) JobUnselected: {'identifier': 'arduino_serial_comm'}
+[0.010400] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.010451] (-) JobUnselected: {'identifier': 'autonomous_vehicle_description'}
+[0.010493] (-) JobUnselected: {'identifier': 'bno055_publisher'}
+[0.010533] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.010568] (-) JobUnselected: {'identifier': 'depthai-ros'}
+[0.010602] (-) JobUnselected: {'identifier': 'depthai_bridge'}
+[0.010637] (-) JobUnselected: {'identifier': 'depthai_descriptions'}
+[0.010670] (-) JobUnselected: {'identifier': 'depthai_examples'}
+[0.010704] (-) JobUnselected: {'identifier': 'depthai_filters'}
+[0.010736] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.010769] (-) JobUnselected: {'identifier': 'depthai_ros_msgs'}
+[0.010803] (-) JobUnselected: {'identifier': 'encoder_ultrasonic_package'}
+[0.010835] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.010867] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.010899] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.010934] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.010968] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.011004] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.011039] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.011073] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.011106] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.011139] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.011171] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.011204] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.011237] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.011269] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.011302] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.011335] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.011369] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.011454] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.011498] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.011535] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.011570] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.011603] (-) JobUnselected: {'identifier': 'gazebo_dev'}
+[0.011636] (-) JobUnselected: {'identifier': 'gazebo_msgs'}
+[0.011668] (-) JobUnselected: {'identifier': 'gazebo_plugins'}
+[0.011701] (-) JobUnselected: {'identifier': 'gazebo_ros'}
+[0.011733] (-) JobUnselected: {'identifier': 'gazebo_ros_pkgs'}
+[0.011765] (-) JobUnselected: {'identifier': 'hcsr04_sensor'}
+[0.011797] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.011831] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.011864] (-) JobUnselected: {'identifier': 'motion_planner'}
+[0.011898] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.011930] (-) JobUnselected: {'identifier': 'my_bot_imu'}
+[0.011963] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.011996] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.012028] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.012060] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.012092] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.012124] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.012157] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.012189] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.012221] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.012252] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.012285] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.012373] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.012411] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.012445] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.012478] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.012510] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.012543] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.012576] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.012610] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.012642] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.012675] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.012709] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.012741] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.012774] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.012806] (-) JobUnselected: {'identifier': 'wheel_encoder_odometry'}
+[0.012852] (my_bot_description) JobQueued: {'identifier': 'my_bot_description', 'dependencies': OrderedDict()}
+[0.012905] (my_bot_description) JobStarted: {'identifier': 'my_bot_description'}
+[0.031567] (my_bot_description) JobProgress: {'identifier': 'my_bot_description', 'progress': 'cmake'}
+[0.034168] (my_bot_description) JobProgress: {'identifier': 'my_bot_description', 'progress': 'build'}
+[0.036747] (my_bot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/ros2_ws/build/my_bot_description', '--', '-j6', '-l6'], 'cwd': '/home/orin/ros2_ws/build/my_bot_description', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2242,unix/nano:/tmp/.ICE-unix/2242'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8f5e2a01_2568_4309_9dd2_dcc70f87f83f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/my_bot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.098917] (-) TimerEvent: {}
+[0.163321] (my_bot_description) CommandEnded: {'returncode': 0}
+[0.199073] (-) TimerEvent: {}
+[0.249815] (my_bot_description) JobProgress: {'identifier': 'my_bot_description', 'progress': 'install'}
+[0.280350] (my_bot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/ros2_ws/build/my_bot_description'], 'cwd': '/home/orin/ros2_ws/build/my_bot_description', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2242,unix/nano:/tmp/.ICE-unix/2242'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8f5e2a01_2568_4309_9dd2_dcc70f87f83f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/my_bot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.299260] (my_bot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.302803] (-) TimerEvent: {}
+[0.303144] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config\n'}
+[0.303358] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot\n'}
+[0.307223] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/base.yaml\n'}
+[0.307598] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/motor.yaml\n'}
+[0.307781] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/front_wheel.yaml\n'}
+[0.307936] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/back_wheel.yaml\n'}
+[0.308082] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/wheel.yaml\n'}
+[0.308219] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/imu.yaml\n'}
+[0.308356] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/sensors.yaml\n'}
+[0.308491] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description\n'}
+[0.308626] (my_bot_description) StdoutLine: {'line': b'-- Installing: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf.xacro\n'}
+[0.308762] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/imu.xacro\n'}
+[0.308895] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/my_bot.urdf.xacro\n'}
+[0.309025] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/depth_camera.xacro\n'}
+[0.309156] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf\n'}
+[0.309287] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes\n'}
+[0.309773] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components\n'}
+[0.310021] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components/wheel.stl\n'}
+[0.310172] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors\n'}
+[0.310308] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/rplidar_main.stl\n'}
+[0.310442] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/OAK-D-LITE.stl\n'}
+[0.310670] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot\n'}
+[0.310861] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_rim.stl\n'}
+[0.311000] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/dead_plate.stl\n'}
+[0.311136] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate.stl\n'}
+[0.311270] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate_original.stl\n'}
+[0.311525] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/top_plate.stl\n'}
+[0.311691] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_tire.stl\n'}
+[0.311831] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/motor.stl\n'}
+[0.311966] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/inertial_macros.xacro\n'}
+[0.312100] (my_bot_description) StdoutLine: {'line': b'-- Installing: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot_core.xacro\n'}
+[0.312231] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/camera.xacro\n'}
+[0.312362] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/ros2_control.xacro\n'}
+[0.312493] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/lidar.xacro\n'}
+[0.312624] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch\n'}
+[0.312753] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/rsp.launch.py\n'}
+[0.312940] (my_bot_description) StdoutLine: {'line': b'-- Installing: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/display.launch.py\n'}
+[0.313073] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds\n'}
+[0.313202] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds/empty.world\n'}
+[0.313333] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds/obstacles.world\n'}
+[0.313467] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf\n'}
+[0.313594] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/my_bot.urdf.xacro\n'}
+[0.313723] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include\n'}
+[0.313855] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/addon_macro.urdf.xacro\n'}
+[0.313988] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/common_macros.urdf.xacro\n'}
+[0.314161] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/robot.gazebo.xacro\n'}
+[0.314295] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/common_sensors.xacro\n'}
+[0.314421] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description\n'}
+[0.314545] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf.xacro\n'}
+[0.314673] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/imu.xacro\n'}
+[0.314802] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/my_bot.urdf.xacro\n'}
+[0.314939] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/depth_camera.xacro\n'}
+[0.315070] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf\n'}
+[0.315200] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes\n'}
+[0.315662] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components\n'}
+[0.316138] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components/wheel.stl\n'}
+[0.316558] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors\n'}
+[0.316703] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/rplidar_main.stl\n'}
+[0.316839] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/OAK-D-LITE.stl\n'}
+[0.316997] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot\n'}
+[0.317131] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_rim.stl\n'}
+[0.317262] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/dead_plate.stl\n'}
+[0.317393] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate.stl\n'}
+[0.317522] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate_original.stl\n'}
+[0.317653] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/top_plate.stl\n'}
+[0.317781] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_tire.stl\n'}
+[0.317904] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/motor.stl\n'}
+[0.318030] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/inertial_macros.xacro\n'}
+[0.318179] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot_core.xacro\n'}
+[0.318308] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/camera.xacro\n'}
+[0.318435] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/ros2_control.xacro\n'}
+[0.318598] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/lidar.xacro\n'}
+[0.318729] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config\n'}
+[0.318857] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot\n'}
+[0.318987] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/base.yaml\n'}
+[0.319114] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/motor.yaml\n'}
+[0.319239] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/front_wheel.yaml\n'}
+[0.319364] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/back_wheel.yaml\n'}
+[0.319666] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/wheel.yaml\n'}
+[0.320782] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/imu.yaml\n'}
+[0.321106] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/sensors.yaml\n'}
+[0.321332] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description\n'}
+[0.321653] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description\n'}
+[0.321822] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh\n'}
+[0.322095] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv\n'}
+[0.322550] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/path.sh\n'}
+[0.322881] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv\n'}
+[0.323291] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.bash\n'}
+[0.323625] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.sh\n'}
+[0.323891] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh\n'}
+[0.324200] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv\n'}
+[0.324409] (my_bot_description) StdoutLine: {'line': b'-- Installing: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/package.dsv\n'}
+[0.324705] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description\n'}
+[0.324914] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake\n'}
+[0.325168] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake\n'}
+[0.325432] (my_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/package.xml\n'}
+[0.325616] (my_bot_description) CommandEnded: {'returncode': 0}
+[0.403099] (-) TimerEvent: {}
+[0.405204] (my_bot_description) JobEnded: {'identifier': 'my_bot_description', 'rc': 0}
+[0.406975] (-) EventReactorShutdown: {}

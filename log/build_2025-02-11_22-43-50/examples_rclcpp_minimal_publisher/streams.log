@@ -1,0 +1,33 @@
+[0.198s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[0.890s] [ 16%] Built target publisher_lambda
+[1.174s] [ 33%] Built target publisher_not_composable
+[1.621s] [ 50%] Built target publisher_wait_for_all_acked
+[1.843s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[1.992s] [ 83%] Built target publisher_member_function_with_type_adapter
+[2.112s] [100%] Built target publisher_member_function
+[2.261s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[2.995s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher
+[3.074s] -- Install configuration: ""
+[3.077s] -- Execute custom install script
+[3.078s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[3.082s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[3.083s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[3.083s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[3.084s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[3.086s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[3.089s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[3.091s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[3.092s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[3.093s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[3.103s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[3.105s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[3.108s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[3.108s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[3.117s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[3.117s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[3.124s] -- Symlinking: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[3.295s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[3.298s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[3.302s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[3.316s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[3.331s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_minimal_publisher

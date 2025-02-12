@@ -1,0 +1,2 @@
+[console_scripts]
+arduino_odometry_node = arduino_odometry.arduino_odometry_node:main

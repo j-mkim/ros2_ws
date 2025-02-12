@@ -1,0 +1,60 @@
+[0.101s] Invoking command in '/home/orin/ros2_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/depthai-ros/depthai_descriptions -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/depthai_descriptions
+[22.931s] -- The C compiler identification is GNU 11.4.0
+[22.933s] -- The CXX compiler identification is GNU 11.4.0
+[22.933s] -- Detecting C compiler ABI info
+[22.933s] -- Detecting C compiler ABI info - done
+[22.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[22.934s] -- Detecting C compile features
+[22.934s] -- Detecting C compile features - done
+[22.934s] -- Detecting CXX compiler ABI info
+[22.934s] -- Detecting CXX compiler ABI info - done
+[22.934s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.934s] -- Detecting CXX compile features
+[22.945s] -- Detecting CXX compile features - done
+[22.946s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[22.946s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[22.946s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[22.946s] -- Configuring done
+[22.947s] -- Generating done
+[22.947s] -- Build files have been written to: /home/orin/ros2_ws/build/depthai_descriptions
+[22.947s] Invoked command in '/home/orin/ros2_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/depthai-ros/depthai_descriptions -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/depthai_descriptions
+[22.948s] Invoking command in '/home/orin/ros2_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/depthai_descriptions
+[23.311s] Invoked command in '/home/orin/ros2_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/depthai_descriptions
+[23.584s] Invoking command in '/home/orin/ros2_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/depthai_descriptions
+[33.135s] -- Install configuration: "Release"
+[33.140s] -- Execute custom install script
+[33.140s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/base_descr.urdf.xacro
+[33.140s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+[33.141s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/base_macro.urdf.xacro
+[33.141s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+[33.141s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+[33.141s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+[33.141s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+[33.141s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LR.stl
+[33.141s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+[33.142s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO-W.stl
+[33.142s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+[33.142s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+[33.142s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR-POE.stl
+[33.142s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR.stl
+[33.142s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+[33.142s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/environment/depthai_descriptions.sh
+[33.143s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/environment/depthai_descriptions.dsv
+[33.159s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+[33.159s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+[33.159s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+[33.159s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+[33.159s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+[33.160s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+[33.166s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+[33.167s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+[33.167s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+[33.167s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+[33.167s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+[33.168s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+[33.168s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+[33.168s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+[33.168s] -- Symlinking: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+[33.168s] -- Installing: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+[33.168s] -- Installing: /home/orin/ros2_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py
+[33.177s] Invoked command in '/home/orin/ros2_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/depthai_descriptions

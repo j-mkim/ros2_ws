@@ -1,0 +1,44 @@
+/home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+/home/orin/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+Removing /home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2-control-demo-testing.egg-link (link to .)
+/home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/dependency_links.txt
+writing requirements to ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/requires.txt
+writing top-level names to ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/top_level.txt
+reading manifest file '../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_control_demo_testing/__init__.py -> /home/orin/ros2_ws/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing
+copying ros2_control_demo_testing/test_utils.py -> /home/orin/ros2_ws/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing
+running install
+running install_lib
+creating /home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing
+copying /home/orin/ros2_ws/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing/__init__.py -> /home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing
+copying /home/orin/ros2_ws/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing/test_utils.py -> /home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing
+byte-compiling /home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing/test_utils.py to test_utils.cpython-310.pyc
+running install_data
+copying resource/ros2_control_demo_testing -> /home/orin/ros2_ws/install/ros2_control_demo_testing/share/ament_index/resource_index/packages
+copying package.xml -> /home/orin/ros2_ws/install/ros2_control_demo_testing/share/ros2_control_demo_testing
+running install_egg_info
+Copying ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info to /home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/orin/ros2_ws/build/ros2_control_demo_testing/install.log'

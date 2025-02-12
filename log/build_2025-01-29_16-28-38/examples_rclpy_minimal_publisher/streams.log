@@ -1,0 +1,43 @@
+[5.334s] Invoking command in '/home/orin/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[6.485s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[6.486s]   warnings.warn(msg)
+[6.935s] running egg_info
+[6.938s] creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[7.014s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[7.019s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[7.021s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[7.024s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[7.026s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[7.028s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[7.255s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[7.268s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[7.270s] running build
+[7.271s] running build_py
+[7.273s] creating /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[7.275s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[7.278s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[7.279s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[7.282s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[7.284s] running install
+[7.297s] running install_lib
+[7.358s] creating /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[7.360s] copying /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[7.362s] copying /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[7.364s] copying /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[7.365s] copying /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[7.369s] byte-compiling /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[7.371s] byte-compiling /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[7.373s] byte-compiling /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[7.376s] byte-compiling /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[7.378s] running install_data
+[7.381s] creating /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[7.383s] copying resource/examples_rclpy_minimal_publisher -> /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[7.385s] copying package.xml -> /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[7.395s] running install_egg_info
+[7.471s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.2-py3.10.egg-info
+[7.475s] running install_scripts
+[8.125s] Installing publisher_local_function script to /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[8.130s] Installing publisher_member_function script to /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[8.130s] Installing publisher_old_school script to /home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[8.130s] writing list of installed files to '/home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[8.266s] Invoked command in '/home/orin/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/orin/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

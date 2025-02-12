@@ -1,0 +1,37 @@
+[4.831s] Invoking command in '/home/orin/ros2_ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build --no-deps symlink_data --force
+[5.739s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.739s]   warnings.warn(msg)
+[6.845s] running develop
+[6.846s] /home/orin/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.846s] !!
+[6.846s] 
+[6.846s]         ********************************************************************************
+[6.846s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.846s]         Instead, use pypa/build, pypa/installer or other
+[6.846s]         standards-based tools.
+[6.847s] 
+[6.847s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.847s]         ********************************************************************************
+[6.847s] 
+[6.847s] !!
+[6.852s]   easy_install.initialize_options(self)
+[8.247s] running egg_info
+[8.311s] writing examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[8.315s] writing dependency_links to examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[8.316s] writing entry points to examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[8.316s] writing requirements to examples_rclpy_minimal_action_server.egg-info/requires.txt
+[8.316s] writing top-level names to examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[8.557s] reading manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[8.569s] writing manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[8.649s] running build_ext
+[8.650s] Creating /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[8.652s] Installing server script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.653s] Installing server_defer script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.653s] Installing server_not_composable script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.654s] Installing server_queue_goals script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.655s] Installing server_single_goal script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.655s] 
+[8.655s] Installed /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server
+[8.655s] running symlink_data
+[8.656s] symbolically linking /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/resource/examples_rclpy_minimal_action_server -> /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[8.657s] symbolically linking /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/package.xml -> /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server

@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.001073] (-) JobUnselected: {'identifier': 'arduino_odometry'}
+[0.001453] (-) JobUnselected: {'identifier': 'arduino_serial_comm'}
+[0.001787] (-) JobUnselected: {'identifier': 'depthai-ros'}
+[0.001918] (-) JobUnselected: {'identifier': 'depthai_bridge'}
+[0.002022] (-) JobUnselected: {'identifier': 'depthai_descriptions'}
+[0.002123] (-) JobUnselected: {'identifier': 'depthai_examples'}
+[0.002246] (-) JobUnselected: {'identifier': 'depthai_filters'}
+[0.002342] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.002433] (-) JobUnselected: {'identifier': 'depthai_ros_msgs'}
+[0.002518] (-) JobUnselected: {'identifier': 'encoder_ultrasonic_package'}
+[0.002639] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.002820] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.002919] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002989] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.003074] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.003148] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.003208] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.003389] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.003531] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003602] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003663] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003751] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.003951] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.004018] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.004079] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.004266] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.004340] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.004394] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.004440] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.004579] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.004677] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.004728] (-) JobUnselected: {'identifier': 'hcsr04_sensor'}
+[0.004770] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.004810] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.004851] (-) JobUnselected: {'identifier': 'my_bot_imu'}
+[0.004996] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.005067] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.005110] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.005154] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.005198] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.005245] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.005285] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.005640] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.005729] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.005805] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.005903] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.005974] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.006044] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.006127] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.006192] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.006265] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.006382] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.006466] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.006531] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.006610] (-) JobUnselected: {'identifier': 'wheel_encoder_odometry'}
+[0.006760] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.006898] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.021530] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'cmake'}
+[0.022154] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller', '-DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/motor_controller'], 'cwd': '/home/orin/ros2_ws/build/motor_controller', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '3066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2285,unix/nano:/tmp/.ICE-unix/2285'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2029e856_54bf_4032_81d5_8b9e80dbf6c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/motor_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099239] (-) TimerEvent: {}
+[0.200377] (-) TimerEvent: {}
+[0.301094] (-) TimerEvent: {}
+[0.401812] (-) TimerEvent: {}
+[0.502524] (-) TimerEvent: {}
+[0.603263] (-) TimerEvent: {}
+[0.704330] (-) TimerEvent: {}
+[0.784125] (motor_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.804482] (-) TimerEvent: {}
+[0.905311] (-) TimerEvent: {}
+[1.006418] (-) TimerEvent: {}
+[1.107325] (-) TimerEvent: {}
+[1.173723] (motor_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.202249] (motor_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.207468] (-) TimerEvent: {}
+[1.308175] (-) TimerEvent: {}
+[1.400089] (motor_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.408347] (-) TimerEvent: {}
+[1.419270] (motor_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.420754] (motor_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.422541] (motor_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.433669] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.508530] (-) TimerEvent: {}
+[1.609306] (-) TimerEvent: {}
+[1.644267] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.661817] (motor_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.662469] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.663697] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.682634] (motor_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.709457] (-) TimerEvent: {}
+[1.810198] (-) TimerEvent: {}
+[1.910860] (-) TimerEvent: {}
+[2.011589] (-) TimerEvent: {}
+[2.112202] (-) TimerEvent: {}
+[2.212862] (-) TimerEvent: {}
+[2.313644] (-) TimerEvent: {}
+[2.414294] (-) TimerEvent: {}
+[2.514949] (-) TimerEvent: {}
+[2.557034] (motor_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.615282] (-) TimerEvent: {}
+[2.715948] (-) TimerEvent: {}
+[2.816810] (-) TimerEvent: {}
+[2.843397] (motor_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.917106] (-) TimerEvent: {}
+[3.014783] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.017157] (-) TimerEvent: {}
+[3.036231] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.068352] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.114103] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.117462] (-) TimerEvent: {}
+[3.172355] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.217675] (-) TimerEvent: {}
+[3.318414] (-) TimerEvent: {}
+[3.332350] (motor_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.343265] (motor_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.418615] (-) TimerEvent: {}
+[3.519407] (-) TimerEvent: {}
+[3.616408] (motor_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.619657] (-) TimerEvent: {}
+[3.716742] (motor_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.719787] (-) TimerEvent: {}
+[3.820434] (-) TimerEvent: {}
+[3.828189] (motor_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.861729] (motor_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.920642] (-) TimerEvent: {}
+[4.021550] (-) TimerEvent: {}
+[4.046085] (motor_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.047386] (motor_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.121809] (-) TimerEvent: {}
+[4.220000] (motor_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.221892] (-) TimerEvent: {}
+[4.223603] (motor_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.322202] (-) TimerEvent: {}
+[4.399526] (motor_controller) StdoutLine: {'line': b'-- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[4.422355] (-) TimerEvent: {}
+[4.523269] (-) TimerEvent: {}
+[4.624203] (-) TimerEvent: {}
+[4.724895] (-) TimerEvent: {}
+[4.825603] (-) TimerEvent: {}
+[4.877951] (motor_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.925839] (-) TimerEvent: {}
+[5.026778] (-) TimerEvent: {}
+[5.093652] (motor_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.095287] (motor_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/include\n'}
+[5.095591] (motor_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.096737] (motor_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.097949] (motor_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.099775] (motor_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.104358] (motor_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.107165] (motor_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.107668] (motor_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.113966] (motor_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.126940] (-) TimerEvent: {}
+[5.227840] (-) TimerEvent: {}
+[5.234119] (motor_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[5.240225] (motor_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/ros2_ws/build/motor_controller\n'}
+[5.291796] (motor_controller) CommandEnded: {'returncode': 0}
+[5.293279] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'build'}
+[5.293369] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/ros2_ws/build/motor_controller', '--', '-j6', '-l6'], 'cwd': '/home/orin/ros2_ws/build/motor_controller', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '3066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2285,unix/nano:/tmp/.ICE-unix/2285'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2029e856_54bf_4032_81d5_8b9e80dbf6c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/motor_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.328028] (-) TimerEvent: {}
+[5.425939] (motor_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller.dir/src/arduino_interface.cpp.o\x1b[0m\n'}
+[5.428114] (-) TimerEvent: {}
+[5.528746] (-) TimerEvent: {}
+[5.629606] (-) TimerEvent: {}
+[5.730493] (-) TimerEvent: {}
+[5.831543] (-) TimerEvent: {}
+[5.932397] (-) TimerEvent: {}
+[6.033581] (-) TimerEvent: {}
+[6.134413] (-) TimerEvent: {}
+[6.235632] (-) TimerEvent: {}
+[6.336415] (-) TimerEvent: {}
+[6.437231] (-) TimerEvent: {}
+[6.538087] (-) TimerEvent: {}
+[6.639148] (-) TimerEvent: {}
+[6.739991] (-) TimerEvent: {}
+[6.840858] (-) TimerEvent: {}
+[6.941736] (-) TimerEvent: {}
+[7.042596] (-) TimerEvent: {}
+[7.143551] (-) TimerEvent: {}
+[7.244389] (-) TimerEvent: {}
+[7.345101] (-) TimerEvent: {}
+[7.446005] (-) TimerEvent: {}
+[7.546862] (-) TimerEvent: {}
+[7.647740] (-) TimerEvent: {}
+[7.748616] (-) TimerEvent: {}
+[7.849506] (-) TimerEvent: {}
+[7.950294] (-) TimerEvent: {}
+[8.051199] (-) TimerEvent: {}
+[8.152057] (-) TimerEvent: {}
+[8.252931] (-) TimerEvent: {}
+[8.353804] (-) TimerEvent: {}
+[8.454674] (-) TimerEvent: {}
+[8.555604] (-) TimerEvent: {}
+[8.656462] (-) TimerEvent: {}
+[8.757310] (-) TimerEvent: {}
+[8.858165] (-) TimerEvent: {}
+[8.959025] (-) TimerEvent: {}
+[9.059898] (-) TimerEvent: {}
+[9.160720] (-) TimerEvent: {}
+[9.261508] (-) TimerEvent: {}
+[9.362347] (-) TimerEvent: {}
+[9.463119] (-) TimerEvent: {}
+[9.563962] (-) TimerEvent: {}
+[9.664707] (-) TimerEvent: {}
+[9.765480] (-) TimerEvent: {}
+[9.866372] (-) TimerEvent: {}
+[9.967234] (-) TimerEvent: {}
+[10.068126] (-) TimerEvent: {}
+[10.168960] (-) TimerEvent: {}
+[10.269811] (-) TimerEvent: {}
+[10.370725] (-) TimerEvent: {}
+[10.471569] (-) TimerEvent: {}
+[10.572432] (-) TimerEvent: {}
+[10.673309] (-) TimerEvent: {}
+[10.774176] (-) TimerEvent: {}
+[10.875036] (-) TimerEvent: {}
+[10.975937] (-) TimerEvent: {}
+[11.076668] (-) TimerEvent: {}
+[11.177547] (-) TimerEvent: {}
+[11.278528] (-) TimerEvent: {}
+[11.331583] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual arduino_controller::CallbackReturn arduino_controller::ArduinoInterface::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.332419] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:52:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmode_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.332741] (motor_controller) StderrLine: {'line': b'   52 |   \x1b[01;31m\x1b[Knode_\x1b[m\x1b[K = std::make_shared<rclcpp::Node>("velocity_publisher_node");\n'}
+[11.333005] (motor_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.333244] (motor_controller) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kmode_t\x1b[m\x1b[K\n'}
+[11.347383] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:53:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.347912] (motor_controller) StderrLine: {'line': b'   53 |   \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = node_->create_publisher<std_msgs::msg::Float32>("w_velocity", 10);\n'}
+[11.348195] (motor_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.348449] (motor_controller) StderrLine: {'line': b'      |   \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[11.348748] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:53:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[11.349047] (motor_controller) StderrLine: {'line': b'   53 |   publisher_ = node_->create_publisher<std_msgs::msg::Float32\x1b[01;31m\x1b[K>\x1b[m\x1b[K("w_velocity", 10);\n'}
+[11.349294] (motor_controller) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.349532] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:53:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.349781] (motor_controller) StderrLine: {'line': b'   53 |   publisher_ = node_->create_publisher<std_msgs::msg::Float32>(\x1b[01;35m\x1b[K"w_velocity"\x1b[m\x1b[K, 10);\n'}
+[11.350015] (motor_controller) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.378621] (-) TimerEvent: {}
+[11.403614] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type arduino_controller::ArduinoInterface::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.404155] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/ros2_control_custom_hardware_interface/motor_controller/motor_controller/src/arduino_interface.cpp:370:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.404477] (motor_controller) StderrLine: {'line': b'  370 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(velocity_msg);\n'}
+[11.404758] (motor_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.405083] (motor_controller) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[11.478841] (-) TimerEvent: {}
+[11.579813] (-) TimerEvent: {}
+[11.680668] (-) TimerEvent: {}
+[11.781617] (-) TimerEvent: {}
+[11.882516] (-) TimerEvent: {}
+[11.983518] (-) TimerEvent: {}
+[12.084405] (-) TimerEvent: {}
+[12.185078] (-) TimerEvent: {}
+[12.285981] (-) TimerEvent: {}
+[12.386853] (-) TimerEvent: {}
+[12.487700] (-) TimerEvent: {}
+[12.588551] (-) TimerEvent: {}
+[12.689443] (-) TimerEvent: {}
+[12.790299] (-) TimerEvent: {}
+[12.807476] (motor_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motor_controller.dir/build.make:76: CMakeFiles/motor_controller.dir/src/arduino_interface.cpp.o] Error 1\n'}
+[12.808464] (motor_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_controller.dir/all] Error 2\n'}
+[12.809233] (motor_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.819567] (motor_controller) CommandEnded: {'returncode': 2}
+[12.891135] (-) TimerEvent: {}
+[12.898886] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 2}
+[12.901298] (-) EventReactorShutdown: {}

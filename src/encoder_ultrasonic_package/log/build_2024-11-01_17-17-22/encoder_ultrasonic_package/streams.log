@@ -1,0 +1,29 @@
+[2.076s] Invoking command in '/home/orin/ros2_ws/src/encoder_ultrasonic_package': PYTHONPATH=/home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/encoder_ultrasonic_package build --build-base /home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/build install --record /home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/install.log --single-version-externally-managed install_data
+[2.467s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.467s]   warnings.warn(msg)
+[2.779s] running egg_info
+[2.829s] writing build/encoder_ultrasonic_package/encoder_ultrasonic_package.egg-info/PKG-INFO
+[2.830s] writing dependency_links to build/encoder_ultrasonic_package/encoder_ultrasonic_package.egg-info/dependency_links.txt
+[2.831s] writing entry points to build/encoder_ultrasonic_package/encoder_ultrasonic_package.egg-info/entry_points.txt
+[2.831s] writing requirements to build/encoder_ultrasonic_package/encoder_ultrasonic_package.egg-info/requires.txt
+[2.831s] writing top-level names to build/encoder_ultrasonic_package/encoder_ultrasonic_package.egg-info/top_level.txt
+[2.938s] reading manifest file 'build/encoder_ultrasonic_package/encoder_ultrasonic_package.egg-info/SOURCES.txt'
+[2.941s] writing manifest file 'build/encoder_ultrasonic_package/encoder_ultrasonic_package.egg-info/SOURCES.txt'
+[2.941s] running build
+[2.941s] running build_py
+[2.942s] copying encoder_ultrasonic_package/__init__.py -> /home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/build/lib/encoder_ultrasonic_package
+[2.942s] copying encoder_ultrasonic_package/encoder_ultrasonic_node.py -> /home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/build/lib/encoder_ultrasonic_package
+[2.943s] running install
+[2.953s] running install_lib
+[3.006s] copying /home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/build/lib/encoder_ultrasonic_package/encoder_ultrasonic_node.py -> /home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/lib/python3.10/site-packages/encoder_ultrasonic_package
+[3.007s] byte-compiling /home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/lib/python3.10/site-packages/encoder_ultrasonic_package/encoder_ultrasonic_node.py to encoder_ultrasonic_node.cpython-310.pyc
+[3.008s] running install_data
+[3.009s] copying resource/encoder_ultrasonic_package -> /home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/share/ament_index/resource_index/packages
+[3.010s] copying package.xml -> /home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/share/encoder_ultrasonic_package
+[3.010s] running install_egg_info
+[3.065s] removing '/home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/lib/python3.10/site-packages/encoder_ultrasonic_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.065s] Copying build/encoder_ultrasonic_package/encoder_ultrasonic_package.egg-info to /home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/lib/python3.10/site-packages/encoder_ultrasonic_package-0.0.0-py3.10.egg-info
+[3.067s] running install_scripts
+[3.491s] Installing encoder_ultrasonic_node script to /home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/lib/encoder_ultrasonic_package
+[3.492s] writing list of installed files to '/home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/install.log'
+[3.573s] Invoked command in '/home/orin/ros2_ws/src/encoder_ultrasonic_package' returned '0': PYTHONPATH=/home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/src/encoder_ultrasonic_package/install/encoder_ultrasonic_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/encoder_ultrasonic_package build --build-base /home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/build install --record /home/orin/ros2_ws/src/encoder_ultrasonic_package/build/encoder_ultrasonic_package/install.log --single-version-externally-managed install_data

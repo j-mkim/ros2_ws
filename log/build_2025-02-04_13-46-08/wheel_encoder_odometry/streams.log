@@ -1,0 +1,25 @@
+[3.256s] Invoking command in '/home/orin/ros2_ws/src/wheel_encoder_odometry': PYTHONPATH=/home/orin/ros2_ws/build/wheel_encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_encoder_odometry build --build-base /home/orin/ros2_ws/build/wheel_encoder_odometry/build install --record /home/orin/ros2_ws/build/wheel_encoder_odometry/install.log --single-version-externally-managed install_data
+[4.112s] running egg_info
+[4.193s] writing ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/PKG-INFO
+[4.193s] writing dependency_links to ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/dependency_links.txt
+[4.193s] writing entry points to ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/entry_points.txt
+[4.193s] writing requirements to ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/requires.txt
+[4.194s] writing top-level names to ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/top_level.txt
+[4.340s] reading manifest file '../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/SOURCES.txt'
+[4.341s] writing manifest file '../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/SOURCES.txt'
+[4.341s] running build
+[4.341s] running build_py
+[4.341s] copying wheel_encoder_odometry/__init__.py -> /home/orin/ros2_ws/build/wheel_encoder_odometry/build/lib/wheel_encoder_odometry
+[4.341s] copying wheel_encoder_odometry/encoder_odometry_node.py -> /home/orin/ros2_ws/build/wheel_encoder_odometry/build/lib/wheel_encoder_odometry
+[4.349s] running install
+[4.356s] running install_lib
+[4.421s] running install_data
+[4.422s] copying resource/wheel_encoder_odometry -> /home/orin/ros2_ws/install/wheel_encoder_odometry/share/ament_index/resource_index/packages
+[4.424s] copying package.xml -> /home/orin/ros2_ws/install/wheel_encoder_odometry/share/wheel_encoder_odometry
+[4.425s] running install_egg_info
+[4.485s] removing '/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages/wheel_encoder_odometry-0.0.1-py3.10.egg-info' (and everything under it)
+[4.487s] Copying ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info to /home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages/wheel_encoder_odometry-0.0.1-py3.10.egg-info
+[4.497s] running install_scripts
+[5.012s] Installing encoder_odometry_node script to /home/orin/ros2_ws/install/wheel_encoder_odometry/lib/wheel_encoder_odometry
+[5.016s] writing list of installed files to '/home/orin/ros2_ws/build/wheel_encoder_odometry/install.log'
+[5.133s] Invoked command in '/home/orin/ros2_ws/src/wheel_encoder_odometry' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/wheel_encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_encoder_odometry build --build-base /home/orin/ros2_ws/build/wheel_encoder_odometry/build install --record /home/orin/ros2_ws/build/wheel_encoder_odometry/install.log --single-version-externally-managed install_data

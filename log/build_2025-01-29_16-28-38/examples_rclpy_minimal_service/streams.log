@@ -1,0 +1,39 @@
+[4.085s] Invoking command in '/home/orin/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/orin/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed install_data
+[4.627s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.627s]   warnings.warn(msg)
+[5.104s] running egg_info
+[5.106s] creating ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[5.172s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[5.176s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[5.176s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[5.176s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[5.177s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[5.182s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[5.321s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[5.327s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[5.330s] running build
+[5.332s] running build_py
+[5.333s] creating /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[5.335s] copying examples_rclpy_minimal_service/__init__.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[5.336s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[5.339s] copying examples_rclpy_minimal_service/service.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[5.341s] running install
+[5.353s] running install_lib
+[5.412s] creating /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[5.414s] copying /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[5.416s] copying /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[5.418s] copying /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[5.421s] byte-compiling /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[5.423s] byte-compiling /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[5.426s] byte-compiling /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[5.428s] running install_data
+[5.432s] creating /home/orin/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[5.433s] copying resource/examples_rclpy_minimal_service -> /home/orin/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[5.435s] copying package.xml -> /home/orin/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[5.438s] running install_egg_info
+[5.627s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.2-py3.10.egg-info
+[5.636s] running install_scripts
+[6.264s] Installing service script to /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[6.267s] Installing service_member_function script to /home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[6.268s] writing list of installed files to '/home/orin/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[6.412s] Invoked command in '/home/orin/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/orin/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/orin/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed install_data

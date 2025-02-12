@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.001077] (-) JobUnselected: {'identifier': 'arduino_odometry'}
+[0.001215] (-) JobUnselected: {'identifier': 'arduino_serial_comm'}
+[0.001276] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.001320] (-) JobUnselected: {'identifier': 'autonomous_vehicle_description'}
+[0.001361] (-) JobUnselected: {'identifier': 'bno055_publisher'}
+[0.001400] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001438] (-) JobUnselected: {'identifier': 'depthai-ros'}
+[0.001473] (-) JobUnselected: {'identifier': 'depthai_bridge'}
+[0.001509] (-) JobUnselected: {'identifier': 'depthai_descriptions'}
+[0.001544] (-) JobUnselected: {'identifier': 'depthai_examples'}
+[0.001579] (-) JobUnselected: {'identifier': 'depthai_filters'}
+[0.001614] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.001648] (-) JobUnselected: {'identifier': 'depthai_ros_msgs'}
+[0.001682] (-) JobUnselected: {'identifier': 'encoder_ultrasonic_package'}
+[0.001716] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001751] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001785] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001821] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001855] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001891] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001927] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001961] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001996] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002030] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002132] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002173] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002209] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002244] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002282] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002318] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002354] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002389] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002423] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002458] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002492] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002525] (-) JobUnselected: {'identifier': 'gazebo_dev'}
+[0.002559] (-) JobUnselected: {'identifier': 'gazebo_msgs'}
+[0.002593] (-) JobUnselected: {'identifier': 'gazebo_plugins'}
+[0.002626] (-) JobUnselected: {'identifier': 'gazebo_ros'}
+[0.002661] (-) JobUnselected: {'identifier': 'gazebo_ros_pkgs'}
+[0.002695] (-) JobUnselected: {'identifier': 'hcsr04_sensor'}
+[0.002729] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.002763] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002797] (-) JobUnselected: {'identifier': 'motion_planner'}
+[0.002830] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.002864] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.002898] (-) JobUnselected: {'identifier': 'my_bot_imu'}
+[0.002931] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.002965] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002998] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.003074] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.003113] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.003150] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.003184] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.003218] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.003251] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.003285] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.003363] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.003399] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.003434] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.003752] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.003862] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.003938] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.003982] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.004066] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.004188] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.004413] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.004569] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.004671] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.004750] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.004843] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.004909] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.004972] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.005183] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.005277] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.005373] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.005425] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.005524] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.005708] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.005783] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.005866] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.005928] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.005972] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.006017] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.006058] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.006140] (wheel_encoder_odometry) JobQueued: {'identifier': 'wheel_encoder_odometry', 'dependencies': OrderedDict()}
+[0.006225] (wheel_encoder_odometry) JobStarted: {'identifier': 'wheel_encoder_odometry'}
+[0.097209] (-) TimerEvent: {}
+[0.197837] (-) TimerEvent: {}
+[0.298813] (-) TimerEvent: {}
+[0.399657] (-) TimerEvent: {}
+[0.500432] (-) TimerEvent: {}
+[0.601136] (-) TimerEvent: {}
+[0.702038] (-) TimerEvent: {}
+[0.802762] (-) TimerEvent: {}
+[0.903427] (-) TimerEvent: {}
+[1.004356] (-) TimerEvent: {}
+[1.105230] (-) TimerEvent: {}
+[1.205856] (-) TimerEvent: {}
+[1.306764] (-) TimerEvent: {}
+[1.407414] (-) TimerEvent: {}
+[1.508100] (-) TimerEvent: {}
+[1.609163] (-) TimerEvent: {}
+[1.709820] (-) TimerEvent: {}
+[1.810779] (-) TimerEvent: {}
+[1.911435] (-) TimerEvent: {}
+[2.012231] (-) TimerEvent: {}
+[2.112905] (-) TimerEvent: {}
+[2.213894] (-) TimerEvent: {}
+[2.271552] (wheel_encoder_odometry) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wheel_encoder_odometry', 'build', '--build-base', '/home/orin/ros2_ws/build/wheel_encoder_odometry/build', 'install', '--record', '/home/orin/ros2_ws/build/wheel_encoder_odometry/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin/ros2_ws/src/wheel_encoder_odometry', 'env': {'OPENBLAS_CORETYPE': 'ARMV8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/orin/ros2_ws/install/ros2_control_demo_example_5/lib:/home/orin/ros2_ws/install/image_geometry/lib:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/home/orin/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/orin', 'OLDPWD': '/home/orin/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'SYSTEMD_EXEC_PID': '4446', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/orin/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'orin', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421024233640', 'IGN_GAZEBO_MODEL_PATH': '/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orin', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/2283,unix/nano:/tmp/.ICE-unix/2283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c269ebd0_8e2e_4609_88be_ddf1c007a8e1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge:/home/orin/ros2_ws/install/arduino_odometry:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/home/orin/ros2_ws/install/depthai_descriptions/share:/opt/ros/humble/share', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/orin/ros2_ws/build/wheel_encoder_odometry', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/ros2_ws/build/wheel_encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:/home/orin/ros2_ws/build/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:/home/orin/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[2.314508] (-) TimerEvent: {}
+[2.415357] (-) TimerEvent: {}
+[2.516726] (-) TimerEvent: {}
+[2.617734] (-) TimerEvent: {}
+[2.718839] (-) TimerEvent: {}
+[2.819990] (-) TimerEvent: {}
+[2.921612] (-) TimerEvent: {}
+[3.022447] (-) TimerEvent: {}
+[3.070614] (wheel_encoder_odometry) StdoutLine: {'line': b'running egg_info\n'}
+[3.122747] (-) TimerEvent: {}
+[3.126703] (wheel_encoder_odometry) StdoutLine: {'line': b'writing ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/PKG-INFO\n'}
+[3.128382] (wheel_encoder_odometry) StdoutLine: {'line': b'writing dependency_links to ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/dependency_links.txt\n'}
+[3.128904] (wheel_encoder_odometry) StdoutLine: {'line': b'writing entry points to ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/entry_points.txt\n'}
+[3.129445] (wheel_encoder_odometry) StdoutLine: {'line': b'writing requirements to ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/requires.txt\n'}
+[3.129940] (wheel_encoder_odometry) StdoutLine: {'line': b'writing top-level names to ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/top_level.txt\n'}
+[3.222937] (-) TimerEvent: {}
+[3.251365] (wheel_encoder_odometry) StdoutLine: {'line': b"reading manifest file '../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/SOURCES.txt'\n"}
+[3.255035] (wheel_encoder_odometry) StdoutLine: {'line': b"writing manifest file '../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/SOURCES.txt'\n"}
+[3.256554] (wheel_encoder_odometry) StdoutLine: {'line': b'running build\n'}
+[3.256901] (wheel_encoder_odometry) StdoutLine: {'line': b'running build_py\n'}
+[3.259169] (wheel_encoder_odometry) StdoutLine: {'line': b'copying wheel_encoder_odometry/__init__.py -> /home/orin/ros2_ws/build/wheel_encoder_odometry/build/lib/wheel_encoder_odometry\n'}
+[3.259566] (wheel_encoder_odometry) StdoutLine: {'line': b'copying wheel_encoder_odometry/encoder_odometry_node.py -> /home/orin/ros2_ws/build/wheel_encoder_odometry/build/lib/wheel_encoder_odometry\n'}
+[3.259751] (wheel_encoder_odometry) StdoutLine: {'line': b'running install\n'}
+[3.270863] (wheel_encoder_odometry) StdoutLine: {'line': b'running install_lib\n'}
+[3.323096] (-) TimerEvent: {}
+[3.331910] (wheel_encoder_odometry) StdoutLine: {'line': b'running install_data\n'}
+[3.333573] (wheel_encoder_odometry) StdoutLine: {'line': b'copying resource/wheel_encoder_odometry -> /home/orin/ros2_ws/install/wheel_encoder_odometry/share/ament_index/resource_index/packages\n'}
+[3.334829] (wheel_encoder_odometry) StdoutLine: {'line': b'copying package.xml -> /home/orin/ros2_ws/install/wheel_encoder_odometry/share/wheel_encoder_odometry\n'}
+[3.335200] (wheel_encoder_odometry) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.395633] (wheel_encoder_odometry) StdoutLine: {'line': b"removing '/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages/wheel_encoder_odometry-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.396497] (wheel_encoder_odometry) StdoutLine: {'line': b'Copying ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info to /home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages/wheel_encoder_odometry-0.0.1-py3.10.egg-info\n'}
+[3.399603] (wheel_encoder_odometry) StdoutLine: {'line': b'running install_scripts\n'}
+[3.423254] (-) TimerEvent: {}
+[3.523970] (-) TimerEvent: {}
+[3.624633] (-) TimerEvent: {}
+[3.725292] (-) TimerEvent: {}
+[3.825933] (-) TimerEvent: {}
+[3.861655] (wheel_encoder_odometry) StdoutLine: {'line': b'Installing encoder_odometry_node script to /home/orin/ros2_ws/install/wheel_encoder_odometry/lib/wheel_encoder_odometry\n'}
+[3.862809] (wheel_encoder_odometry) StdoutLine: {'line': b"writing list of installed files to '/home/orin/ros2_ws/build/wheel_encoder_odometry/install.log'\n"}
+[3.926140] (-) TimerEvent: {}
+[3.961623] (wheel_encoder_odometry) CommandEnded: {'returncode': 0}
+[3.990273] (wheel_encoder_odometry) JobEnded: {'identifier': 'wheel_encoder_odometry', 'rc': 0}
+[3.993496] (-) EventReactorShutdown: {}

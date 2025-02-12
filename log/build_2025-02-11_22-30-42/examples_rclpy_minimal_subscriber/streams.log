@@ -1,0 +1,36 @@
+[7.978s] Invoking command in '/home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data --force
+[10.424s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[10.424s]   warnings.warn(msg)
+[12.107s] /home/orin/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[12.107s] !!
+[12.107s] 
+[12.107s]         ********************************************************************************
+[12.108s]         Please avoid running ``setup.py`` and ``easy_install``.
+[12.108s]         Instead, use pypa/build, pypa/installer or other
+[12.112s]         standards-based tools.
+[12.112s] 
+[12.112s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[12.113s]         ********************************************************************************
+[12.113s] 
+[12.113s] !!
+[12.113s]   easy_install.initialize_options(self)
+[12.113s] running develop
+[14.256s] running egg_info
+[14.602s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[14.615s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[14.618s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[14.621s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[14.628s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[14.845s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[14.851s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[14.919s] running build_ext
+[14.925s] Creating /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[14.933s] Installing subscriber_lambda script to /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[14.944s] Installing subscriber_member_function script to /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[14.944s] Installing subscriber_old_school script to /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[14.947s] 
+[14.947s] Installed /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber
+[14.952s] running symlink_data
+[14.957s] symbolically linking /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/resource/examples_rclpy_minimal_subscriber -> /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[14.975s] symbolically linking /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/package.xml -> /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[15.560s] Invoked command in '/home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data --force

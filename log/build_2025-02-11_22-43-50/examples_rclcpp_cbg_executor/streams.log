@@ -1,0 +1,30 @@
+[0.190s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_cbg_executor': /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_cbg_executor -- -j6 -l6
+[1.306s] [ 30%] Built target ping
+[1.791s] [ 70%] Built target ping_pong
+[2.205s] [100%] Built target pong
+[2.357s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_cbg_executor -- -j6 -l6
+[2.949s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_cbg_executor': /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_cbg_executor
+[3.031s] -- Install configuration: ""
+[3.044s] -- Execute custom install script
+[3.049s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[3.055s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[3.069s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[3.080s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[3.080s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[3.091s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[3.098s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[3.102s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[3.109s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[3.109s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[3.110s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[3.110s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[3.121s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[3.121s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[3.128s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[3.134s] -- Symlinking: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[3.207s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[3.209s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.210s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[3.213s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[3.226s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[3.233s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_cbg_executor

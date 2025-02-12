@@ -1,0 +1,25 @@
+[4.229s] Invoking command in '/home/orin/ros2_ws/src/arduino_odometry': PYTHONPATH=/home/orin/ros2_ws/build/arduino_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduino_odometry build --build-base /home/orin/ros2_ws/build/arduino_odometry/build install --record /home/orin/ros2_ws/build/arduino_odometry/install.log --single-version-externally-managed install_data
+[5.168s] running egg_info
+[5.226s] writing ../../build/arduino_odometry/arduino_odometry.egg-info/PKG-INFO
+[5.226s] writing dependency_links to ../../build/arduino_odometry/arduino_odometry.egg-info/dependency_links.txt
+[5.228s] writing entry points to ../../build/arduino_odometry/arduino_odometry.egg-info/entry_points.txt
+[5.228s] writing requirements to ../../build/arduino_odometry/arduino_odometry.egg-info/requires.txt
+[5.228s] writing top-level names to ../../build/arduino_odometry/arduino_odometry.egg-info/top_level.txt
+[5.363s] reading manifest file '../../build/arduino_odometry/arduino_odometry.egg-info/SOURCES.txt'
+[5.371s] writing manifest file '../../build/arduino_odometry/arduino_odometry.egg-info/SOURCES.txt'
+[5.373s] running build
+[5.375s] running build_py
+[5.376s] copying arduino_odometry/__init__.py -> /home/orin/ros2_ws/build/arduino_odometry/build/lib/arduino_odometry
+[5.377s] copying arduino_odometry/arduino_odometry_node.py -> /home/orin/ros2_ws/build/arduino_odometry/build/lib/arduino_odometry
+[5.377s] running install
+[5.399s] running install_lib
+[5.481s] running install_data
+[5.482s] copying resource/arduino_odometry -> /home/orin/ros2_ws/install/arduino_odometry/share/ament_index/resource_index/packages
+[5.482s] copying package.xml -> /home/orin/ros2_ws/install/arduino_odometry/share/arduino_odometry
+[5.482s] running install_egg_info
+[5.556s] removing '/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages/arduino_odometry-0.0.0-py3.10.egg-info' (and everything under it)
+[5.557s] Copying ../../build/arduino_odometry/arduino_odometry.egg-info to /home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages/arduino_odometry-0.0.0-py3.10.egg-info
+[5.557s] running install_scripts
+[6.099s] Installing arduino_odometry_node script to /home/orin/ros2_ws/install/arduino_odometry/lib/arduino_odometry
+[6.099s] writing list of installed files to '/home/orin/ros2_ws/build/arduino_odometry/install.log'
+[6.193s] Invoked command in '/home/orin/ros2_ws/src/arduino_odometry' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/arduino_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduino_odometry build --build-base /home/orin/ros2_ws/build/arduino_odometry/build install --record /home/orin/ros2_ws/build/arduino_odometry/install.log --single-version-externally-managed install_data

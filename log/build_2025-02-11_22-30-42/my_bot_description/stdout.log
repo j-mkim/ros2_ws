@@ -1,0 +1,105 @@
+-- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/orin/ros2_ws/src/my_bot_description/hardware/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orin/ros2_ws/build/my_bot_description
+[35m[1mConsolidate compiler generated dependencies of target my_bot_description[0m
+[100%] Built target my_bot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description//my_bot_ros2_control.xml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/back_wheel.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/base.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/front_wheel.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/imu.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/motor.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/sensors.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/wheel.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_controllers.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/twist_mux.yaml
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/camera.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/depth_camera.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/gazeo_control.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/imu.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/inertial_macros.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/lidar.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components/wheel.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate_original.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/dead_plate.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/motor.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/top_plate.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_rim.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_tire.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/OAK-D-LITE.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/rplidar_main.stl
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/my_bot.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot_core.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/ros2_control/my_bot_ros2_control.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/ros2_control/ros2_control.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge.ino
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/.encoder_driver.h.swp
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/ROSArduinoBridge.ino
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/commands.h
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/diff_controller.h
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/encoder_driver.h
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/encoder_driver.ino
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/motor_driver.h
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/motor_driver.ino
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/sensors.h
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/servos.h
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/servos.ino
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/diffbot_system.cpp
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/include/my_bot_ros2_control/diffbot_system.hpp
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/display.launch.py
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/displaytest.launch.py
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/rsp.launch.py
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/rviz/my_bot_description.rviz
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/addon_macro.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/common_macros.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/common_sensors.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/robot.gazebo.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/my_bot.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds/empty.world
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds/obstacles.world
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/include/my_bot_description/my_bot_ros2_control/diffbot_system.hpp
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/path.sh
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.bash
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.sh
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/package.dsv
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/my_bot_description
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+-- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/package.xml
