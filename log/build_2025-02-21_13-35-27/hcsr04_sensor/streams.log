@@ -1,0 +1,40 @@
+[2.460s] Invoking command in '/home/orin/ros2_ws/build/hcsr04_sensor': PYTHONPATH=/home/orin/ros2_ws/build/hcsr04_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/orin/ros2_ws/build/hcsr04_sensor/build
+[2.914s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.915s]   warnings.warn(msg)
+[3.443s] running develop
+[4.222s] Removing /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04-sensor.egg-link (link to .)
+[4.358s] Invoked command in '/home/orin/ros2_ws/build/hcsr04_sensor' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/hcsr04_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/orin/ros2_ws/build/hcsr04_sensor/build
+[4.358s] Invoking command in '/home/orin/ros2_ws/src/hcsr04_sensor': PYTHONPATH=/home/orin/ros2_ws/build/hcsr04_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hcsr04_sensor build --build-base /home/orin/ros2_ws/build/hcsr04_sensor/build install --record /home/orin/ros2_ws/build/hcsr04_sensor/install.log --single-version-externally-managed install_data --force
+[6.321s] running egg_info
+[6.325s] writing ../../build/hcsr04_sensor/hcsr04_sensor.egg-info/PKG-INFO
+[6.325s] writing dependency_links to ../../build/hcsr04_sensor/hcsr04_sensor.egg-info/dependency_links.txt
+[6.326s] writing entry points to ../../build/hcsr04_sensor/hcsr04_sensor.egg-info/entry_points.txt
+[6.326s] writing requirements to ../../build/hcsr04_sensor/hcsr04_sensor.egg-info/requires.txt
+[6.326s] writing top-level names to ../../build/hcsr04_sensor/hcsr04_sensor.egg-info/top_level.txt
+[6.326s] reading manifest file '../../build/hcsr04_sensor/hcsr04_sensor.egg-info/SOURCES.txt'
+[6.326s] writing manifest file '../../build/hcsr04_sensor/hcsr04_sensor.egg-info/SOURCES.txt'
+[6.326s] running build
+[6.326s] running build_py
+[6.326s] copying hcsr04_sensor/__init__.py -> /home/orin/ros2_ws/build/hcsr04_sensor/build/lib/hcsr04_sensor
+[6.327s] copying hcsr04_sensor/hcsr04_subscriber.py -> /home/orin/ros2_ws/build/hcsr04_sensor/build/lib/hcsr04_sensor
+[6.327s] copying hcsr04_sensor/hcsr04_publisher.py -> /home/orin/ros2_ws/build/hcsr04_sensor/build/lib/hcsr04_sensor
+[6.327s] running install
+[6.327s] running install_lib
+[6.327s] creating /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04_sensor
+[6.327s] copying /home/orin/ros2_ws/build/hcsr04_sensor/build/lib/hcsr04_sensor/__init__.py -> /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04_sensor
+[6.327s] copying /home/orin/ros2_ws/build/hcsr04_sensor/build/lib/hcsr04_sensor/hcsr04_subscriber.py -> /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04_sensor
+[6.327s] copying /home/orin/ros2_ws/build/hcsr04_sensor/build/lib/hcsr04_sensor/hcsr04_publisher.py -> /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04_sensor
+[6.327s] byte-compiling /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04_sensor/__init__.py to __init__.cpython-310.pyc
+[6.328s] byte-compiling /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04_sensor/hcsr04_subscriber.py to hcsr04_subscriber.cpython-310.pyc
+[6.328s] byte-compiling /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04_sensor/hcsr04_publisher.py to hcsr04_publisher.cpython-310.pyc
+[6.328s] running install_data
+[6.328s] copying resource/hcsr04_sensor -> /home/orin/ros2_ws/install/hcsr04_sensor/share/ament_index/resource_index/packages
+[6.328s] copying package.xml -> /home/orin/ros2_ws/install/hcsr04_sensor/share/hcsr04_sensor
+[6.328s] running install_egg_info
+[6.328s] Copying ../../build/hcsr04_sensor/hcsr04_sensor.egg-info to /home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages/hcsr04_sensor-0.0.0-py3.10.egg-info
+[6.329s] running install_scripts
+[6.329s] Installing hcsr04_publisher script to /home/orin/ros2_ws/install/hcsr04_sensor/lib/hcsr04_sensor
+[6.329s] writing list of installed files to '/home/orin/ros2_ws/build/hcsr04_sensor/install.log'
+[6.329s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[6.329s]   warnings.warn(msg)
+[6.334s] Invoked command in '/home/orin/ros2_ws/src/hcsr04_sensor' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/hcsr04_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/hcsr04_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hcsr04_sensor build --build-base /home/orin/ros2_ws/build/hcsr04_sensor/build install --record /home/orin/ros2_ws/build/hcsr04_sensor/install.log --single-version-externally-managed install_data --force

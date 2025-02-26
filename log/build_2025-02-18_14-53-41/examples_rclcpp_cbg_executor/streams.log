@@ -1,0 +1,30 @@
+[0.140s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_cbg_executor -- -j6 -l6
+[0.392s] [ 30%] Built target ping
+[0.513s] [ 70%] Built target ping_pong
+[0.632s] [100%] Built target pong
+[0.709s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/examples_rclcpp_cbg_executor -- -j6 -l6
+[0.949s] Invoking command in '/home/orin/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.992s] -- Install configuration: ""
+[0.992s] -- Execute custom install script
+[0.992s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[0.992s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[0.992s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[0.993s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[0.993s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[0.993s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[0.993s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[0.993s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[0.993s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[0.993s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[0.998s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[1.004s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[1.004s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[1.004s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[1.005s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[1.005s] -- Symlinking: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[1.032s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[1.032s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.032s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[1.032s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[1.033s] -- Up-to-date symlink: /home/orin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[1.049s] Invoked command in '/home/orin/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/examples_rclcpp_cbg_executor

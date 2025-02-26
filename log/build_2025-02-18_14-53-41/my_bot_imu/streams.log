@@ -1,0 +1,26 @@
+[0.030s] Invoking command in '/home/orin/ros2_ws/build/my_bot_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/my_bot_imu -- -j6 -l6
+[0.498s] [ 50%] [32mBuilding CXX object CMakeFiles/my_bot_imu.dir/src/my_bot_imu.cpp.o[0m
+[13.800s] [100%] [32m[1mLinking CXX executable my_bot_imu[0m
+[14.384s] [100%] Built target my_bot_imu
+[14.535s] Invoked command in '/home/orin/ros2_ws/build/my_bot_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/my_bot_imu -- -j6 -l6
+[14.588s] Invoking command in '/home/orin/ros2_ws/build/my_bot_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/my_bot_imu
+[14.605s] -- Install configuration: ""
+[14.606s] -- Execute custom install script
+[14.607s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/lib/my_bot_imu/my_bot_imu
+[14.608s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu//launch/my_bot_imu.launch.py
+[14.608s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/ament_index/resource_index/package_run_dependencies/my_bot_imu
+[14.609s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/ament_index/resource_index/parent_prefix_path/my_bot_imu
+[14.609s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/environment/ament_prefix_path.sh
+[14.609s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/environment/ament_prefix_path.dsv
+[14.610s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/environment/path.sh
+[14.610s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/environment/path.dsv
+[14.610s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/local_setup.bash
+[14.610s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/local_setup.sh
+[14.611s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/local_setup.zsh
+[14.611s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/local_setup.dsv
+[14.613s] -- Symlinking: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/package.dsv
+[14.637s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/ament_index/resource_index/packages/my_bot_imu
+[14.638s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/cmake/my_bot_imuConfig.cmake
+[14.638s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/cmake/my_bot_imuConfig-version.cmake
+[14.638s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_imu/share/my_bot_imu/package.xml
+[14.656s] Invoked command in '/home/orin/ros2_ws/build/my_bot_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/my_bot_imu

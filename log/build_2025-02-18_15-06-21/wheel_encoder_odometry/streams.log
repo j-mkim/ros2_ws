@@ -1,0 +1,17 @@
+[2.577s] Invoking command in '/home/orin/ros2_ws/build/wheel_encoder_odometry': PYTHONPATH=/home/orin/ros2_ws/build/wheel_encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/wheel_encoder_odometry/build --no-deps symlink_data
+[3.657s] running develop
+[4.385s] running egg_info
+[4.463s] writing wheel_encoder_odometry.egg-info/PKG-INFO
+[4.465s] writing dependency_links to wheel_encoder_odometry.egg-info/dependency_links.txt
+[4.465s] writing entry points to wheel_encoder_odometry.egg-info/entry_points.txt
+[4.466s] writing requirements to wheel_encoder_odometry.egg-info/requires.txt
+[4.466s] writing top-level names to wheel_encoder_odometry.egg-info/top_level.txt
+[4.576s] reading manifest file 'wheel_encoder_odometry.egg-info/SOURCES.txt'
+[4.579s] writing manifest file 'wheel_encoder_odometry.egg-info/SOURCES.txt'
+[4.637s] running build_ext
+[4.637s] Creating /home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages/wheel-encoder-odometry.egg-link (link to .)
+[4.639s] Installing encoder_odometry_node script to /home/orin/ros2_ws/install/wheel_encoder_odometry/lib/wheel_encoder_odometry
+[4.640s] 
+[4.640s] Installed /home/orin/ros2_ws/build/wheel_encoder_odometry
+[4.640s] running symlink_data
+[4.749s] Invoked command in '/home/orin/ros2_ws/build/wheel_encoder_odometry' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/wheel_encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/wheel_encoder_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/wheel_encoder_odometry/build --no-deps symlink_data

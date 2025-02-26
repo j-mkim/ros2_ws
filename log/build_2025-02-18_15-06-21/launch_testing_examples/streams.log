@@ -1,0 +1,17 @@
+[3.138s] Invoking command in '/home/orin/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/orin/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[3.645s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.645s]   warnings.warn(msg)
+[4.274s] running develop
+[5.040s] running egg_info
+[5.121s] writing launch_testing_examples.egg-info/PKG-INFO
+[5.122s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[5.123s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[5.123s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[5.240s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.242s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.303s] running build_ext
+[5.304s] Creating /home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[5.306s] 
+[5.306s] Installed /home/orin/ros2_ws/build/launch_testing_examples
+[5.306s] running symlink_data
+[5.428s] Invoked command in '/home/orin/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

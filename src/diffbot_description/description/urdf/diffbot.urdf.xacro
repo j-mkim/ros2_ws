@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="diffbot">
+
+    <xacro:include filename="robot_core.xacro" />
+
+    <xacro:include filename="$(find diffbot_description)/urdf/diffbot_description.urdf.xacro" />
+    
+    <!-- Import Rviz colors -->
+    <xacro:include filename="$(find diffdrive_arduino)/urdf/diffbot.materials.xacro" />
+
+
+    <!-- Import diffbot ros2_control description -->
+    <xacro:include filename="$(find diffbot_description)/ros2_control/diffbot.ros2_control.xacro" />
+    
+    <xacro:include filename="lidar.xacro" />
+    <xacro:include filename="imu.xacro" />
+    <xacro:include filename="depth_camera.xacro" />
+    
+    
+</robot>

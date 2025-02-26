@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000878] (-) JobUnselected: {'identifier': 'arduino_odometry'}
+[0.001649] (-) JobUnselected: {'identifier': 'arduino_serial_comm'}
+[0.002005] (-) JobUnselected: {'identifier': 'encoder_ultrasonic_package'}
+[0.002413] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.002535] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.002626] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002709] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002791] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002874] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002956] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.003037] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.003119] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003200] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003274] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003397] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.003642] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003745] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.003796] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003839] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003915] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003980] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.004018] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.004052] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.004086] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.004119] (-) JobUnselected: {'identifier': 'hcsr04_sensor'}
+[0.004153] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.004186] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.004219] (-) JobUnselected: {'identifier': 'my_bot_imu'}
+[0.004253] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.004286] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.004319] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.004351] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.004383] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.004458] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.004497] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.004530] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.004563] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.004595] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.004627] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.004659] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.004692] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.004724] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.004755] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.004786] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.004817] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.004848] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.004880] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.004911] (-) JobUnselected: {'identifier': 'wheel_encoder_odometry'}
+[0.004952] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.004999] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.033207] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.038312] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[0.039804] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/ros2_ws/build/diffdrive_arduino', '--', '-j6', '-l6'], 'cwd': '/home/orin/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '2325'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2297,unix/nano:/tmp/.ICE-unix/2297'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58114e09_2557_4926_875a_a2d1cbb9954a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/install/sllidar_ros2:/home/orin/install/py_pubsub:/home/orin/install/hc_sr04_publisher:/home/orin/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:42e18fea-dd6e-45a9-97e3-5cc889e27363'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/install/py_pubsub/lib/python3.10/site-packages:/home/orin/install/hc_sr04_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/orin/install/sllidar_ros2:/home/orin/install/articubot_one:/home/orin/install/py_pubsub:/home/orin/install/hc_sr04_publisher:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099130] (-) TimerEvent: {}
+[0.200069] (-) TimerEvent: {}
+[0.235703] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300220] (-) TimerEvent: {}
+[0.400961] (-) TimerEvent: {}
+[0.501762] (-) TimerEvent: {}
+[0.587963] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.601952] (-) TimerEvent: {}
+[0.649989] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.47.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.702302] (-) TimerEvent: {}
+[0.756699] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.767061] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.788651] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.802363] (-) TimerEvent: {}
+[0.821252] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.858338] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902582] (-) TimerEvent: {}
+[1.003294] (-) TimerEvent: {}
+[1.104034] (-) TimerEvent: {}
+[1.204898] (-) TimerEvent: {}
+[1.307254] (-) TimerEvent: {}
+[1.377450] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.385790] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.407405] (-) TimerEvent: {}
+[1.449726] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.494311] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.507643] (-) TimerEvent: {}
+[1.541611] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.561958] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.587754] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.607829] (-) TimerEvent: {}
+[1.708717] (-) TimerEvent: {}
+[1.739884] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.808877] (-) TimerEvent: {}
+[1.909658] (-) TimerEvent: {}
+[1.933866] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.009860] (-) TimerEvent: {}
+[2.066647] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[2.071730] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/ros2_ws/build/diffdrive_arduino\n'}
+[2.109996] (-) TimerEvent: {}
+[2.152341] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_arduino\x1b[0m\n'}
+[2.200181] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[2.210152] (-) TimerEvent: {}
+[2.228229] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[2.276672] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[2.299110] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/ros2_ws/build/diffdrive_arduino'], 'cwd': '/home/orin/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '2325'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2297,unix/nano:/tmp/.ICE-unix/2297'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58114e09_2557_4926_875a_a2d1cbb9954a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/install/sllidar_ros2:/home/orin/install/py_pubsub:/home/orin/install/hc_sr04_publisher:/home/orin/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:42e18fea-dd6e-45a9-97e3-5cc889e27363'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/install/py_pubsub/lib/python3.10/site-packages:/home/orin/install/hc_sr04_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/orin/install/sllidar_ros2:/home/orin/install/articubot_one:/home/orin/install/py_pubsub:/home/orin/install/hc_sr04_publisher:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[2.310300] (-) TimerEvent: {}
+[2.323238] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.324550] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.325598] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml\n'}
+[2.326716] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[2.326992] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[2.327232] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[2.327514] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[2.328065] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[2.328755] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[2.329332] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[2.329563] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[2.329759] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[2.330243] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[2.330589] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[2.330975] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[2.331389] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[2.331784] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[2.332096] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[2.332545] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[2.332864] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[2.333182] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[2.333477] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[2.334146] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[2.334761] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[2.335143] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[2.335493] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[2.335831] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[2.336162] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[2.336446] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[2.358867] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[2.360924] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[2.361467] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.361642] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.361791] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[2.361932] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[2.362070] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[2.365127] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[2.366291] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[2.366637] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/orin/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[2.372304] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[2.410889] (-) TimerEvent: {}
+[2.495953] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[2.498000] (-) EventReactorShutdown: {}

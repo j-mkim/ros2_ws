@@ -1,0 +1,19 @@
+[5.250s] Invoking command in '/home/orin/ros2_ws/build/arduino_odometry': PYTHONPATH=/home/orin/ros2_ws/build/arduino_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/arduino_odometry/build --no-deps symlink_data --force
+[6.653s] running develop
+[7.403s] running egg_info
+[7.464s] writing arduino_odometry.egg-info/PKG-INFO
+[7.467s] writing dependency_links to arduino_odometry.egg-info/dependency_links.txt
+[7.467s] writing entry points to arduino_odometry.egg-info/entry_points.txt
+[7.467s] writing requirements to arduino_odometry.egg-info/requires.txt
+[7.468s] writing top-level names to arduino_odometry.egg-info/top_level.txt
+[7.646s] reading manifest file 'arduino_odometry.egg-info/SOURCES.txt'
+[7.647s] writing manifest file 'arduino_odometry.egg-info/SOURCES.txt'
+[7.770s] running build_ext
+[7.771s] Creating /home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages/arduino-odometry.egg-link (link to .)
+[7.784s] Installing arduino_odometry_node script to /home/orin/ros2_ws/install/arduino_odometry/lib/arduino_odometry
+[7.789s] 
+[7.789s] Installed /home/orin/ros2_ws/build/arduino_odometry
+[7.789s] running symlink_data
+[7.789s] symbolically linking /home/orin/ros2_ws/build/arduino_odometry/resource/arduino_odometry -> /home/orin/ros2_ws/install/arduino_odometry/share/ament_index/resource_index/packages
+[7.792s] symbolically linking /home/orin/ros2_ws/build/arduino_odometry/package.xml -> /home/orin/ros2_ws/install/arduino_odometry/share/arduino_odometry
+[8.007s] Invoked command in '/home/orin/ros2_ws/build/arduino_odometry' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/arduino_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/arduino_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin/ros2_ws/build/arduino_odometry/build --no-deps symlink_data --force

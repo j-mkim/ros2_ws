@@ -1,0 +1,3 @@
+/home/orin/ros2_ws/install/diffbot_description/lib/libdiffbot_description.so
+/home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/export_diffbot_descriptionExport.cmake
+/home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/export_diffbot_descriptionExport-noconfig.cmake

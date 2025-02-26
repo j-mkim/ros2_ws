@@ -1,0 +1,31 @@
+[4.813s] Invoking command in '/home/orin/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data
+[5.513s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.513s]   warnings.warn(msg)
+[5.932s] running egg_info
+[6.052s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[6.081s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[6.082s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[6.082s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[6.082s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[6.428s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.432s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.433s] running build
+[6.434s] running build_py
+[6.434s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.434s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.436s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.436s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.436s] running install
+[6.447s] running install_lib
+[6.509s] running install_data
+[6.512s] copying resource/examples_rclpy_minimal_subscriber -> /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[6.516s] copying package.xml -> /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[6.516s] running install_egg_info
+[6.578s] removing '/home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.2-py3.10.egg-info' (and everything under it)
+[6.580s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.2-py3.10.egg-info
+[6.584s] running install_scripts
+[7.057s] Installing subscriber_lambda script to /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[7.057s] Installing subscriber_member_function script to /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[7.058s] Installing subscriber_old_school script to /home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[7.059s] writing list of installed files to '/home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[7.200s] Invoked command in '/home/orin/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/orin/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data

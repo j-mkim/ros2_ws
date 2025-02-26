@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/orin/ros2_ws/build/depthai_ros_driver/ament_cmake_python/depthai_ros_driver/depthai_ros_driver' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_depthai_ros_driver.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_depthai_ros_driver] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:283: CMakeFiles/ament_cmake_python_symlink_depthai_ros_driver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

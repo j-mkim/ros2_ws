@@ -1,0 +1,35 @@
+[2.421s] Invoking command in '/home/orin/ros2_ws/src/SimpleRvizMapVisualizationTest': PYTHONPATH=/home/orin/ros2_ws/build/simple_map_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/simple_map_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_map_test build --build-base /home/orin/ros2_ws/build/simple_map_test/build install --record /home/orin/ros2_ws/build/simple_map_test/install.log --single-version-externally-managed install_data
+[13.781s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[13.781s]   warnings.warn(msg)
+[13.781s] running egg_info
+[13.781s] creating ../../build/simple_map_test/simple_map_test.egg-info
+[13.782s] writing ../../build/simple_map_test/simple_map_test.egg-info/PKG-INFO
+[13.782s] writing dependency_links to ../../build/simple_map_test/simple_map_test.egg-info/dependency_links.txt
+[13.782s] writing entry points to ../../build/simple_map_test/simple_map_test.egg-info/entry_points.txt
+[13.782s] writing requirements to ../../build/simple_map_test/simple_map_test.egg-info/requires.txt
+[13.782s] writing top-level names to ../../build/simple_map_test/simple_map_test.egg-info/top_level.txt
+[13.782s] writing manifest file '../../build/simple_map_test/simple_map_test.egg-info/SOURCES.txt'
+[13.782s] reading manifest file '../../build/simple_map_test/simple_map_test.egg-info/SOURCES.txt'
+[13.782s] writing manifest file '../../build/simple_map_test/simple_map_test.egg-info/SOURCES.txt'
+[13.783s] running build
+[13.783s] running build_py
+[13.783s] creating /home/orin/ros2_ws/build/simple_map_test/build/lib/simple_map_test
+[13.783s] copying simple_map_test/__init__.py -> /home/orin/ros2_ws/build/simple_map_test/build/lib/simple_map_test
+[13.783s] copying simple_map_test/simple_map_publisher.py -> /home/orin/ros2_ws/build/simple_map_test/build/lib/simple_map_test
+[13.783s] running install
+[13.783s] running install_lib
+[13.783s] creating /home/orin/ros2_ws/install/simple_map_test/lib/python3.10/site-packages/simple_map_test
+[13.784s] copying /home/orin/ros2_ws/build/simple_map_test/build/lib/simple_map_test/__init__.py -> /home/orin/ros2_ws/install/simple_map_test/lib/python3.10/site-packages/simple_map_test
+[13.784s] copying /home/orin/ros2_ws/build/simple_map_test/build/lib/simple_map_test/simple_map_publisher.py -> /home/orin/ros2_ws/install/simple_map_test/lib/python3.10/site-packages/simple_map_test
+[13.784s] byte-compiling /home/orin/ros2_ws/install/simple_map_test/lib/python3.10/site-packages/simple_map_test/__init__.py to __init__.cpython-310.pyc
+[13.784s] byte-compiling /home/orin/ros2_ws/install/simple_map_test/lib/python3.10/site-packages/simple_map_test/simple_map_publisher.py to simple_map_publisher.cpython-310.pyc
+[13.784s] running install_data
+[13.784s] creating /home/orin/ros2_ws/install/simple_map_test/share/ament_index/resource_index/packages
+[13.784s] copying resource/simple_map_test -> /home/orin/ros2_ws/install/simple_map_test/share/ament_index/resource_index/packages
+[13.784s] copying package.xml -> /home/orin/ros2_ws/install/simple_map_test/share/simple_map_test
+[13.785s] running install_egg_info
+[13.785s] Copying ../../build/simple_map_test/simple_map_test.egg-info to /home/orin/ros2_ws/install/simple_map_test/lib/python3.10/site-packages/simple_map_test-0.0.0-py3.10.egg-info
+[13.785s] running install_scripts
+[13.785s] Installing simple_map_publisher script to /home/orin/ros2_ws/install/simple_map_test/lib/simple_map_test
+[13.785s] writing list of installed files to '/home/orin/ros2_ws/build/simple_map_test/install.log'
+[13.792s] Invoked command in '/home/orin/ros2_ws/src/SimpleRvizMapVisualizationTest' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/simple_map_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/simple_map_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_map_test build --build-base /home/orin/ros2_ws/build/simple_map_test/build install --record /home/orin/ros2_ws/build/simple_map_test/install.log --single-version-externally-managed install_data

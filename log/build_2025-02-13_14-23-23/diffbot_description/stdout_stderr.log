@@ -1,0 +1,165 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.47.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orin/ros2_ws/build/diffbot_description
+[35m[1mConsolidate compiler generated dependencies of target diffbot_description[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/diffbot_description.dir/hardware/diffbot_system.cpp.o[0m
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:28:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+   28 | hardware_interface::[01;31m[KCallbackReturn[m[K DiffDriveArduinoHardware::on_init(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:115:33:[m[K [01;31m[Kerror: [m[K‘[01m[KStateInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  115 | std::vector<hardware_interface::[01;31m[KStateInterface[m[K> DiffDriveArduinoHardware::export_state_interfaces()
+      |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:115:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  115 | std::vector<hardware_interface::StateInterface[01;31m[K>[m[K DiffDriveArduinoHardware::export_state_interfaces()
+      |                                               [01;31m[K^[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:115:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:115:49:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffDriveArduinoHardware[m[K’ has not been declared
+  115 | std::vector<hardware_interface::StateInterface> [01;31m[KDiffDriveArduinoHardware[m[K::export_state_interfaces()
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Kint diffbot_description::export_state_interfaces()[m[K’:
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:117:35:[m[K [01;31m[Kerror: [m[K‘[01m[KStateInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  117 |   std::vector<hardware_interface::[01;31m[KStateInterface[m[K> state_interfaces;
+      |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:117:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  117 |   std::vector<hardware_interface::StateInterface[01;31m[K>[m[K state_interfaces;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:117:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:119:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kemplace_back[m[K’ in ‘[01m[Kstate_interfaces[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  119 |   state_interfaces.[01;31m[Kemplace_back[m[K(hardware_interface::StateInterface(
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:119:53:[m[K [01;31m[Kerror: [m[K‘[01m[KStateInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  119 |   state_interfaces.emplace_back(hardware_interface::[01;31m[KStateInterface[m[K(
+      |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:120:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_l_[m[K’ was not declared in this scope
+  120 |     [01;31m[Kwheel_l_[m[K.name, hardware_interface::HW_IF_POSITION, &wheel_l_.pos));
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:121:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kemplace_back[m[K’ in ‘[01m[Kstate_interfaces[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  121 |   state_interfaces.[01;31m[Kemplace_back[m[K(hardware_interface::StateInterface(
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:121:53:[m[K [01;31m[Kerror: [m[K‘[01m[KStateInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  121 |   state_interfaces.emplace_back(hardware_interface::[01;31m[KStateInterface[m[K(
+      |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:124:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kemplace_back[m[K’ in ‘[01m[Kstate_interfaces[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  124 |   state_interfaces.[01;31m[Kemplace_back[m[K(hardware_interface::StateInterface(
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:124:53:[m[K [01;31m[Kerror: [m[K‘[01m[KStateInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  124 |   state_interfaces.emplace_back(hardware_interface::[01;31m[KStateInterface[m[K(
+      |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:125:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_r_[m[K’ was not declared in this scope
+  125 |     [01;31m[Kwheel_r_[m[K.name, hardware_interface::HW_IF_POSITION, &wheel_r_.pos));
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:126:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kemplace_back[m[K’ in ‘[01m[Kstate_interfaces[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  126 |   state_interfaces.[01;31m[Kemplace_back[m[K(hardware_interface::StateInterface(
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:126:53:[m[K [01;31m[Kerror: [m[K‘[01m[KStateInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  126 |   state_interfaces.emplace_back(hardware_interface::[01;31m[KStateInterface[m[K(
+      |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:132:33:[m[K [01;31m[Kerror: [m[K‘[01m[KCommandInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  132 | std::vector<hardware_interface::[01;31m[KCommandInterface[m[K> DiffDriveArduinoHardware::export_command_interfaces()
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:132:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  132 | std::vector<hardware_interface::CommandInterface[01;31m[K>[m[K DiffDriveArduinoHardware::export_command_interfaces()
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:132:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:132:51:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffDriveArduinoHardware[m[K’ has not been declared
+  132 | std::vector<hardware_interface::CommandInterface> [01;31m[KDiffDriveArduinoHardware[m[K::export_command_interfaces()
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Kint diffbot_description::export_command_interfaces()[m[K’:
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:134:35:[m[K [01;31m[Kerror: [m[K‘[01m[KCommandInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  134 |   std::vector<hardware_interface::[01;31m[KCommandInterface[m[K> command_interfaces;
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:134:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  134 |   std::vector<hardware_interface::CommandInterface[01;31m[K>[m[K command_interfaces;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:134:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:136:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kemplace_back[m[K’ in ‘[01m[Kcommand_interfaces[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  136 |   command_interfaces.[01;31m[Kemplace_back[m[K(hardware_interface::CommandInterface(
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:136:55:[m[K [01;31m[Kerror: [m[K‘[01m[KCommandInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  136 |   command_interfaces.emplace_back(hardware_interface::[01;31m[KCommandInterface[m[K(
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:137:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_l_[m[K’ was not declared in this scope
+  137 |     [01;31m[Kwheel_l_[m[K.name, hardware_interface::HW_IF_VELOCITY, &wheel_l_.cmd));
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:139:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kemplace_back[m[K’ in ‘[01m[Kcommand_interfaces[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  139 |   command_interfaces.[01;31m[Kemplace_back[m[K(hardware_interface::CommandInterface(
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:139:55:[m[K [01;31m[Kerror: [m[K‘[01m[KCommandInterface[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  139 |   command_interfaces.emplace_back(hardware_interface::[01;31m[KCommandInterface[m[K(
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:140:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_r_[m[K’ was not declared in this scope
+  140 |     [01;31m[Kwheel_r_[m[K.name, hardware_interface::HW_IF_VELOCITY, &wheel_r_.cmd));
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:145:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  145 | hardware_interface::[01;31m[KCallbackReturn[m[K DiffDriveArduinoHardware::on_configure(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:159:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  159 | hardware_interface::[01;31m[KCallbackReturn[m[K DiffDriveArduinoHardware::on_cleanup(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:173:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  173 | hardware_interface::[01;31m[KCallbackReturn[m[K DiffDriveArduinoHardware::on_activate(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:190:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  190 | hardware_interface::[01;31m[KCallbackReturn[m[K DiffDriveArduinoHardware::on_deactivate(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:199:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  199 | hardware_interface::[01;31m[Kreturn_type[m[K DiffDriveArduinoHardware::read(
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:222:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  222 | hardware_interface::[01;31m[Kreturn_type[m[K diffbot_description ::DiffDriveArduinoHardware::write(
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:238[m[K:
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:240:24:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffDriveArduinoHardware[m[K’ in namespace ‘[01m[Kdiffbot_description[m[K’ does not name a type
+  240 |   diffbot_description::[01;31m[KDiffDriveArduinoHardware[m[K, hardware_interface::SystemInterface)
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:240:70:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemInterface[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  240 | _description::DiffDriveArduinoHardware, hardware_interface::[01;31m[KSystemInterface[m[K)
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:239:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  239 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:239:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+  239 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:239:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [46], const char [36])[m[K’
+  239 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:238[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:238[m[K:
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:239:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  239 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:239:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+gmake[2]: *** [CMakeFiles/diffbot_description.dir/build.make:76: CMakeFiles/diffbot_description.dir/hardware/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffbot_description.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

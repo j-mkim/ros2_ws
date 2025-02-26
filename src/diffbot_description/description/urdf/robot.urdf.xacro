@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="my_bot">
+
+    <xacro:include filename="robot_core.xacro" />
+
+    <!-- <xacro:include filename="ros2_control/my_bot_ros2_control.xacro"/> -->
+    <!-- <xacro:include filename="$(find ros2_control_demo_example_2)/ros2_control/diffbot.ros2_control.xacro" /> -->
+
+    
+    <!-- <xacro:include filename="$(find my_bot_description)/ros2_control/my_bot.ros2_control.xacro" /> -->
+    <xacro:include filename="$(find my_bot_description)/description/ros2_control/my_bot_ros2_control.xacro" />
+    
+    <!-- <xacro:unless value="$(arg use_ros2_control)"> -->
+    <!-- <xacro:include filename="gazebo_control.xacro" /> -->
+    <!-- </xacro:unless> -->
+    <xacro:include filename="lidar.xacro" />
+    <xacro:include filename="imu.xacro" />
+    <xacro:include filename="depth_camera.xacro" />
+    
+    
+</robot>

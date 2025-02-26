@@ -1,0 +1,35 @@
+[3.606s] Invoking command in '/home/orin/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[4.270s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.274s]   warnings.warn(msg)
+[4.698s] running egg_info
+[4.757s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[4.757s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[4.759s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[4.760s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[4.760s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[4.905s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.905s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.907s] running build
+[4.907s] running build_py
+[4.910s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.913s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.914s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.918s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.922s] copying examples_rclpy_minimal_action_server/server.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.923s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.926s] running install
+[4.945s] running install_lib
+[5.009s] running install_data
+[5.011s] copying resource/examples_rclpy_minimal_action_server -> /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[5.011s] copying package.xml -> /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[5.012s] running install_egg_info
+[5.087s] removing '/home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.2-py3.10.egg-info' (and everything under it)
+[5.090s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.2-py3.10.egg-info
+[5.093s] running install_scripts
+[5.653s] Installing server script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.655s] Installing server_defer script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.655s] Installing server_not_composable script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.655s] Installing server_queue_goals script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.657s] Installing server_single_goal script to /home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.658s] writing list of installed files to '/home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[5.784s] Invoked command in '/home/orin/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/orin/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data

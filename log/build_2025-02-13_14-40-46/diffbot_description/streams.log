@@ -1,0 +1,143 @@
+[0.031s] Invoking command in '/home/orin/ros2_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/diffbot_description -- -j6 -l6
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target diffbot_description[0m
+[0.177s] [ 50%] [32mBuilding CXX object CMakeFiles/diffbot_description.dir/hardware/diffbot_system.cpp.o[0m
+[2.015s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[2.015s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.016s]    60 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.016s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.022s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:64:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.022s]    64 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.023s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.029s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.029s]    67 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.029s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.035s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.035s]    70 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.035s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.043s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.043s]    74 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.043s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.049s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.049s]    79 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.049s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.055s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:83:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.055s]    83 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.055s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.061s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:87:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.061s]    87 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.062s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.067s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:91:3:[m[K [01;31m[Kerror: [m[K‘[01m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K’ does not name a type
+[2.067s]    91 |   [01;31m[KDIFFDRIVE_ARDUINO_PUBLIC[m[K
+[2.067s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.070s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:97:3:[m[K [01;31m[Kerror: [m[K‘[01m[KArduinoComms[m[K’ does not name a type
+[2.070s]    97 |   [01;31m[KArduinoComms[m[K comms_;
+[2.070s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[2.071s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:99:3:[m[K [01;31m[Kerror: [m[K‘[01m[KWheel[m[K’ does not name a type
+[2.072s]    99 |   [01;31m[KWheel[m[K wheel_l_;
+[2.072s]       |   [01;31m[K^~~~~[m[K
+[2.073s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:100:3:[m[K [01;31m[Kerror: [m[K‘[01m[KWheel[m[K’ does not name a type
+[2.073s]   100 |   [01;31m[KWheel[m[K wheel_r_;
+[2.073s]       |   [01;31m[K^~~~~[m[K
+[5.761s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:28:36:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’
+[5.761s]    28 | hardware_interface::CallbackReturn [01;31m[KDiffDriveArduinoHardware[m[K::on_init(
+[5.761s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.762s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:28:36:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’
+[5.762s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.762s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.762s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.762s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.762s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:115:49:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<hardware_interface::StateInterface> diffbot_description::DiffDriveArduinoHardware::export_state_interfaces()[m[K’
+[5.762s]   115 | std::vector<hardware_interface::StateInterface> [01;31m[KDiffDriveArduinoHardware[m[K::export_state_interfaces()
+[5.763s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.763s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:115:49:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<hardware_interface::StateInterface> diffbot_description::DiffDriveArduinoHardware::export_state_interfaces()[m[K’
+[5.763s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.763s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.763s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.763s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.763s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:132:51:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<hardware_interface::CommandInterface> diffbot_description::DiffDriveArduinoHardware::export_command_interfaces()[m[K’
+[5.764s]   132 | std::vector<hardware_interface::CommandInterface> [01;31m[KDiffDriveArduinoHardware[m[K::export_command_interfaces()
+[5.764s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.764s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:132:51:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<hardware_interface::CommandInterface> diffbot_description::DiffDriveArduinoHardware::export_command_interfaces()[m[K’
+[5.764s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.764s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.764s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.764s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.765s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:145:36:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’
+[5.765s]   145 | hardware_interface::CallbackReturn [01;31m[KDiffDriveArduinoHardware[m[K::on_configure(
+[5.765s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.765s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:145:36:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’
+[5.765s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.765s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.765s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.765s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.766s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:159:36:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_cleanup(const rclcpp_lifecycle::State&)[m[K’
+[5.766s]   159 | hardware_interface::CallbackReturn [01;31m[KDiffDriveArduinoHardware[m[K::on_cleanup(
+[5.766s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.766s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:159:36:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_cleanup(const rclcpp_lifecycle::State&)[m[K’
+[5.766s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.766s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.766s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.767s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.767s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:173:36:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’
+[5.767s]   173 | hardware_interface::CallbackReturn [01;31m[KDiffDriveArduinoHardware[m[K::on_activate(
+[5.767s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.767s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:173:36:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’
+[5.767s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.767s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.768s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.768s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.768s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:190:36:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’
+[5.768s]   190 | hardware_interface::CallbackReturn [01;31m[KDiffDriveArduinoHardware[m[K::on_deactivate(
+[5.768s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.768s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:190:36:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’
+[5.769s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.769s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.769s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.769s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.769s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:199:33:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::return_type diffbot_description::DiffDriveArduinoHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[5.769s]   199 | hardware_interface::return_type [01;31m[KDiffDriveArduinoHardware[m[K::read(
+[5.769s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.769s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:199:33:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::return_type diffbot_description::DiffDriveArduinoHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[5.770s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.770s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.770s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.770s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.770s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:222:33:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::return_type diffbot_description::DiffDriveArduinoHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[5.770s]   222 | hardware_interface::return_type [01;31m[Kdiffbot_description[m[K ::DiffDriveArduinoHardware::write(
+[5.770s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.771s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:222:33:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::return_type diffbot_description::DiffDriveArduinoHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[5.771s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[5.771s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass diffbot_description::DiffDriveArduinoHardware[m[K’ defined here
+[5.771s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[5.771s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.828s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[6.829s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[6.829s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[6.829s]                  from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:238[m[K:
+[6.829s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = diffbot_description::DiffDriveArduinoHardware; B = hardware_interface::SystemInterface][m[K’:
+[6.830s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[6.830s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kdiffbot_description::DiffDriveArduinoHardware[m[K’
+[6.830s]   218 |     return [01;31m[Knew C[m[K;
+[6.830s]       |            [01;31m[K^~~~~[m[K
+[6.830s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[6.830s] [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kdiffbot_description::DiffDriveArduinoHardware[m[K’:
+[6.830s]    38 | class [01;36m[KDiffDriveArduinoHardware[m[K : public hardware_interface::SystemInterface
+[6.831s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.831s] In file included from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:24[m[K,
+[6.831s]                  from [01m[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15[m[K:
+[6.831s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:113:39:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> hardware_interface::SystemInterface::export_state_interfaces()[m[K’
+[6.831s]   113 |   virtual std::vector<StateInterface> [01;36m[Kexport_state_interfaces[m[K() = 0;
+[6.831s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.831s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:124:41:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> hardware_interface::SystemInterface::export_command_interfaces()[m[K’
+[6.831s]   124 |   virtual std::vector<CommandInterface> [01;36m[Kexport_command_interfaces[m[K() = 0;
+[6.832s]       |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.832s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:175:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[6.832s]   175 |   virtual return_type [01;36m[Kread[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[6.832s]       |                       [01;36m[K^~~~[m[K
+[6.832s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:186:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[6.833s]   186 |   virtual return_type [01;36m[Kwrite[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[6.833s]       |                       [01;36m[K^~~~~[m[K
+[6.985s] gmake[2]: *** [CMakeFiles/diffbot_description.dir/build.make:76: CMakeFiles/diffbot_description.dir/hardware/diffbot_system.cpp.o] Error 1
+[6.985s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffbot_description.dir/all] Error 2
+[6.986s] gmake: *** [Makefile:146: all] Error 2
+[6.993s] Invoked command in '/home/orin/ros2_ws/build/diffbot_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/diffbot_description -- -j6 -l6

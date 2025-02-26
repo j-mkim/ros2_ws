@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: arduino_encoder_odom
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: orin
+Maintainer-email: jaemin.d.kim@gmail.com
+License: Apache-2.0
+License-File: LICENSE
+Requires-Dist: setuptools

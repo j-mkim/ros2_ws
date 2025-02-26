@@ -1,0 +1,110 @@
+[0.053s] Invoking command in '/home/orin/ros2_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/my_bot_description -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/my_bot_description
+[0.237s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.608s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.835s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.846s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.925s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.658s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.671s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.755s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.793s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.849s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.866s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.890s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.056s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.348s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.348s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/orin/ros2_ws/src/my_bot_description/hardware/include>
+[2.348s] -- Configured cppcheck exclude dirs and/or files: 
+[2.350s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.353s] -- Added test 'lint_cmake' to check CMake code style
+[2.357s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.365s] -- Added test 'uncrustify' to check C / C++ code style
+[2.366s] -- Configured uncrustify additional arguments: 
+[2.368s] -- Added test 'xmllint' to check XML markup files
+[2.376s] -- Configuring done
+[2.666s] -- Generating done
+[2.682s] -- Build files have been written to: /home/orin/ros2_ws/build/my_bot_description
+[2.720s] Invoked command in '/home/orin/ros2_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/my_bot_description -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/my_bot_description
+[2.725s] Invoking command in '/home/orin/ros2_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/my_bot_description -- -j6 -l6
+[2.827s] [35m[1mConsolidate compiler generated dependencies of target my_bot_description[0m
+[2.993s] [100%] Built target my_bot_description
+[3.016s] Invoked command in '/home/orin/ros2_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/my_bot_description -- -j6 -l6
+[3.047s] Invoking command in '/home/orin/ros2_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/my_bot_description
+[3.072s] -- Install configuration: ""
+[3.073s] -- Execute custom install script
+[3.076s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description//my_bot_ros2_control.xml
+[3.078s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/back_wheel.yaml
+[3.079s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/base.yaml
+[3.080s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/front_wheel.yaml
+[3.081s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/imu.yaml
+[3.082s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/motor.yaml
+[3.082s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/sensors.yaml
+[3.083s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/wheel.yaml
+[3.084s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_controllers.yaml
+[3.085s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/twist_mux.yaml
+[3.087s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/depth_camera.xacro
+[3.087s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/gazebo_control.xacro
+[3.088s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/imu.xacro
+[3.089s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/inertial_macros.xacro
+[3.090s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/lidar.xacro
+[3.091s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/components/wheel.stl
+[3.093s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate.stl
+[3.094s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/bottom_plate_original.stl
+[3.094s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/dead_plate.stl
+[3.095s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/motor.stl
+[3.096s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/top_plate.stl
+[3.097s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_rim.stl
+[3.098s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/my_bot/wheel_tire.stl
+[3.099s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/OAK-D-LITE.stl
+[3.100s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/meshes/sensors/rplidar_main.stl
+[3.101s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/my_bot.urdf.xacro
+[3.101s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf
+[3.102s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot.urdf.xacro
+[3.103s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/robot_core.xacro
+[3.114s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/ros2_control/my_bot_ros2_control.xacro
+[3.115s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/ros2_control/ros2_control.xacro
+[3.117s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge.ino
+[3.119s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/.encoder_driver.h.swp
+[3.121s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/ROSArduinoBridge.ino
+[3.122s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/commands.h
+[3.123s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/diff_controller.h
+[3.124s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/encoder_driver.h
+[3.125s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/encoder_driver.ino
+[3.126s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/motor_driver.h
+[3.127s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/motor_driver.ino
+[3.129s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/sensors.h
+[3.130s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/servos.h
+[3.131s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/ROSArduinoBridge/servos.ino
+[3.132s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/diffbot_system.cpp
+[3.135s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/hardware/include/my_bot_ros2_control/diffbot_system.hpp
+[3.137s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/display.launch.py
+[3.138s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/displaytest.launch.py
+[3.139s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/launch/rsp.launch.py
+[3.141s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/rviz/my_bot_description.rviz
+[3.144s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/addon_macro.urdf.xacro
+[3.145s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/common_macros.urdf.xacro
+[3.146s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/common_sensors.xacro
+[3.147s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/include/robot.gazebo.xacro
+[3.148s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/urdf/my_bot.urdf.xacro
+[3.149s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds/empty.world
+[3.150s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/worlds/obstacles.world
+[3.157s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/include/my_bot_description/my_bot_ros2_control/diffbot_system.hpp
+[3.157s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+[3.158s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+[3.159s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+[3.160s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+[3.161s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/path.sh
+[3.161s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv
+[3.162s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.bash
+[3.163s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.sh
+[3.163s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh
+[3.164s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv
+[3.165s] -- Symlinking: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/package.dsv
+[3.188s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+[3.189s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/my_bot_description
+[3.191s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+[3.191s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+[3.192s] -- Up-to-date symlink: /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/package.xml
+[3.199s] Invoked command in '/home/orin/ros2_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/my_bot_description

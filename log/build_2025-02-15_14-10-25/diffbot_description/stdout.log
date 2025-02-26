@@ -1,0 +1,65 @@
+[35m[1mConsolidate compiler generated dependencies of target diffbot_description[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/diffbot_description.dir/hardware/diffbot_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdiffbot_description.so[0m
+[100%] Built target diffbot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description//diffbot_description.xml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/include/diffbot_description/diffbot_description/arduino_comms.hpp
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/include/diffbot_description/diffbot_description/diffbot_system.hpp
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/include/diffbot_description/diffbot_description/visibility_control.h
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/include/diffbot_description/diffbot_description/wheel.hpp
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/launch/view_robot.launch.py
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot.ros2_control.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/depth_camera.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot.materials.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_description.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/imu.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/lidar.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/components/wheel.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/my_bot/bottom_plate.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/my_bot/bottom_plate_original.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/my_bot/dead_plate.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/my_bot/motor.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/my_bot/top_plate.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/my_bot/wheel_rim.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/my_bot/wheel_tire.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/sensors/OAK-D-LITE.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/meshes/sensors/rplidar_main.stl
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/my_bot.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/robot.urdf
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/robot.urdf.xacro
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/launch/diffbot.launch.py
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/config/diffbot_controllers.yaml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/config/my_bot/back_wheel.yaml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/config/my_bot/base.yaml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/config/my_bot/front_wheel.yaml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/config/my_bot/imu.yaml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/config/my_bot/motor.yaml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/config/my_bot/sensors.yaml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/config/my_bot/wheel.yaml
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/environment/library_path.sh
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/environment/library_path.dsv
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/environment/path.sh
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/environment/path.dsv
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.bash
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.sh
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.zsh
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.dsv
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/package.dsv
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffbot_description
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+-- Symlinking: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/package.xml
+-- Installing: /home/orin/ros2_ws/install/diffbot_description/lib/libdiffbot_description.so
+-- Set runtime path of "/home/orin/ros2_ws/install/diffbot_description/lib/libdiffbot_description.so" to ""
+-- Installing: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/export_diffbot_descriptionExport.cmake
+-- Installing: /home/orin/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/export_diffbot_descriptionExport-noconfig.cmake

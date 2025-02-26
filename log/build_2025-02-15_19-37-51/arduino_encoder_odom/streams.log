@@ -1,0 +1,31 @@
+[3.541s] Invoking command in '/home/orin/ros2_ws/src/arduino_encoder_odom': PYTHONPATH=/home/orin/ros2_ws/build/arduino_encoder_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/arduino_encoder_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_encoder_odom build --build-base /home/orin/ros2_ws/build/arduino_encoder_odom/build install --record /home/orin/ros2_ws/build/arduino_encoder_odom/install.log --single-version-externally-managed install_data
+[3.924s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.925s]   warnings.warn(msg)
+[4.238s] running egg_info
+[4.239s] creating ../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info
+[4.289s] writing ../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/PKG-INFO
+[4.290s] writing dependency_links to ../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/dependency_links.txt
+[4.290s] writing requirements to ../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/requires.txt
+[4.291s] writing top-level names to ../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/top_level.txt
+[4.291s] writing manifest file '../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/SOURCES.txt'
+[4.396s] reading manifest file '../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/SOURCES.txt'
+[4.397s] adding license file 'LICENSE'
+[4.399s] writing manifest file '../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/SOURCES.txt'
+[4.399s] running build
+[4.399s] running build_py
+[4.400s] creating /home/orin/ros2_ws/build/arduino_encoder_odom/build/lib/arduino_encoder_odom
+[4.400s] copying arduino_encoder_odom/__init__.py -> /home/orin/ros2_ws/build/arduino_encoder_odom/build/lib/arduino_encoder_odom
+[4.401s] running install
+[4.411s] running install_lib
+[4.468s] creating /home/orin/ros2_ws/install/arduino_encoder_odom/lib/python3.10/site-packages/arduino_encoder_odom
+[4.469s] copying /home/orin/ros2_ws/build/arduino_encoder_odom/build/lib/arduino_encoder_odom/__init__.py -> /home/orin/ros2_ws/install/arduino_encoder_odom/lib/python3.10/site-packages/arduino_encoder_odom
+[4.470s] byte-compiling /home/orin/ros2_ws/install/arduino_encoder_odom/lib/python3.10/site-packages/arduino_encoder_odom/__init__.py to __init__.cpython-310.pyc
+[4.471s] running install_data
+[4.471s] creating /home/orin/ros2_ws/install/arduino_encoder_odom/share/ament_index/resource_index/packages
+[4.471s] copying resource/arduino_encoder_odom -> /home/orin/ros2_ws/install/arduino_encoder_odom/share/ament_index/resource_index/packages
+[4.472s] copying package.xml -> /home/orin/ros2_ws/install/arduino_encoder_odom/share/arduino_encoder_odom
+[4.472s] running install_egg_info
+[4.526s] Copying ../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info to /home/orin/ros2_ws/install/arduino_encoder_odom/lib/python3.10/site-packages/arduino_encoder_odom-0.0.0-py3.10.egg-info
+[4.528s] running install_scripts
+[4.948s] writing list of installed files to '/home/orin/ros2_ws/build/arduino_encoder_odom/install.log'
+[5.031s] Invoked command in '/home/orin/ros2_ws/src/arduino_encoder_odom' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/arduino_encoder_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/arduino_encoder_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_encoder_odom build --build-base /home/orin/ros2_ws/build/arduino_encoder_odom/build install --record /home/orin/ros2_ws/build/arduino_encoder_odom/install.log --single-version-externally-managed install_data

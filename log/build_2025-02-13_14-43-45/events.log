@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.000816] (-) JobUnselected: {'identifier': 'arduino_odometry'}
+[0.001372] (-) JobUnselected: {'identifier': 'arduino_serial_comm'}
+[0.001659] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.001962] (-) JobUnselected: {'identifier': 'encoder_ultrasonic_package'}
+[0.002085] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.002190] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.002307] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002429] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002524] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002615] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002702] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002784] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.003162] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003426] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003499] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003562] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.003648] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003716] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.003780] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003944] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.004031] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.004092] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.004150] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.004207] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.004263] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.004320] (-) JobUnselected: {'identifier': 'hcsr04_sensor'}
+[0.004576] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.004697] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.004803] (-) JobUnselected: {'identifier': 'my_bot_imu'}
+[0.004945] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.005430] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.005539] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.005624] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.005702] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.005775] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.005972] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.006571] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.006789] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.006906] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.006963] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.007012] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.007093] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.007212] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.007286] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.007372] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.007440] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.007728] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.007863] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.008024] (-) JobUnselected: {'identifier': 'wheel_encoder_odometry'}
+[0.008103] (diffbot_description) JobQueued: {'identifier': 'diffbot_description', 'dependencies': OrderedDict()}
+[0.008192] (diffbot_description) JobStarted: {'identifier': 'diffbot_description'}
+[0.023298] (diffbot_description) JobProgress: {'identifier': 'diffbot_description', 'progress': 'cmake'}
+[0.024728] (diffbot_description) JobProgress: {'identifier': 'diffbot_description', 'progress': 'build'}
+[0.025929] (diffbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/ros2_ws/build/diffbot_description', '--', '-j6', '-l6'], 'cwd': '/home/orin/ros2_ws/build/diffbot_description', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('SYSTEMD_EXEC_PID', '2324'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421024233640'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/2301,unix/nano:/tmp/.ICE-unix/2301'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd0e4993_a5c1_432f_8352_b3dae788a9e6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/ros2_ws/build/diffbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099252] (-) TimerEvent: {}
+[0.135877] (diffbot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffbot_description\x1b[0m\n'}
+[0.181756] (diffbot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffbot_description.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[0.199397] (-) TimerEvent: {}
+[0.300424] (-) TimerEvent: {}
+[0.401302] (-) TimerEvent: {}
+[0.502183] (-) TimerEvent: {}
+[0.603039] (-) TimerEvent: {}
+[0.704094] (-) TimerEvent: {}
+[0.804995] (-) TimerEvent: {}
+[0.906029] (-) TimerEvent: {}
+[1.007394] (-) TimerEvent: {}
+[1.108149] (-) TimerEvent: {}
+[1.208971] (-) TimerEvent: {}
+[1.309810] (-) TimerEvent: {}
+[1.410563] (-) TimerEvent: {}
+[1.511476] (-) TimerEvent: {}
+[1.612256] (-) TimerEvent: {}
+[1.713123] (-) TimerEvent: {}
+[1.813988] (-) TimerEvent: {}
+[1.914819] (-) TimerEvent: {}
+[1.973325] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[1.973927] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:60:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.974103] (diffbot_description) StderrLine: {'line': b'   60 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[1.974250] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.979908] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:64:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.980169] (diffbot_description) StderrLine: {'line': b'   64 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[1.980327] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.986401] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:67:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.986601] (diffbot_description) StderrLine: {'line': b'   67 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[1.986744] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.992670] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:70:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.993042] (diffbot_description) StderrLine: {'line': b'   70 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[1.993309] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.998972] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:74:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.999388] (diffbot_description) StderrLine: {'line': b'   74 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[1.999693] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.005084] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:79:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.005375] (diffbot_description) StderrLine: {'line': b'   79 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[2.005616] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.011222] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:83:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.011513] (diffbot_description) StderrLine: {'line': b'   83 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[2.011751] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.014895] (-) TimerEvent: {}
+[2.017328] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:87:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.017679] (diffbot_description) StderrLine: {'line': b'   87 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[2.017932] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.023390] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:91:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.023749] (diffbot_description) StderrLine: {'line': b'   91 |   \x1b[01;31m\x1b[KDIFFDRIVE_ARDUINO_PUBLIC\x1b[m\x1b[K\n'}
+[2.023999] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.026622] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:97:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KArduinoComms\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.026791] (diffbot_description) StderrLine: {'line': b'   97 |   \x1b[01;31m\x1b[KArduinoComms\x1b[m\x1b[K comms_;\n'}
+[2.026920] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.027899] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:99:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWheel\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.028041] (diffbot_description) StderrLine: {'line': b'   99 |   \x1b[01;31m\x1b[KWheel\x1b[m\x1b[K wheel_l_;\n'}
+[2.028202] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.029432] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:100:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWheel\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.029739] (diffbot_description) StderrLine: {'line': b'  100 |   \x1b[01;31m\x1b[KWheel\x1b[m\x1b[K wheel_r_;\n'}
+[2.029974] (diffbot_description) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.115091] (-) TimerEvent: {}
+[2.215822] (-) TimerEvent: {}
+[2.316709] (-) TimerEvent: {}
+[2.417568] (-) TimerEvent: {}
+[2.518527] (-) TimerEvent: {}
+[2.619229] (-) TimerEvent: {}
+[2.719924] (-) TimerEvent: {}
+[2.820614] (-) TimerEvent: {}
+[2.921436] (-) TimerEvent: {}
+[3.022290] (-) TimerEvent: {}
+[3.123100] (-) TimerEvent: {}
+[3.224013] (-) TimerEvent: {}
+[3.324882] (-) TimerEvent: {}
+[3.425586] (-) TimerEvent: {}
+[3.526411] (-) TimerEvent: {}
+[3.627348] (-) TimerEvent: {}
+[3.728077] (-) TimerEvent: {}
+[3.828985] (-) TimerEvent: {}
+[3.929829] (-) TimerEvent: {}
+[4.030732] (-) TimerEvent: {}
+[4.131452] (-) TimerEvent: {}
+[4.232226] (-) TimerEvent: {}
+[4.333060] (-) TimerEvent: {}
+[4.433767] (-) TimerEvent: {}
+[4.534539] (-) TimerEvent: {}
+[4.635569] (-) TimerEvent: {}
+[4.736294] (-) TimerEvent: {}
+[4.837004] (-) TimerEvent: {}
+[4.937702] (-) TimerEvent: {}
+[5.038425] (-) TimerEvent: {}
+[5.139148] (-) TimerEvent: {}
+[5.239866] (-) TimerEvent: {}
+[5.340580] (-) TimerEvent: {}
+[5.441289] (-) TimerEvent: {}
+[5.542073] (-) TimerEvent: {}
+[5.617587] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:28:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.618553] (diffbot_description) StderrLine: {'line': b'   28 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K::on_init(\n'}
+[5.618881] (diffbot_description) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.619040] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:28:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.619193] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.619332] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.619468] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.619599] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.619725] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:115:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::StateInterface> diffbot_description::DiffDriveArduinoHardware::export_state_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.619855] (diffbot_description) StderrLine: {'line': b'  115 | std::vector<hardware_interface::StateInterface> \x1b[01;31m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K::export_state_interfaces()\n'}
+[5.619979] (diffbot_description) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.620100] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:115:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::StateInterface> diffbot_description::DiffDriveArduinoHardware::export_state_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.620254] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.620377] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.620500] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.620623] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.620743] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:132:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::CommandInterface> diffbot_description::DiffDriveArduinoHardware::export_command_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.620871] (diffbot_description) StderrLine: {'line': b'  132 | std::vector<hardware_interface::CommandInterface> \x1b[01;31m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K::export_command_interfaces()\n'}
+[5.620994] (diffbot_description) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.621114] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:132:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::CommandInterface> diffbot_description::DiffDriveArduinoHardware::export_command_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.621238] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.621358] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.621503] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.621627] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.621746] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:145:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.621867] (diffbot_description) StderrLine: {'line': b'  145 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K::on_configure(\n'}
+[5.621983] (diffbot_description) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.622125] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:145:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.622294] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.622477] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.622611] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.622734] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.622854] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:159:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.623026] (diffbot_description) StderrLine: {'line': b'  159 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K::on_cleanup(\n'}
+[5.623153] (diffbot_description) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.623276] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:159:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.623407] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.623549] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.623684] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.623807] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.623929] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:173:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.624053] (diffbot_description) StderrLine: {'line': b'  173 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K::on_activate(\n'}
+[5.624174] (diffbot_description) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.624294] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:173:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.624417] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.624560] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.624684] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.624822] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.624945] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:190:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.625085] (diffbot_description) StderrLine: {'line': b'  190 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K::on_deactivate(\n'}
+[5.625204] (diffbot_description) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.625322] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:190:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn diffbot_description::DiffDriveArduinoHardware::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.625445] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.625584] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.625724] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.625847] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.625972] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:199:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type diffbot_description::DiffDriveArduinoHardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.626096] (diffbot_description) StderrLine: {'line': b'  199 | hardware_interface::return_type \x1b[01;31m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K::read(\n'}
+[5.626218] (diffbot_description) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.626416] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:199:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type diffbot_description::DiffDriveArduinoHardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.626572] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.626701] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.626889] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.627016] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.627136] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:222:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type diffbot_description::DiffDriveArduinoHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.627262] (diffbot_description) StderrLine: {'line': b'  222 | hardware_interface::return_type \x1b[01;31m\x1b[Kdiffbot_description\x1b[m\x1b[K ::DiffDriveArduinoHardware::write(\n'}
+[5.627386] (diffbot_description) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.627508] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:222:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type diffbot_description::DiffDriveArduinoHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.627629] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[5.627747] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass diffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.627870] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[5.627989] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.642208] (-) TimerEvent: {}
+[5.742855] (-) TimerEvent: {}
+[5.843545] (-) TimerEvent: {}
+[5.944273] (-) TimerEvent: {}
+[6.045143] (-) TimerEvent: {}
+[6.146030] (-) TimerEvent: {}
+[6.246934] (-) TimerEvent: {}
+[6.347799] (-) TimerEvent: {}
+[6.448665] (-) TimerEvent: {}
+[6.549525] (-) TimerEvent: {}
+[6.650385] (-) TimerEvent: {}
+[6.694818] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[6.696055] (diffbot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[6.696350] (diffbot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[6.696681] (diffbot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:238\x1b[m\x1b[K:\n'}
+[6.696933] (diffbot_description) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = diffbot_description::DiffDriveArduinoHardware; B = hardware_interface::SystemInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.697223] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[6.698088] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Kdiffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.698669] (diffbot_description) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[6.699094] (diffbot_description) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.699678] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[6.700225] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Kdiffbot_description::DiffDriveArduinoHardware\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.700436] (diffbot_description) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KDiffDriveArduinoHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[6.700692] (diffbot_description) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.700828] (diffbot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp:24\x1b[m\x1b[K,\n'}
+[6.700960] (diffbot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin/ros2_ws/src/diffbot_description/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[6.701203] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:113:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<hardware_interface::StateInterface> hardware_interface::SystemInterface::export_state_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.701392] (diffbot_description) StderrLine: {'line': b'  113 |   virtual std::vector<StateInterface> \x1b[01;36m\x1b[Kexport_state_interfaces\x1b[m\x1b[K() = 0;\n'}
+[6.701574] (diffbot_description) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.701708] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:124:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<hardware_interface::CommandInterface> hardware_interface::SystemInterface::export_command_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.701836] (diffbot_description) StderrLine: {'line': b'  124 |   virtual std::vector<CommandInterface> \x1b[01;36m\x1b[Kexport_command_interfaces\x1b[m\x1b[K() = 0;\n'}
+[6.702128] (diffbot_description) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.702266] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:175:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.702620] (diffbot_description) StderrLine: {'line': b'  175 |   virtual return_type \x1b[01;36m\x1b[Kread\x1b[m\x1b[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;\n'}
+[6.702954] (diffbot_description) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.703198] (diffbot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:186:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.703502] (diffbot_description) StderrLine: {'line': b'  186 |   virtual return_type \x1b[01;36m\x1b[Kwrite\x1b[m\x1b[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;\n'}
+[6.703743] (diffbot_description) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.750492] (-) TimerEvent: {}
+[6.849062] (diffbot_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/diffbot_description.dir/build.make:76: CMakeFiles/diffbot_description.dir/hardware/diffbot_system.cpp.o] Error 1\n'}
+[6.849787] (diffbot_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffbot_description.dir/all] Error 2\n'}
+[6.850314] (diffbot_description) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.850584] (-) TimerEvent: {}
+[6.859282] (diffbot_description) CommandEnded: {'returncode': 2}
+[6.889334] (diffbot_description) JobEnded: {'identifier': 'diffbot_description', 'rc': 2}
+[6.900900] (-) EventReactorShutdown: {}

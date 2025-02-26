@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_bot">
+
+    <xacro:property name="package_name" value="my_bot_description"/>
+    <xacro:property name="robot_name" value="my_bot"/>  
+
+    <!-- <xacro:include filename="package://${package_name}/urdf/include/common_macros.urdf.xacro" /> -->
+    <xacro:include filename="$(find ${package_name})/urdf/include/common_macros.urdf.xacro" />
+    
+    <!-- <xacro:set_package_name /> -->
+
+    <xacro:property name="back_wheel_yaml"      value="package://${package_name}/config/${robot_name}/wheel.yaml" />
+    <xacro:property name="back_wheel_props"     value="${xacro.load_yaml('back_wheel_yaml')}"/>
+    <xacro:property name="front_wheel_yaml"     value="package://${package_name}/config/${robot_name}/wheel.yaml" />
+    <xacro:property name="front_wheel_props"    value="${xacro.load_yaml('front_wheel_yaml')}"/>
+    <xacro:property name="motor_yaml"           value="package://${package_name}/config/${robot_name}/motor.yaml" />
+    <xacro:property name="motor_props"          value="${xacro.load_yaml('motor_yaml')}"/>
+    <xacro:property name="base_yaml"            value="package://${package_name}/config/${robot_name}/base.yaml" />
+    <xacro:property name="base_props"           value="${xacro.load_yaml('base_yaml')}"/>
+
+    <!-- BASE LINK -->
+    <link name="base_link"></link>
+
+    <!-- IMU LINK -->
+    <link name="imu_link"></link>
+
+
+    <!-- BASE_FOOTPRINT LINK -->    
+    <joint name="base_footprint_joint" type="fixed">
+        <!-- <parent link="base_link"/> -->
+        <parent link="imu_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="base_footprint"></link>
+
+    <!-- Top Chassis link -->
+    <xacro:base base_prop="${base_props}" mesh="${base_props['base']['mesh']}" >
+        <origin xyz="0 0 0.064" rpy="${pi/2} 0 -${pi/2}" />
+    </xacro:base> 
+    <!-- Bottom Chassis link -->
+    <xacro:base base_prop="${base_props}" mesh="${base_props['base']['mesh']}" >
+        <origin xyz="0 0 0" rpy="${pi/2} 0 -${pi/2}" />
+    </xacro:base> 
+
+    <!-- Back Wheels -->
+    <xacro:wheel prefix="back_right" reflect="-1"
+                      wheel_props="${back_wheel_props}"
+                      base_props="${base_props}"                    
+                      mesh="${back_wheel_props['wheel']['mesh']}">
+    </xacro:wheel>
+
+    <xacro:wheel prefix="back_left" reflect="1"
+                      wheel_props="${back_wheel_props}"
+                      base_props="${base_props}"
+                      mesh="${back_wheel_props['wheel']['mesh']}">
+    </xacro:wheel>
+
+    <!-- Front Wheels -->
+    <xacro:wheel prefix="front_right" reflect="-1" 
+                      wheel_props="${front_wheel_props}"
+                      base_props="${base_props}"> 
+    </xacro:wheel>
+
+    <xacro:wheel prefix="front_left" reflect="1" 
+                      wheel_props="${front_wheel_props}"
+                      base_props="${base_props}"> 
+    </xacro:wheel>
+
+
+
+    <!-- Back Motors -->
+    <xacro:motor prefix="back_right" reflect="-1"
+                      wheel_props="${motor_props}"
+                      base_props="${base_props}"                    
+                      mesh="${motor_props['motor']['mesh']}">
+    </xacro:motor>
+
+    <xacro:motor prefix="back_left" reflect="1"
+                      wheel_props="${back_wheel_props}"
+                      base_props="${base_props}"
+                      mesh="${back_wheel_props['wheel']['mesh']}">
+    </xacro:motor>
+
+    <!-- Front Motors -->
+    <xacro:motor prefix="front_right" reflect="-1" 
+                      wheel_props="${front_wheel_props}"
+                      base_props="${base_props}"> 
+    </xacro:motor>
+
+    <xacro:motor prefix="front_left" reflect="1" 
+                      wheel_props="${front_wheel_props}"
+                      base_props="${base_props}"> 
+    </xacro:motor>
+
+    
+       
+
+    <!-- <xacro:include filename="$package:// mobile_description)/urdf/mobile_robot_gazebo_plugins.xacro"/>  -->
+
+</robot>

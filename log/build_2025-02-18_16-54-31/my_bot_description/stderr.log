@@ -1,0 +1,60 @@
+In file included from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:15[m[K:
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/include/my_bot_ros2_control/diffbot_system.hpp:38:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   38 |   RCLCPP_SHARED_PTR_DEFINITIONS(DiffBotSystemHardware)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:198:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_bot_ros2_control[m[K’ has not been declared
+  198 | hardware_interface::return_type [01;31m[Kmy_bot_ros2_control[m[K ::DiffBotSystemHardware::write(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::return_type ros2_control_demo_example_2::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:204:25:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+  204 |   for (auto i = 0u; i < [01;31m[Khw_commands_[m[K.size(); i++)
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:26[m[K:
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:209:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  209 |       [01;31m[Kinfo_[m[K.joints[i].name.c_str());
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:211:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+  211 |     [01;31m[Khw_velocities_[m[K[i] = hw_commands_[i];
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:221[m[K:
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:223:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_bot_ros2_control[m[K’ does not name a type
+  223 |   [01;31m[Kmy_bot_ros2_control[m[K::DiffBotSystemHardware, hardware_interface::SystemInterface)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:222:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  222 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:222:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [43], const char [36])[m[K’
+  222 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:221[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:221[m[K:
+[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:222:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  222 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_bot_description.dir/build.make:76: CMakeFiles/my_bot_description.dir/hardware/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_bot_description.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

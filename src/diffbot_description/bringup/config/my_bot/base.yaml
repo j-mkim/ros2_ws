@@ -1,0 +1,7 @@
+base:
+  mass: 0.8               # Base mass in Kg
+  x_size: 0.237           # Dimension in x axis
+  y_size: 0.13335            # Dimension in y axis
+  z_size: 0.0085           # Dimension in z axis
+  mesh: '../my_bot/bottom_plate.stl'  # Name of the mesh files. Leave it empty ('') to have a white base.
+  # mesh: ''

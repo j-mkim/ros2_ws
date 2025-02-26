@@ -1,0 +1,43 @@
+[0.088s] Invoking command in '/home/orin/ros2_ws/build/ros2_control_demo_example_8': AMENT_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/orin/ros2_ws/build/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin/ros2_ws/build/ros2_control_demo_example_8 -- -j6 -l6
+[11.152s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_8.dir/hardware/rrbot_transmissions_system_position_only.cpp.o[0m
+[11.152s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_8.so[0m
+[11.152s] [100%] Built target ros2_control_demo_example_8
+[11.153s] Invoked command in '/home/orin/ros2_ws/build/ros2_control_demo_example_8' returned '0': AMENT_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/orin/ros2_ws/build/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin/ros2_ws/build/ros2_control_demo_example_8 -- -j6 -l6
+[11.287s] Invoking command in '/home/orin/ros2_ws/build/ros2_control_demo_example_8': AMENT_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/orin/ros2_ws/build/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin/ros2_ws/build/ros2_control_demo_example_8
+[11.315s] -- Install configuration: ""
+[11.316s] -- Execute custom install script
+[11.317s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8//ros2_control_demo_example_8.xml
+[11.317s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/include/ros2_control_demo_example_8/ros2_control_demo_example_8/rrbot.hpp
+[11.317s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/include/ros2_control_demo_example_8/ros2_control_demo_example_8/rrbot_transmissions_system_position_only.hpp
+[11.317s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/launch/view_robot.launch.py
+[11.322s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/ros2_control/rrbot_transmissions_system_position_only.ros2_control.xacro
+[11.322s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/urdf/rrbot_transmissions_system_position_only.urdf.xacro
+[11.322s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/launch/rrbot_transmissions_system_position_only.launch.py
+[11.323s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/launch/test_forward_position_controller.launch.py
+[11.323s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/config/rrbot_controllers.yaml
+[11.323s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/config/rrbot_forward_position_publisher.yaml
+[11.323s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/environment/library_path.sh
+[11.323s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/environment/library_path.dsv
+[11.323s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_8
+[11.324s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_8
+[11.324s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/environment/ament_prefix_path.sh
+[11.324s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/environment/ament_prefix_path.dsv
+[11.324s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/environment/path.sh
+[11.324s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/environment/path.dsv
+[11.324s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/local_setup.bash
+[11.324s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/local_setup.sh
+[11.325s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/local_setup.zsh
+[11.325s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/local_setup.dsv
+[11.325s] -- Symlinking: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.dsv
+[11.359s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ament_index/resource_index/packages/ros2_control_demo_example_8
+[11.359s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_8
+[11.360s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/cmake/ament_cmake_export_targets-extras.cmake
+[11.360s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.360s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/cmake/ros2_control_demo_example_8Config.cmake
+[11.360s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/cmake/ros2_control_demo_example_8Config-version.cmake
+[11.360s] -- Up-to-date symlink: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.xml
+[11.360s] -- Installing: /home/orin/ros2_ws/install/ros2_control_demo_example_8/lib/libros2_control_demo_example_8.so
+[11.367s] -- Set runtime path of "/home/orin/ros2_ws/install/ros2_control_demo_example_8/lib/libros2_control_demo_example_8.so" to ""
+[11.368s] -- Up-to-date: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/cmake/export_ros2_control_demo_example_8Export.cmake
+[11.368s] -- Up-to-date: /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/cmake/export_ros2_control_demo_example_8Export-noconfig.cmake
+[11.399s] Invoked command in '/home/orin/ros2_ws/build/ros2_control_demo_example_8' returned '0': AMENT_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/orin/ros2_ws/build/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin/ros2_ws/build/ros2_control_demo_example_8

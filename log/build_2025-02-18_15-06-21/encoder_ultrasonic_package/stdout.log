@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing encoder_ultrasonic_package.egg-info/PKG-INFO
+writing dependency_links to encoder_ultrasonic_package.egg-info/dependency_links.txt
+writing entry points to encoder_ultrasonic_package.egg-info/entry_points.txt
+writing requirements to encoder_ultrasonic_package.egg-info/requires.txt
+writing top-level names to encoder_ultrasonic_package.egg-info/top_level.txt
+reading manifest file 'encoder_ultrasonic_package.egg-info/SOURCES.txt'
+writing manifest file 'encoder_ultrasonic_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/orin/ros2_ws/install/encoder_ultrasonic_package/lib/python3.10/site-packages/encoder-ultrasonic-package.egg-link (link to .)
+Installing encoder_ultrasonic_node script to /home/orin/ros2_ws/install/encoder_ultrasonic_package/lib/encoder_ultrasonic_package
+
+Installed /home/orin/ros2_ws/build/encoder_ultrasonic_package
+running symlink_data

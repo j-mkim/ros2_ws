@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.time import Time
-from sensor_msgs.msg import JointState
+# from sensor_msgs.msg import JointState
 import serial
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist
@@ -12,7 +12,7 @@ import threading
 class ArduinoOdometryNode(Node):
     def __init__(self):
         super().__init__('arduino_odometry_node')
-        self.publisher = self.create_publisher(JointState, '/joint_states', 10)
+        self.publisher = self.create_publisher(Odometry, '/odom', 10)
         self.timer = self.create_timer(0.1, self.publish_joint_states)
         # Parameters (adjust these to match your robot)
         self.counts_per_rev = 576.0      # Encoder counts per wheel revolution

@@ -1,0 +1,167 @@
+[0.051s] Invoking command in '/home/orin/ros2_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demos:/home/orin/ros2_ws/install/ros2_control_demo_example_9:/home/orin/ros2_ws/install/ros2_control_demo_example_8:/home/orin/ros2_ws/install/ros2_control_demo_example_7:/home/orin/ros2_ws/install/ros2_control_demo_example_6:/home/orin/ros2_ws/install/ros2_control_demo_example_15:/home/orin/ros2_ws/install/ros2_control_demo_example_13:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_example_4:/home/orin/ros2_ws/install/ros2_control_demo_example_3:/home/orin/ros2_ws/install/ros2_control_demo_example_2:/home/orin/ros2_ws/install/ros2_control_demo_example_14:/home/orin/ros2_ws/install/ros2_control_demo_example_12:/home/orin/ros2_ws/install/ros2_control_demo_example_11:/home/orin/ros2_ws/install/ros2_control_demo_example_10:/home/orin/ros2_ws/install/ros2_control_demo_example_1:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/launch_testing_examples:/home/orin/ros2_ws/install/hcsr04_sensor:/home/orin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orin/ros2_ws/install/examples_rclpy_minimal_service:/home/orin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orin/ros2_ws/install/examples_rclpy_minimal_client:/home/orin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orin/ros2_ws/install/examples_rclpy_guard_conditions:/home/orin/ros2_ws/install/examples_rclpy_executors:/home/orin/ros2_ws/install/encoder_ultrasonic_package:/home/orin/ros2_ws/install/arduino_odometry:/home/orin/ros2_ws/install/arduino_encoder_odom:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/examples_rclcpp_wait_set:/home/orin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/orin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/orin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/orin/ros2_ws/install/examples_rclcpp_minimal_service:/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/orin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/orin/ros2_ws/install/examples_rclcpp_minimal_client:/home/orin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/orin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/orin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/orin/ros2_ws/install/examples_rclcpp_async_client:/home/orin/ros2_ws/install/diffdrive_arduino:/home/orin/ros2_ws/install/diffbot_description:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_ros_driver:/home/orin/ros2_ws/install/depthai_filters:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_bridge:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge:/home/orin/ros2_ws/install/articubot_one:/home/orin/ros2_ws/install/arduino_serial_comm /usr/bin/cmake --build /home/orin/ros2_ws/build/my_bot_description -- -j6 -l6
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target my_bot_description[0m
+[0.260s] [ 50%] [32mBuilding CXX object CMakeFiles/my_bot_description.dir/hardware/diffbot_system.cpp.o[0m
+[2.039s] In file included from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:15[m[K:
+[2.040s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/include/my_bot_ros2_control/diffbot_system.hpp:38:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.040s]    38 |   RCLCPP_SHARED_PTR_DEFINITIONS(DiffBotSystemHardware)[01;35m[K;[m[K
+[2.040s]       |                                                       [01;35m[K^[m[K
+[2.040s]       |                                                       [31m[K-[m[K
+[5.621s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:30:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[5.622s]    30 | hardware_interface::CallbackReturn [01;31m[KDiffBotSystemHardware[m[K::on_init(
+[5.622s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.622s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn my_bot_ros2_control::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[5.622s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:34:49:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::SystemInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’ without object
+[5.622s]    34 |     [01;31m[Khardware_interface::SystemInterface::on_init(info)[m[K !=
+[5.622s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.634s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_start_sec_[m[K’ was not declared in this scope
+[5.634s]    41 |   [01;31m[Khw_start_sec_[m[K =
+[5.634s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[5.641s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:42:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo[m[K’?
+[5.642s]    42 |     hardware_interface::stod([01;31m[Kinfo_[m[K.hardware_parameters["example_param_hw_start_duration_sec"]);
+[5.642s]       |                              [01;31m[K^~~~~[m[K
+[5.642s]       |                              [32m[Kinfo[m[K
+[5.650s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_stop_sec_[m[K’ was not declared in this scope
+[5.650s]    43 |   [01;31m[Khw_stop_sec_[m[K =
+[5.651s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[5.659s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+[5.660s]    46 |   [01;31m[Khw_positions_[m[K.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+[5.660s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[5.670s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[5.671s]    47 |   [01;31m[Khw_velocities_[m[K.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+[5.671s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.680s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+[5.681s]    48 |   [01;31m[Khw_commands_[m[K.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+[5.681s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[5.688s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[5.689s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:102:49:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[5.689s]   102 | std::vector<hardware_interface::StateInterface> [01;31m[KDiffBotSystemHardware[m[K::export_state_interfaces()
+[5.690s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.704s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Kstd::vector<hardware_interface::StateInterface> my_bot_ros2_control::export_state_interfaces()[m[K’:
+[5.704s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:105:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[5.704s]   105 |   for (auto i = 0u; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+[5.705s]       |                         [01;31m[K^~~~~[m[K
+[5.717s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:108:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+[5.718s]   108 |       info_.joints[i].name, hardware_interface::HW_IF_POSITION, &[01;31m[Khw_positions_[m[K[i]));
+[5.718s]       |                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[5.725s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:110:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[5.725s]   110 |       info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &[01;31m[Khw_velocities_[m[K[i]));
+[5.725s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.726s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[5.726s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:116:51:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[5.726s]   116 | std::vector<hardware_interface::CommandInterface> [01;31m[KDiffBotSystemHardware[m[K::export_command_interfaces()
+[5.726s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.741s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Kstd::vector<hardware_interface::CommandInterface> my_bot_ros2_control::export_command_interfaces()[m[K’:
+[5.741s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:119:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[5.741s]   119 |   for (auto i = 0u; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+[5.742s]       |                         [01;31m[K^~~~~[m[K
+[5.750s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:122:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+[5.751s]   122 |       info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &[01;31m[Khw_commands_[m[K[i]));
+[5.751s]       |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[5.751s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[5.752s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:128:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[5.752s]   128 | hardware_interface::CallbackReturn [01;31m[KDiffBotSystemHardware[m[K::on_activate(
+[5.752s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.763s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn my_bot_ros2_control::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[5.763s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:134:24:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_start_sec_[m[K’ was not declared in this scope
+[5.763s]   134 |   for (auto i = 0; i < [01;31m[Khw_start_sec_[m[K; i++)
+[5.764s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[5.775s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:143:25:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+[5.776s]   143 |   for (auto i = 0u; i < [01;31m[Khw_positions_[m[K.size(); i++)
+[5.776s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[5.787s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:148:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[5.788s]   148 |       [01;31m[Khw_velocities_[m[K[i] = 0;
+[5.788s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.802s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:149:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+[5.802s]   149 |       [01;31m[Khw_commands_[m[K[i] = 0;
+[5.802s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[5.802s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[5.803s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:158:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[5.803s]   158 | hardware_interface::CallbackReturn [01;31m[KDiffBotSystemHardware[m[K::on_deactivate(
+[5.803s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.810s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn my_bot_ros2_control::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[5.810s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:164:24:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_stop_sec_[m[K’ was not declared in this scope
+[5.810s]   164 |   for (auto i = 0; i < [01;31m[Khw_stop_sec_[m[K; i++)
+[5.810s]       |                        [01;31m[K^~~~~~~~~~~~[m[K
+[5.812s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[5.812s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:177:33:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[5.813s]   177 | hardware_interface::return_type [01;31m[KDiffBotSystemHardware[m[K::read(
+[5.813s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.824s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::return_type my_bot_ros2_control::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.824s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:181:31:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[5.824s]   181 |   for (std::size_t i = 0; i < [01;31m[Khw_velocities_[m[K.size(); i++)
+[5.824s]       |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.833s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:186:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+[5.834s]   186 |     [01;31m[Khw_positions_[m[K[i] = hw_positions_[i] + period.seconds() * hw_velocities_[i];
+[5.834s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[5.842s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.842s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.845s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.845s]                  from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:26[m[K:
+[5.845s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:191:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[5.845s]   191 |       hw_velocities_[i], [01;31m[Kinfo_[m[K.joints[i].name.c_str());
+[5.846s]       |                          [01;31m[K^~~~~[m[K
+[5.846s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[5.846s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:198:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_bot_ros2_control::DiffBotSystemHardware[m[K’ has not been declared
+[5.846s]   198 | hardware_interface::return_type my_bot_ros2_control ::[01;31m[KDiffBotSystemHardware[m[K::write(
+[5.847s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.853s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::return_type my_bot_ros2_control::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.853s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:204:25:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+[5.854s]   204 |   for (auto i = 0u; i < [01;31m[Khw_commands_[m[K.size(); i++)
+[5.854s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[5.861s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.864s]                  from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:26[m[K:
+[5.864s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:209:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[5.864s]   209 |       [01;31m[Kinfo_[m[K.joints[i].name.c_str());
+[5.864s]       |       [01;31m[K^~~~~[m[K
+[5.872s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:211:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[5.872s]   211 |     [01;31m[Khw_velocities_[m[K[i] = hw_commands_[i];
+[5.872s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.898s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[5.898s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[5.899s]                  from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:221[m[K:
+[5.899s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K At global scope:
+[5.899s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:223:24:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ in namespace ‘[01m[Kmy_bot_ros2_control[m[K’ does not name a type
+[5.899s]   223 |   my_bot_ros2_control::[01;31m[KDiffBotSystemHardware[m[K, hardware_interface::SystemInterface)
+[5.900s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.918s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[5.918s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:222:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[5.918s]   222 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[5.918s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.918s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:222:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [43], const char [36])[m[K’
+[5.919s]   222 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[5.919s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.919s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[5.919s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[5.919s]                  from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:221[m[K:
+[5.919s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[5.920s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[5.920s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.920s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.920s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[5.920s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[5.920s]                  from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:221[m[K:
+[5.920s] [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:222:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.920s]   222 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[5.921s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.099s] gmake[2]: *** [CMakeFiles/my_bot_description.dir/build.make:76: CMakeFiles/my_bot_description.dir/hardware/diffbot_system.cpp.o] Error 1
+[7.106s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_bot_description.dir/all] Error 2
+[7.106s] gmake: *** [Makefile:146: all] Error 2
+[7.116s] Invoked command in '/home/orin/ros2_ws/build/my_bot_description' returned '2': CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/sllidar_ros2:/home/orin/ros2_ws/install/ros2_control_demos:/home/orin/ros2_ws/install/ros2_control_demo_example_9:/home/orin/ros2_ws/install/ros2_control_demo_example_8:/home/orin/ros2_ws/install/ros2_control_demo_example_7:/home/orin/ros2_ws/install/ros2_control_demo_example_6:/home/orin/ros2_ws/install/ros2_control_demo_example_15:/home/orin/ros2_ws/install/ros2_control_demo_example_13:/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_example_4:/home/orin/ros2_ws/install/ros2_control_demo_example_3:/home/orin/ros2_ws/install/ros2_control_demo_example_2:/home/orin/ros2_ws/install/ros2_control_demo_example_14:/home/orin/ros2_ws/install/ros2_control_demo_example_12:/home/orin/ros2_ws/install/ros2_control_demo_example_11:/home/orin/ros2_ws/install/ros2_control_demo_example_10:/home/orin/ros2_ws/install/ros2_control_demo_example_1:/home/orin/ros2_ws/install/ros2_control_demo_description:/home/orin/ros2_ws/install/my_bot_imu:/home/orin/ros2_ws/install/my_bot_description:/home/orin/ros2_ws/install/wheel_encoder_odometry:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/launch_testing_examples:/home/orin/ros2_ws/install/hcsr04_sensor:/home/orin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/orin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orin/ros2_ws/install/examples_rclpy_minimal_service:/home/orin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orin/ros2_ws/install/examples_rclpy_minimal_client:/home/orin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orin/ros2_ws/install/examples_rclpy_guard_conditions:/home/orin/ros2_ws/install/examples_rclpy_executors:/home/orin/ros2_ws/install/encoder_ultrasonic_package:/home/orin/ros2_ws/install/arduino_odometry:/home/orin/ros2_ws/install/arduino_encoder_odom:/opt/ros/humble:/home/orin/ros2_ws/install/mobile_robot_description:/home/orin/ros2_ws/install/image_geometry:/home/orin/ros2_ws/install/gazebo_dev:/home/orin/ros2_ws/install/examples_rclcpp_wait_set:/home/orin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/orin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/orin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/orin/ros2_ws/install/examples_rclcpp_minimal_service:/home/orin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/orin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/orin/ros2_ws/install/examples_rclcpp_minimal_client:/home/orin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/orin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/orin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/orin/ros2_ws/install/examples_rclcpp_async_client:/home/orin/ros2_ws/install/diffdrive_arduino:/home/orin/ros2_ws/install/diffbot_description:/home/orin/ros2_ws/install/depthai-ros:/home/orin/ros2_ws/install/depthai_ros_driver:/home/orin/ros2_ws/install/depthai_filters:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_bridge:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/home/orin/ros2_ws/install/cv_bridge:/home/orin/ros2_ws/install/articubot_one:/home/orin/ros2_ws/install/arduino_serial_comm /usr/bin/cmake --build /home/orin/ros2_ws/build/my_bot_description -- -j6 -l6
