@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "depthai_bridge")
-set(depthai_bridge_VERSION "2.10.4")
+set(depthai_bridge_VERSION "2.11.0")
 set(depthai_bridge_MAINTAINER "Adam Serafin <adam.serafin@luxonis.com>")
 set(depthai_bridge_BUILD_DEPENDS "libboost-dev" "rclcpp" "cv_bridge" "camera_info_manager" "depthai" "depthai_ros_msgs" "image_transport" "libopencv-dev" "ros_environment" "sensor_msgs" "std_msgs" "stereo_msgs" "vision_msgs" "ffmpeg_image_transport_msgs" "tf2_ros" "tf2" "tf2_geometry_msgs" "composition_interfaces")
 set(depthai_bridge_BUILDTOOL_DEPENDS "ament_cmake")

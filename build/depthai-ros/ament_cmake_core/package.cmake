@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "depthai-ros")
-set(depthai-ros_VERSION "2.10.4")
+set(depthai-ros_VERSION "2.11.0")
 set(depthai-ros_MAINTAINER "Adam Serafin <adam.serafin@luxonis.com>")
 set(depthai-ros_BUILD_DEPENDS )
 set(depthai-ros_BUILDTOOL_DEPENDS "ament_cmake")

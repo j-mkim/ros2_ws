@@ -330,6 +330,30 @@ src/spatial_bb.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depthai_filters.dir/build.make CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.s
 .PHONY : src/spatial_bb.cpp.s
 
+src/thermal_temp.o: src/thermal_temp.cpp.o
+.PHONY : src/thermal_temp.o
+
+# target to build an object file
+src/thermal_temp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depthai_filters.dir/build.make CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o
+.PHONY : src/thermal_temp.cpp.o
+
+src/thermal_temp.i: src/thermal_temp.cpp.i
+.PHONY : src/thermal_temp.i
+
+# target to preprocess a source file
+src/thermal_temp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depthai_filters.dir/build.make CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.i
+.PHONY : src/thermal_temp.cpp.i
+
+src/thermal_temp.s: src/thermal_temp.cpp.s
+.PHONY : src/thermal_temp.s
+
+# target to generate assembly for a file
+src/thermal_temp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depthai_filters.dir/build.make CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.s
+.PHONY : src/thermal_temp.cpp.s
+
 src/utils.o: src/utils.cpp.o
 .PHONY : src/utils.o
 
@@ -409,6 +433,9 @@ help:
 	@echo "... src/spatial_bb.o"
 	@echo "... src/spatial_bb.i"
 	@echo "... src/spatial_bb.s"
+	@echo "... src/thermal_temp.o"
+	@echo "... src/thermal_temp.i"
+	@echo "... src/thermal_temp.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

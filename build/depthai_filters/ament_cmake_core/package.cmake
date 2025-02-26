@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "depthai_filters")
-set(depthai_filters_VERSION "2.10.4")
+set(depthai_filters_VERSION "2.11.0")
 set(depthai_filters_MAINTAINER "Adam Serafin <adam.serafin@luxonis.com>")
 set(depthai_filters_BUILD_DEPENDS "sensor_msgs" "rclcpp" "rclcpp_components" "vision_msgs" "message_filters" "libopencv-dev" "cv_bridge" "image_transport" "visualization_msgs" "depthai_ros_msgs")
 set(depthai_filters_BUILDTOOL_DEPENDS "ament_cmake_auto")

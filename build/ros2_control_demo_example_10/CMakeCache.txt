@@ -255,7 +255,7 @@ TINYXML2_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libtinyxml2.so
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libcontroller_interface.so
+_lib:FILEPATH=/opt/ros/humble/lib/librcl_lifecycle.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake

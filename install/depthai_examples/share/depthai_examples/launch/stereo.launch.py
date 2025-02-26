@@ -15,12 +15,10 @@ def generate_launch_description():
     urdf_launch_dir = os.path.join(get_package_share_directory('depthai_descriptions'), 'launch')
     
 
-    camera_model = LaunchConfiguration('camera_model',  default = 'OAK-D-LITE')
+    camera_model = LaunchConfiguration('camera_model',  default = 'OAK-D')
     tf_prefix  = LaunchConfiguration('tf_prefix',   default = 'oak')
-    # base_frame   = LaunchConfiguration('base_frame', defualt='oak-d_frame')
-    # parent_frame = LaunchConfiguration('parent_frame',  default = 'base_link')#'oak-d-base-frame')
-    base_frame   = LaunchConfiguration('base_frame', default='imu_link')
-    parent_frame = LaunchConfiguration('parent_frame', default='imu_link')
+    base_frame   = LaunchConfiguration('base_frame',    default = 'oak-d_frame')
+    parent_frame = LaunchConfiguration('parent_frame',  default = 'oak-d-base-frame')
 
     cam_pos_x  = LaunchConfiguration('cam_pos_x',     default = '0.0')
     cam_pos_y  = LaunchConfiguration('cam_pos_y',     default = '0.0')
@@ -65,24 +63,6 @@ def generate_launch_description():
     declare_pos_y_cmd = DeclareLaunchArgument(
         'cam_pos_y',
         default_value=cam_pos_y,
-        description='Position Y of the camera with respect to the base frame.')
-
-    declare_pos_z_cmd = DeclareLaunchArgument(
-        'cam_pos_z',
-        default_value=cam_pos_z,
-        description='Position Z of the camera with respect to the base frame.')
-
-    declare_roll_cmd = DeclareLaunchArgument(
-        'cam_roll',
-        default_value=cam_roll,
-        description='Roll orientation of the camera with respect to the base frame.')
-
-    declare_pitch_cmd = DeclareLaunchArgument(
-        'cam_pitch',
-        default_value=cam_pitch,
-        description='Pitch orientation of the camera with respect to the base frame.')
-
-    declare_yaw_cmd = DeclareLaunchArgument(
         description='Position Y of the camera with respect to the base frame.')
 
     declare_pos_z_cmd = DeclareLaunchArgument(

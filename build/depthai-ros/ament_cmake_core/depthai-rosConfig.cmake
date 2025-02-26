@@ -16,7 +16,7 @@ set(_depthai-ros_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT depthai-ros_FIND_QUIETLY)
-  message(STATUS "Found depthai-ros: 2.10.4 (${depthai-ros_DIR})")
+  message(STATUS "Found depthai-ros: 2.11.0 (${depthai-ros_DIR})")
 endif()
 
 # warn when using a deprecated package

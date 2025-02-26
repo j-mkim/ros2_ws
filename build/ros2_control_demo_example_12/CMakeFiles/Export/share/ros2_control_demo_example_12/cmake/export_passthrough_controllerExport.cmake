@@ -62,7 +62,7 @@ set_target_properties(ros2_control_demo_example_12::passthrough_controller PROPE
 add_library(ros2_control_demo_example_12::passthrough_controller_parameters INTERFACE IMPORTED)
 
 set_target_properties(ros2_control_demo_example_12::passthrough_controller_parameters PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/passthrough_controller_parameters"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
   INTERFACE_LINK_LIBRARIES "fmt::fmt;parameter_traits::parameter_traits;rclcpp::rclcpp;rclcpp_lifecycle::rclcpp_lifecycle;rsl::rsl;tcb_span::tcb_span;tl_expected::tl_expected"
 )
 

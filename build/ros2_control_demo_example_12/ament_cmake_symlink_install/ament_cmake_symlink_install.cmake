@@ -313,8 +313,8 @@ message(STATUS "Execute custom install script")
 # install(FILES "ros2_control_demo_example_12.xml" "DESTINATION" "share/ros2_control_demo_example_12/")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_12" FILES "ros2_control_demo_example_12.xml" "DESTINATION" "share/ros2_control_demo_example_12/")
 
-# install(DIRECTORY "/home/orin/ros2_ws/build/ros2_control_demo_example_12/passthrough_controller_parameters/include/" "DESTINATION" "include/passthrough_controller_parameters")
-ament_cmake_symlink_install_directory("/home/orin/ros2_ws/src/ros2_control_demos/example_12" DIRECTORY "/home/orin/ros2_ws/build/ros2_control_demo_example_12/passthrough_controller_parameters/include/" "DESTINATION" "include/passthrough_controller_parameters")
+# install(DIRECTORY "/home/orin/ros2_ws/build/ros2_control_demo_example_12/include/ros2_control_demo_example_12" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/orin/ros2_ws/src/ros2_control_demos/example_12" DIRECTORY "/home/orin/ros2_ws/build/ros2_control_demo_example_12/include/ros2_control_demo_example_12" "DESTINATION" "include")
 
 # install(FILES "passthrough_controller.xml" "DESTINATION" "share/ros2_control_demo_example_12/")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_12" FILES "passthrough_controller.xml" "DESTINATION" "share/ros2_control_demo_example_12/")
@@ -379,11 +379,11 @@ ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/exa
 # install(FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_12" "DESTINATION" "share/ament_index/resource_index/controller_interface__pluginlib__plugin")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_12" FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_12" "DESTINATION" "share/ament_index/resource_index/controller_interface__pluginlib__plugin")
 
-# install(FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_control_demo_example_12/cmake")
-ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_12" FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_control_demo_example_12/cmake")
-
 # install(FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ros2_control_demo_example_12/cmake")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_12" FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ros2_control_demo_example_12/cmake")
+
+# install(FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_control_demo_example_12/cmake")
+ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_12" FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_control_demo_example_12/cmake")
 
 # install(FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_core/ros2_control_demo_example_12Config.cmake" "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_core/ros2_control_demo_example_12Config-version.cmake" "DESTINATION" "share/ros2_control_demo_example_12/cmake")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_12" FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_core/ros2_control_demo_example_12Config.cmake" "/home/orin/ros2_ws/build/ros2_control_demo_example_12/ament_cmake_core/ros2_control_demo_example_12Config-version.cmake" "DESTINATION" "share/ros2_control_demo_example_12/cmake")

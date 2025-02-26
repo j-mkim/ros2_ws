@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.o.d"
   "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o"
   "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o.d"
+  "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o"
+  "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o.d"
   "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o"
   "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o.d"
   "libdepthai_ros_driver_sensor_nodes.pdb"

@@ -7,5 +7,6 @@
 #include "depthai_ros_msgs/srv/detail/trigger_named__struct.hpp"
 #include "depthai_ros_msgs/srv/detail/trigger_named__builder.hpp"
 #include "depthai_ros_msgs/srv/detail/trigger_named__traits.hpp"
+#include "depthai_ros_msgs/srv/detail/trigger_named__type_support.hpp"
 
 #endif  // DEPTHAI_ROS_MSGS__SRV__TRIGGER_NAMED_HPP_

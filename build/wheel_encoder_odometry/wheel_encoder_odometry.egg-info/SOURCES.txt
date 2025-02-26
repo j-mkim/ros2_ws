@@ -9,12 +9,8 @@ setup.py
 ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/top_level.txt
 ../../build/wheel_encoder_odometry/wheel_encoder_odometry.egg-info/zip-safe
 resource/wheel_encoder_odometry
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
 wheel_encoder_odometry/__init__.py
 wheel_encoder_odometry/encoder_odometry_node.py
-wheel_encoder_odometry.egg-info/PKG-INFO
-wheel_encoder_odometry.egg-info/SOURCES.txt
-wheel_encoder_odometry.egg-info/dependency_links.txt
-wheel_encoder_odometry.egg-info/entry_points.txt
-wheel_encoder_odometry.egg-info/requires.txt
-wheel_encoder_odometry.egg-info/top_level.txt
-wheel_encoder_odometry.egg-info/zip-safe

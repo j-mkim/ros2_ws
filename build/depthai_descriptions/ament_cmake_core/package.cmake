@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "depthai_descriptions")
-set(depthai_descriptions_VERSION "2.10.4")
+set(depthai_descriptions_VERSION "2.11.0")
 set(depthai_descriptions_MAINTAINER "Adam Serafin <adam.serafin@luxonis.com>")
 set(depthai_descriptions_BUILD_DEPENDS )
 set(depthai_descriptions_BUILDTOOL_DEPENDS "ament_cmake")

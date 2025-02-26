@@ -395,12 +395,14 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
   /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -449,6 +451,7 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
@@ -464,6 +467,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -474,6 +479,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /usr/include/c++/11/cmath \
@@ -526,6 +533,7 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -534,6 +542,7 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -542,6 +551,7 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -557,13 +567,16 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -600,15 +613,19 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp \
   /opt/ros/humble/include/camera_info_manager/camera_info_manager/visibility_control.h \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp \
   /opt/ros/humble/include/depthai/device/DataQueue.hpp \
   /opt/ros/humble/include/depthai/pipeline/datatype/ADatatype.hpp \
   /opt/ros/humble/include/depthai-shared/datatype/RawBuffer.hpp \
@@ -771,12 +788,15 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
   /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
   /usr/include/opencv4/opencv2/core/core.hpp \
   /usr/include/opencv4/opencv2/core.hpp \
@@ -838,7 +858,9 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
   /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/ffmpeg_packet.hpp \
   /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__struct.hpp \
   /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__builder.hpp \
-  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__traits.hpp
+  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__traits.hpp \
+  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__type_support.hpp \
+  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
 /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__traits.hpp:
@@ -866,8 +888,6 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /usr/include/opencv4/opencv2/core/cvstd.inl.hpp:
 
 /usr/include/opencv4/opencv2/core/operations.hpp:
-
-/usr/include/opencv4/opencv2/core/persistence.hpp:
 
 /usr/include/opencv4/opencv2/core/mat.inl.hpp:
 
@@ -916,6 +936,10 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:
 
 /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp:
 
@@ -1127,9 +1151,13 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/depthai/pipeline/datatype/ADatatype.hpp:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp:
+
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp:
 
@@ -1175,7 +1203,11 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
 /opt/ros/humble/include/depthai/build/config.hpp:
 
@@ -1186,6 +1218,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /usr/include/c++/11/bits/valarray_array.tcc:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
@@ -1219,6 +1253,18 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
 
+/opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
+
+/usr/include/opencv4/opencv2/core/types.hpp:
+
+/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/stream_writer.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
+
 /opt/ros/humble/include/depthai-shared/properties/ColorCameraProperties.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
@@ -1250,8 +1296,6 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /usr/include/c++/11/memory:
 
 /opt/ros/humble/include/rmw/rmw/serialized_message.h:
-
-/usr/include/c++/11/bits/std_thread.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
 
@@ -1290,6 +1334,10 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h:
 
 /usr/include/linux/errno.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
+
+/usr/include/c++/11/functional:
 
 /usr/include/c++/11/cwctype:
 
@@ -1339,6 +1387,10 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
+/usr/include/c++/11/bits/std_thread.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/aarch64-linux-gnu/sys/single_threaded.h:
@@ -1372,6 +1424,10 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
@@ -1555,10 +1611,6 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
-
 /opt/ros/humble/include/rcl/rcl/publisher.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
@@ -1629,6 +1681,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/depthai-shared/common/CameraSensorType.hpp:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/time64.h:
@@ -1653,6 +1707,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /usr/include/c++/11/system_error:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
@@ -1668,6 +1724,10 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h:
 
 /usr/include/aarch64-linux-gnu/bits/wchar.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h:
 
@@ -1825,6 +1885,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/depthai/utility/ProfilingData.hpp:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp:
+
 /usr/include/c++/11/sstream:
 
 /usr/include/c++/11/cwchar:
@@ -1921,8 +1983,6 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /usr/include/c++/11/bits/vector.tcc:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
-
 /usr/include/c++/11/cstdlib:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
@@ -1954,6 +2014,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/result.h:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -2001,8 +2063,6 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /usr/include/c++/11/bits/stream_iterator.h:
 
-/opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
-
 /opt/ros/humble/include/rmw/rmw/security_options.h:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
@@ -2030,6 +2090,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /opt/ros/humble/include/rcutils/rcutils/types.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
 
@@ -2066,10 +2128,6 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
 
 /opt/ros/humble/include/depthai_bridge/BridgePublisher.hpp:
 
@@ -2219,6 +2277,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
 
+/opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
@@ -2245,6 +2305,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
@@ -2258,6 +2320,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
@@ -2283,21 +2347,17 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
 
-/usr/include/opencv4/opencv2/core/types.hpp:
-
-/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/stream_writer.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
-
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/11/bits/locale_conv.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
-/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+
+/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
 /usr/include/aarch64-linux-gnu/gnu/stubs.h:
 
@@ -2332,6 +2392,10 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
+
+/usr/include/opencv4/opencv2/core/persistence.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
 
@@ -2413,9 +2477,25 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
+
+/usr/include/c++/11/thread:
+
+/opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
+
+/usr/include/opencv4/opencv2/core/bufferpool.hpp:
+
+/opt/ros/humble/include/depthai-shared/common/CameraModel.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
+
+/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
@@ -2428,6 +2508,8 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 /opt/ros/humble/include/rmw/rmw/time.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
 
@@ -2485,26 +2567,10 @@ CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o: /home/orin/ros2_ws/src
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
 
-/usr/include/opencv4/opencv2/core/bufferpool.hpp:
+/opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
 
-/opt/ros/humble/include/depthai-shared/common/CameraModel.hpp:
+/opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
 
-/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
-
-/usr/include/c++/11/functional:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
-/usr/include/c++/11/thread:
-
-/opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:

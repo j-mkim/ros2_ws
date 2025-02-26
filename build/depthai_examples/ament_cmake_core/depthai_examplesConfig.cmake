@@ -16,7 +16,7 @@ set(_depthai_examples_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT depthai_examples_FIND_QUIETLY)
-  message(STATUS "Found depthai_examples: 2.10.4 (${depthai_examples_DIR})")
+  message(STATUS "Found depthai_examples: 2.11.0 (${depthai_examples_DIR})")
 endif()
 
 # warn when using a deprecated package

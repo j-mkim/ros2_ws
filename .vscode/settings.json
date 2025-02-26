@@ -2,6 +2,8 @@
     "files.associations": {
         "string": "cpp",
         "chrono": "cpp",
-        "memory": "cpp"
+        "memory": "cpp",
+        "cmath": "cpp",
+        "limits": "cpp"
     }
 }

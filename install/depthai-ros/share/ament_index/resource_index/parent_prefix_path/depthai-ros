@@ -1,1 +1,1 @@
-/home/orin/ros2_ws/install/depthai_examples:/opt/ros/humble
+/home/orin/ros2_ws/install/depthai_ros_driver:/home/orin/ros2_ws/install/depthai_examples:/home/orin/ros2_ws/install/depthai_filters:/home/orin/ros2_ws/install/depthai_bridge:/home/orin/ros2_ws/install/depthai_ros_msgs:/home/orin/ros2_ws/install/depthai_descriptions:/opt/ros/humble

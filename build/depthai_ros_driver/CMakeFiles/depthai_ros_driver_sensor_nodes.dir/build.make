@@ -153,10 +153,24 @@ CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/stereo.cpp -o CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.s
 
+CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/flags.make
+CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o: /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/thermal.cpp
+CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/depthai_ros_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o -MF CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o.d -o CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o -c /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/thermal.cpp
+
+CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/thermal.cpp > CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.i
+
+CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/thermal.cpp -o CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.s
+
 CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/flags.make
 CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o: /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/tof.cpp
 CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/depthai_ros_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/depthai_ros_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o -MF CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o.d -o CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o -c /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/tof.cpp
 
 CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.s: 
 CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/flags.make
 CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o: /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/sync.cpp
 CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/depthai_ros_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/depthai_ros_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o -MF CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o.d -o CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o -c /home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/sync.cpp
 
 CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.i: cmake_force
@@ -189,6 +203,7 @@ depthai_ros_driver_sensor_nodes_OBJECTS = \
 "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/feature_tracker.cpp.o" \
 "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sensor_wrapper.cpp.o" \
 "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.o" \
+"CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o" \
 "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o" \
 "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o"
 
@@ -201,6 +216,7 @@ libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_node
 libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/feature_tracker.cpp.o
 libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sensor_wrapper.cpp.o
 libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.o
+libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o
 libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o
 libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o
 libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/build.make
@@ -377,7 +393,7 @@ libdepthai_ros_driver_sensor_nodes.so: /opt/ros/humble/lib/librcpputils.so
 libdepthai_ros_driver_sensor_nodes.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libdepthai_ros_driver_sensor_nodes.so: /opt/ros/humble/lib/librcutils.so
 libdepthai_ros_driver_sensor_nodes.so: CMakeFiles/depthai_ros_driver_sensor_nodes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orin/ros2_ws/build/depthai_ros_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libdepthai_ros_driver_sensor_nodes.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orin/ros2_ws/build/depthai_ros_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libdepthai_ros_driver_sensor_nodes.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/depthai_ros_driver_sensor_nodes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

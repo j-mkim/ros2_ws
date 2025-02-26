@@ -362,6 +362,12 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
@@ -413,6 +419,7 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
   /opt/ros/humble/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp \
   /opt/ros/humble/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp \
@@ -424,6 +431,8 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
+  /opt/ros/humble/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.hpp \
+  /opt/ros/humble/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/depthaiUtility.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
@@ -506,8 +515,6 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -515,7 +522,6 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rmw/rmw/rmw.h \
@@ -569,7 +575,6 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -627,6 +632,8 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -637,6 +644,8 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -662,6 +671,7 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -670,6 +680,7 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -678,6 +689,7 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -693,13 +705,16 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -732,26 +747,32 @@ CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o: /home/orin/ros2_ws/s
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -1024,10 +1045,17 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /usr/include/c++/11/bits/quoted_string.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
   /usr/include/opencv4/opencv2/core/core.hpp \
   /usr/include/opencv4/opencv2/core.hpp \
@@ -1218,9 +1246,13 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__struct.hpp \
   /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__builder.hpp \
   /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__traits.hpp \
+  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__type_support.hpp \
+  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
@@ -1271,14 +1303,18 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/depthaiUtility.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
@@ -1358,8 +1394,6 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -1367,7 +1401,6 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rmw/rmw/rmw.h \
@@ -1421,7 +1454,6 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -1479,6 +1511,8 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -1489,6 +1523,8 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -1514,6 +1550,7 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -1522,6 +1559,7 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -1530,6 +1568,7 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -1545,13 +1584,16 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -1584,26 +1626,32 @@ CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o: /home/orin/ros2_ws/src/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -1905,6 +1953,12 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/depthai/pipeline/datatype/ImgDetections.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -2017,6 +2071,8 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
@@ -2068,6 +2124,7 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/depthaiUtility.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
@@ -2150,8 +2207,6 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -2159,7 +2214,6 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rmw/rmw/rmw.h \
@@ -2213,7 +2267,6 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -2271,6 +2324,8 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -2281,6 +2336,8 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -2306,6 +2363,7 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -2314,6 +2372,7 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -2322,6 +2381,7 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -2337,13 +2397,16 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -2376,26 +2439,32 @@ CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o: /home/orin/ros2_w
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -2959,12 +3028,14 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
   /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -3012,6 +3083,7 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
@@ -3027,6 +3099,8 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -3037,6 +3111,8 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -3062,6 +3138,7 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -3070,6 +3147,7 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -3078,6 +3156,7 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -3093,13 +3172,16 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -3132,26 +3214,32 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -3183,10 +3271,15 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: /home/orin/ros2_ws/src/dep
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp
 
 CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/src/SpatialDetectionConverter.cpp \
   /usr/include/stdc-predef.h \
@@ -3569,9 +3662,17 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
@@ -3623,6 +3724,7 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__struct.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.hpp \
@@ -3641,6 +3743,8 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__type_support.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/depthaiUtility.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
@@ -3723,8 +3827,6 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -3732,7 +3834,6 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rmw/rmw/rmw.h \
@@ -3786,7 +3887,6 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -3844,6 +3944,8 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -3854,6 +3956,8 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -3879,6 +3983,7 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -3887,6 +3992,7 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -3895,6 +4001,7 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -3910,13 +4017,16 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -3949,26 +4059,32 @@ CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o: /home/orin/ro
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -4356,6 +4472,12 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -4368,6 +4490,7 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -4441,12 +4564,16 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
@@ -4457,30 +4584,38 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
@@ -4501,14 +4636,10 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /usr/include/c++/11/bits/list.tcc \
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rcl/rcl/time.h \
@@ -4556,13 +4687,13 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
   /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
   /usr/include/c++/11/cxxabi.h \
@@ -4607,6 +4738,7 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
@@ -4620,6 +4752,7 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -4630,6 +4763,8 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -4653,8 +4788,10 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -4673,6 +4810,7 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -4772,6 +4910,8 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
   /usr/include/dirent.h \
   /usr/include/aarch64-linux-gnu/bits/dirent.h \
@@ -4782,16 +4922,18 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
   /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
   /usr/include/c++/11/math.h \
   /usr/include/c++/11/cfloat \
   /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
   /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
   /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
@@ -4799,73 +4941,88 @@ CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o: /home/orin/ros2_ws/src/dept
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point32.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp \
   /usr/include/kdl/frames.hpp \
   /usr/include/kdl/utilities/kdl-config.h \
   /usr/include/kdl/utilities/utility.h \
   /usr/include/kdl/utilities/kdl-config.h \
   /usr/include/kdl/frames.inl \
-  /opt/ros/humble/include/tf2/tf2/convert.h \
-  /opt/ros/humble/include/tf2/tf2/exceptions.h \
-  /opt/ros/humble/include/tf2/tf2/impl/convert.h \
-  /opt/ros/humble/include/tf2/tf2/transform_datatypes.h \
-  /opt/ros/humble/include/tf2/tf2/time.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
+  /opt/ros/humble/include/tf2/tf2/convert.hpp \
+  /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
+  /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
+  /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
+  /opt/ros/humble/include/tf2/tf2/time.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
   /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h
 
 CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/src/TrackDetectionConverter.cpp \
@@ -5255,9 +5412,17 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
@@ -5309,12 +5474,15 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/depthai/depthai.hpp \
   /opt/ros/humble/include/depthai/utility/Initialization.hpp \
   /opt/ros/humble/include/depthai/device/CalibrationHandler.hpp \
@@ -5588,8 +5756,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -5597,7 +5763,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rmw/rmw/rmw.h \
@@ -5649,7 +5814,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -5707,6 +5871,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -5717,6 +5883,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -5742,6 +5910,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -5750,6 +5919,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -5758,6 +5928,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -5773,13 +5944,16 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -5812,26 +5986,32 @@ CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o: /home/orin/ros2
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -6237,9 +6417,17 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
@@ -6291,12 +6479,15 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__traits.hpp \
   /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/depthai/depthai.hpp \
   /opt/ros/humble/include/depthai/utility/Initialization.hpp \
   /opt/ros/humble/include/depthai/device/CalibrationHandler.hpp \
@@ -6570,8 +6761,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -6579,7 +6768,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rmw/rmw/rmw.h \
@@ -6631,7 +6819,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -6689,6 +6876,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -6699,6 +6888,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -6724,6 +6915,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -6732,6 +6924,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -6740,6 +6933,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -6755,13 +6949,16 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -6794,26 +6991,32 @@ CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o: /home/or
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -7086,6 +7289,12 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
   /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
@@ -7202,6 +7411,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
@@ -7253,6 +7464,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/depthaiUtility.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
@@ -7335,8 +7547,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -7344,7 +7554,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rmw/rmw/rmw.h \
@@ -7398,7 +7607,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -7456,6 +7664,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -7466,6 +7676,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -7491,6 +7703,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -7499,6 +7712,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -7507,6 +7721,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -7522,13 +7737,16 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -7561,26 +7779,32 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -7686,8 +7910,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/depthai/pipeline/node/MonoCamera.hpp:
 
-/opt/ros/humble/include/depthai/pipeline/node/MessageDemux.hpp:
-
 /opt/ros/humble/include/depthai-shared/properties/ImageManipProperties.hpp:
 
 /opt/ros/humble/include/depthai-shared/common/RotatedRect.hpp:
@@ -7718,6 +7940,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/depthai-shared/properties/DetectionParserProperties.hpp:
 
+/opt/ros/humble/include/depthai/pipeline/node/DetectionParser.hpp:
+
 /opt/ros/humble/include/depthai-shared/common/DetectionParserOptions.hpp:
 
 /opt/ros/humble/include/depthai-shared/properties/NeuralNetworkProperties.hpp:
@@ -7727,6 +7951,84 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h:
 
 /usr/include/c++/11/fstream:
+
+/opt/ros/humble/include/depthai-shared/properties/ColorCameraProperties.hpp:
+
+/opt/ros/humble/include/depthai/pipeline/node/ColorCamera.hpp:
+
+/opt/ros/humble/include/depthai/pipeline/node/Cast.hpp:
+
+/opt/ros/humble/include/depthai-shared/properties/CameraProperties.hpp:
+
+/opt/ros/humble/include/depthai/utility/span.hpp:
+
+/opt/ros/humble/include/depthai-shared/datatype/RawCameraControl.hpp:
+
+/opt/ros/humble/include/depthai/pipeline/datatype/AprilTagConfig.hpp:
+
+/opt/ros/humble/include/depthai-shared/datatype/RawAprilTagConfig.hpp:
+
+/opt/ros/humble/include/depthai-shared/properties/AprilTagProperties.hpp:
+
+/opt/ros/humble/include/depthai-bootloader-shared/Type.hpp:
+
+/opt/ros/humble/include/depthai-bootloader-shared/Section.hpp:
+
+/opt/ros/humble/include/depthai-bootloader-shared/Config.hpp:
+
+/opt/ros/humble/include/depthai/pipeline/Node.hpp:
+
+/opt/ros/humble/include/depthai-shared/pipeline/Assets.hpp:
+
+/opt/ros/humble/include/depthai/device/CallbackHandler.hpp:
+
+/opt/ros/humble/include/depthai/pipeline/datatype/SystemInformation.hpp:
+
+/opt/ros/humble/include/depthai/device/DeviceBootloader.hpp:
+
+/opt/ros/humble/include/depthai-shared/properties/Properties.hpp:
+
+/opt/ros/humble/include/depthai-shared/properties/GlobalProperties.hpp:
+
+/opt/ros/humble/include/depthai-shared/pipeline/NodeObjInfo.hpp:
+
+/opt/ros/humble/include/depthai-shared/pipeline/NodeConnectionSchema.hpp:
+
+/opt/ros/humble/include/depthai-shared/log/LogMessage.hpp:
+
+/opt/ros/humble/include/depthai-shared/device/CrashDump.hpp:
+
+/opt/ros/humble/include/depthai-shared/log/LogLevel.hpp:
+
+/opt/ros/humble/include/depthai-shared/device/BoardConfig.hpp:
+
+/opt/ros/humble/include/depthai-shared/common/StereoPair.hpp:
+
+/opt/ros/humble/include/depthai-shared/common/CpuUsage.hpp:
+
+/opt/ros/humble/include/depthai-shared/common/ChipTemperature.hpp:
+
+/opt/ros/humble/include/depthai/xlink/XLinkStream.hpp:
+
+/opt/ros/humble/include/depthai-shared/common/TensorInfo.hpp:
+
+/opt/ros/humble/include/depthai/openvino/OpenVINO.hpp:
+
+/opt/ros/humble/include/depthai/device/Version.hpp:
+
+/opt/ros/humble/include/depthai/common/UsbSpeed.hpp:
+
+/opt/ros/humble/include/depthai/common/CameraSensorType.hpp:
+
+/opt/ros/humble/include/depthai/common/CameraImageOrientation.hpp:
+
+/opt/ros/humble/include/depthai/common/CameraFeatures.hpp:
+
+/opt/ros/humble/include/depthai/device/DeviceBase.hpp:
+
+/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/XLink/XLinkPublicDefines.h:
+
+/opt/ros/humble/include/depthai/utility/ProfilingData.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
 
@@ -7742,8 +8044,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/bits/stl_vector.h:
 
-/opt/ros/humble/include/depthai-shared/properties/CameraProperties.hpp:
-
 /usr/include/c++/11/unordered_set:
 
 /opt/ros/humble/include/rclcpp/rclcpp/context.hpp:
@@ -7754,13 +8054,11 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/opencv4/opencv2/core/bufferpool.hpp:
 
+/opt/ros/humble/include/depthai/utility/Pimpl.hpp:
+
+/opt/ros/humble/include/depthai-shared/common/CameraModel.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/waitflags.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
-
-/opt/ros/humble/include/depthai-bootloader-shared/Type.hpp:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
 
@@ -7770,7 +8068,9 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl/rcl/context.h:
 
-/opt/ros/humble/include/depthai-shared/device/CrashDump.hpp:
+/opt/ros/humble/include/depthai-shared/xlink/XLinkConstants.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
@@ -7795,6 +8095,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/aarch64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/c++/11/set:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
 
@@ -7826,11 +8128,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/variant.h:
 
-/opt/ros/humble/include/rcl/rcl/node_options.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/aarch64-linux-gnu/bits/procfs.h:
+/usr/include/aarch64-linux-gnu/sys/ucontext.h:
 
 /usr/include/aarch64-linux-gnu/sys/procfs.h:
 
@@ -7852,7 +8150,9 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h:
+/opt/ros/humble/include/depthai/pipeline/node/NeuralNetwork.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/dirent_ext.h:
 
 /usr/include/aarch64-linux-gnu/asm/sigcontext.h:
 
@@ -7878,6 +8178,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp:
 
 /opt/ros/humble/include/rcl/rcl/visibility_control.h:
@@ -7898,6 +8200,10 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/type_traits:
 
+/opt/ros/humble/include/depthai-shared/pipeline/PipelineSchema.hpp:
+
+/opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
+
 /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
 /usr/include/c++/11/bits/list.tcc:
@@ -7907,8 +8213,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp:
 
 /opt/ros/humble/include/rmw/rmw/rmw.h:
-
-/opt/ros/humble/include/depthai-shared/pipeline/NodeConnectionSchema.hpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
 
@@ -7920,13 +8224,17 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
 
+/opt/ros/humble/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/types.h:
 
 /opt/ros/humble/include/rcutils/rcutils/time.h:
 
 /usr/include/c++/11/stdlib.h:
 
-/opt/ros/humble/include/depthai-shared/log/LogLevel.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
@@ -7944,6 +8252,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
 
+/opt/ros/humble/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/depthai-shared/properties/UVCProperties.hpp:
 
 /opt/ros/humble/include/rcl/rcl/allocator.h:
@@ -7958,15 +8268,21 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
 
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+
+/opt/ros/humble/include/depthai-shared/properties/CastProperties.hpp:
+
+/opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/posix_opt.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
 
 /usr/include/c++/11/bits/locale_conv.h:
-
-/opt/ros/humble/include/depthai-bootloader-shared/Config.hpp:
-
-/usr/include/libintl.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:
 
@@ -7996,11 +8312,17 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:
 
+/opt/ros/humble/include/depthai/pipeline/AssetManager.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
 
-/opt/ros/humble/include/depthai/pipeline/datatype/ADatatype.hpp:
+/opt/ros/humble/include/depthai/pipeline/node/Camera.hpp:
 
-/opt/ros/humble/include/depthai/common/UsbSpeed.hpp:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_bf16.h:
+
+/opt/ros/humble/include/depthai/pipeline/datatype/ADatatype.hpp:
 
 /opt/ros/humble/include/rcl/rcl/arguments.h:
 
@@ -8017,8 +8339,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp:
 
 /usr/include/c++/11/bits/valarray_before.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/c++/11/bits/valarray_array.h:
 
@@ -8042,8 +8362,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
-/home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/DisparityConverter.hpp:
-
 /usr/include/c++/11/bits/enable_special_members.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
@@ -8051,8 +8369,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/c++/11/bit:
 
 /usr/include/c++/11/valarray:
-
-/usr/include/c++/11/bits/forward_list.h:
 
 /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
 
@@ -8090,6 +8406,12 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp:
 
+/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/XLink/XLinkTime.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
+
+/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/variant.h:
+
 /usr/include/aarch64-linux-gnu/bits/getopt_core.h:
 
 /opt/ros/humble/include/depthai/pipeline/datatype/MessageGroup.hpp:
@@ -8114,6 +8436,12 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
 
+/opt/ros/humble/include/rcl/rcl/node_options.h:
+
+/usr/include/features-time64.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
+
 /usr/include/c++/11/ext/aligned_buffer.h:
 
 /opt/ros/humble/include/depthai-shared/datatype/RawTrackedFeatures.hpp:
@@ -8131,6 +8459,10 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/tracetools/tracetools/utils.hpp:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
+
+/opt/ros/humble/include/depthai/pipeline/node/DetectionNetwork.hpp:
+
+/usr/include/c++/11/cwctype:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h:
 
@@ -8192,9 +8524,11 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/sstream:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp:
+
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp:
 
-/opt/ros/humble/include/depthai/utility/ProfilingData.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp:
 
 /opt/ros/humble/include/depthai/pipeline/node/Sync.hpp:
 
@@ -8207,8 +8541,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/sigcontext.h:
-
-/opt/ros/humble/include/depthai-shared/datatype/RawCameraControl.hpp:
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h:
 
@@ -8238,13 +8570,9 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/aarch64-linux-gnu/asm/bitsperlong.h:
 
-/usr/include/aarch64-linux-gnu/bits/mathcalls.h:
-
 /usr/include/aarch64-linux-gnu/bits/floatn.h:
 
 /opt/ros/humble/include/rcl/rcl/log_level.h:
-
-/opt/ros/humble/include/depthai-shared/common/TensorInfo.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/wchar.h:
 
@@ -8254,6 +8582,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/bits/exception_defines.h:
 
+/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:
+
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/aarch64-linux-gnu/bits/waitstatus.h:
@@ -8262,13 +8592,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h:
 
-/opt/ros/humble/include/tf2/tf2/impl/convert.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
-
-/opt/ros/humble/include/depthai/pipeline/AssetManager.hpp:
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h:
 
@@ -8312,13 +8636,11 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/unistd.h:
 
-/opt/ros/humble/include/depthai-shared/common/ProcessorType.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
 /usr/include/c++/11/bits/stl_algobase.h:
 
-/opt/ros/humble/include/depthai/pipeline/datatype/CameraControl.hpp:
+/opt/ros/humble/include/depthai/utility/copyable_unique_ptr.hpp:
+
+/usr/include/c++/11/bits/stringfwd.h:
 
 /opt/ros/humble/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp:
 
@@ -8350,8 +8672,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp:
 
-/opt/ros/humble/include/depthai/device/Version.hpp:
-
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
 /usr/include/c++/11/cstdio:
@@ -8373,6 +8693,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
 /opt/ros/humble/include/rcl/rcl/event.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -8400,8 +8722,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
-/opt/ros/humble/include/depthai-shared/properties/ColorCameraProperties.hpp:
-
 /usr/include/aarch64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
@@ -8410,11 +8730,9 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/result.h:
 
-/opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.h:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp:
 
-/opt/ros/humble/include/depthai-shared/properties/Properties.hpp:
+/opt/ros/humble/include/tf2/tf2/exceptions.hpp:
 
 /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp:
 
@@ -8476,6 +8794,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rmw/rmw/ret_types.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h:
@@ -8498,11 +8818,9 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/is_comparable.h:
 
+/opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
-
-/home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/SpatialDetectionConverter.hpp:
 
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/map.h:
 
@@ -8511,6 +8829,10 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/c++/11/limits:
+
+/opt/ros/humble/include/depthai/pipeline/node/MessageDemux.hpp:
+
+/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp:
 
 /opt/ros/humble/include/rmw/rmw/time.h:
 
@@ -8550,9 +8872,9 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/opencv4/opencv2/core/base.hpp:
 
-/usr/include/c++/11/optional:
+/opt/ros/humble/include/depthai/pipeline/node/AprilTag.hpp:
 
-/usr/include/c++/11/condition_variable:
+/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/enum.h:
 
 /usr/include/pthread.h:
 
@@ -8562,23 +8884,21 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/asm-generic/errno-base.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
-
 /usr/include/c++/11/bits/deque.tcc:
 
 /opt/ros/humble/include/depthai-shared/common/Point2f.hpp:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/opt/ros/humble/include/depthai/utility/copyable_unique_ptr.hpp:
 
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/utility.h:
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
 /usr/include/locale.h:
+
+/opt/ros/humble/include/depthai/pipeline/Pipeline.hpp:
+
+/usr/include/c++/11/locale:
+
+/usr/include/opencv4/opencv2/core/fast_math.hpp:
 
 /usr/include/c++/11/typeinfo:
 
@@ -8656,8 +8976,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
-/opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h:
-
 /usr/include/c++/11/bits/stl_construct.h:
 
 /opt/ros/humble/include/depthai-shared/properties/SpatialDetectionNetworkProperties.hpp:
@@ -8679,10 +8997,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/c++/11/bits/range_access.h:
 
 /usr/include/c++/11/cstddef:
-
-/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
-
-/usr/include/c++/11/map:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp:
 
@@ -8718,10 +9032,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
-
-/opt/ros/humble/include/depthai-shared/properties/GlobalProperties.hpp:
-
 /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/TrackSpatialDetectionConverter.hpp:
 
 /usr/include/linux/close_range.h:
@@ -8731,8 +9041,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/opencv4/opencv2/flann/miniflann.hpp:
-
-/opt/ros/humble/include/depthai-shared/common/ChipTemperature.hpp:
 
 /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp:
 
@@ -8771,8 +9079,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/aarch64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
-
-/opt/ros/humble/include/depthai/device/CallbackHandler.hpp:
 
 /opt/ros/humble/include/rmw/rmw/serialized_message.h:
 
@@ -8816,15 +9122,15 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/dirent.h:
 
+/usr/include/c++/11/condition_variable:
+
+/usr/include/c++/11/optional:
+
+/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp:
+
 /usr/include/c++/11/ratio:
 
-/opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
-/opt/ros/humble/include/depthai-shared/properties/CastProperties.hpp:
-
 /usr/include/c++/11/bits/erase_if.h:
-
-/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp:
 
 /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp:
 
@@ -8841,6 +9147,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/11/cxxabi.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp:
 
@@ -8924,8 +9232,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/cassert:
 
-/opt/ros/humble/include/depthai-shared/common/CpuUsage.hpp:
-
 /usr/include/c++/11/bits/nested_exception.h:
 
 /usr/include/aarch64-linux-gnu/bits/wordsize.h:
@@ -8936,13 +9242,13 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp:
 
-/usr/include/c++/11/tr1/bessel_function.tcc:
-
-/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/macros.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp:
 
 /usr/include/c++/11/bits/ostream_insert.h:
+
+/opt/ros/humble/include/depthai-shared/common/ConnectionInterface.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/siginfo-consts.h:
 
 /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp:
 
@@ -8979,6 +9285,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/c++/11/bits/stl_multiset.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
 
@@ -9022,6 +9330,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
+/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__type_support.hpp:
+
 /usr/include/c++/11/bits/basic_ios.tcc:
 
 /usr/include/aarch64-linux-gnu/bits/types/FILE.h:
@@ -9056,8 +9366,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/serializer.h:
 
-/opt/ros/humble/include/depthai/openvino/OpenVINO.hpp:
-
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/result.h:
 
 /opt/ros/humble/include/rcutils/rcutils/allocator.h:
@@ -9075,8 +9383,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/c++/11/bits/std_abs.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
-
-/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/XLink/XLinkPublicDefines.h:
 
 /opt/ros/humble/include/depthai/pipeline/node/SpatialLocationCalculator.hpp:
 
@@ -9101,6 +9407,24 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/structure.h:
+
+/home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/SpatialDetectionConverter.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
+
+/usr/include/c++/11/map:
+
+/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp:
+
+/opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__type_support.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
 
 /usr/include/c++/11/variant:
 
@@ -9140,6 +9464,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp:
+
 /usr/include/c++/11/bits/forward_list.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
@@ -9174,7 +9500,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
@@ -9206,8 +9532,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp:
 
-/opt/ros/humble/include/depthai-shared/log/LogMessage.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
@@ -9236,15 +9560,11 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
 
-/opt/ros/humble/include/depthai/common/CameraImageOrientation.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
 
@@ -9278,6 +9598,16 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/macros.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
+
+/usr/include/opencv4/opencv2/core/persistence.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
+
 /usr/include/c++/11/bits/stl_list.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
@@ -9295,6 +9625,10 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/procfs.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
 
@@ -9320,11 +9654,19 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
+
+/opt/ros/humble/include/depthai/common/CameraBoardSocket.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
 
@@ -9350,8 +9692,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
 
-/opt/ros/humble/include/depthai/xlink/XLinkStream.hpp:
-
 /usr/include/c++/11/algorithm:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
@@ -9366,13 +9706,9 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
-/opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
-
-/opt/ros/humble/include/depthai-shared/pipeline/PipelineSchema.hpp:
+/opt/ros/humble/include/depthai-shared/common/MemoryInfo.hpp:
 
 /usr/include/c++/11/bits/char_traits.h:
-
-/opt/ros/humble/include/depthai-shared/common/MemoryInfo.hpp:
 
 /usr/include/c++/11/bits/concept_check.h:
 
@@ -9382,6 +9718,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
+
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
@@ -9390,19 +9728,11 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/opencv4/opencv2/core/matx.inl.hpp:
 
-/opt/ros/humble/include/depthai-shared/device/BoardConfig.hpp:
-
 /opt/ros/humble/include/depthai-shared/common/MedianFilter.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp:
-
-/usr/include/c++/11/locale:
-
-/usr/include/opencv4/opencv2/core/fast_math.hpp:
-
-/opt/ros/humble/include/depthai/pipeline/Pipeline.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
 
@@ -9420,7 +9750,13 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
 
@@ -9454,17 +9790,19 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
 
 /opt/ros/humble/include/depthai-shared/properties/ScriptProperties.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
+/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:
-
-/opt/ros/humble/include/depthai-bootloader-shared/Section.hpp:
 
 /opt/ros/humble/include/depthai/pipeline/node/EdgeDetector.hpp:
 
@@ -9473,10 +9811,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/opencv4/opencv2/core/saturate.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/siginfo-consts.h:
-
-/opt/ros/humble/include/depthai-shared/common/ConnectionInterface.hpp:
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
@@ -9492,11 +9826,13 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
+
 /opt/ros/humble/include/depthai-shared/datatype/RawImgFrame.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
-/opt/ros/humble/include/depthai-shared/pipeline/NodeObjInfo.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
@@ -9514,9 +9850,11 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
+
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp:
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp:
 
 /opt/ros/humble/include/depthai-bootloader-shared/Memory.hpp:
 
@@ -9548,10 +9886,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
-/usr/include/aarch64-linux-gnu/sys/ucontext.h:
-
-/opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h:
-
 /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/ImageConverter.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp:
@@ -9561,6 +9895,10 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp:
+
+/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__builder.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp:
 
@@ -9584,6 +9922,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_neon.h:
 
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp:
@@ -9591,8 +9931,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/c++/11/climits:
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h:
-
-/opt/ros/humble/include/depthai/device/DeviceBase.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
 
@@ -9610,6 +9948,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/c++/11/codecvt:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
+
 /usr/include/opencv4/opencv2/core/matx.hpp:
 
 /usr/include/c++/11/cfloat:
@@ -9617,10 +9957,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/opencv4/opencv2/core/mat.hpp:
 
 /usr/include/opencv4/opencv2/core/mat.inl.hpp:
-
-/usr/include/opencv4/opencv2/core/persistence.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
 /usr/include/opencv4/opencv2/core/operations.hpp:
 
@@ -9633,6 +9969,12 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/include/c++/11/complex:
 
 /usr/include/opencv4/opencv2/core/optim.hpp:
+
+/opt/ros/humble/include/depthai-shared/common/UsbSpeed.hpp:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/opencv4/opencv2/core/ovx.hpp:
 
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/status.h:
 
@@ -9655,6 +9997,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
 /opt/ros/humble/include/depthai-shared/common/EepromData.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
 
 /opt/ros/humble/include/depthai-shared/common/Point3f.hpp:
 
@@ -9692,6 +10036,10 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/depthai-shared/properties/VideoEncoderProperties.hpp:
 
 /usr/include/opencv4/opencv2/features2d.hpp:
@@ -9701,10 +10049,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h:
 
 /usr/include/opencv4/opencv2/flann/config.h:
-
-/opt/ros/humble/include/depthai/pipeline/node/DetectionParser.hpp:
-
-/opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
 
@@ -9726,8 +10070,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.hpp:
 
-/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:
-
 /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/reference_wrapper.h:
 
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp:
@@ -9735,10 +10077,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp:
 
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__traits.hpp:
-
-/opt/ros/humble/include/depthai-shared/datatype/RawSystemInformation.hpp:
-
-/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__struct.hpp:
 
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__traits.hpp:
 
@@ -9758,6 +10096,10 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp:
 
+/usr/include/c++/11/bits/forward_list.h:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/depthai/pipeline/datatype/ImgDetections.hpp:
 
 /opt/ros/humble/include/depthai-shared/datatype/RawImgDetections.hpp:
@@ -9774,6 +10116,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:
 
+/opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp:
@@ -9784,9 +10128,15 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
+
 /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/TrackDetectionConverter.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp:
 
@@ -9804,6 +10154,8 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/aarch64-linux-gnu/bits/sigthread.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp:
 
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.hpp:
@@ -9818,7 +10170,11 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__traits.hpp:
 
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__type_support.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
 
@@ -9840,6 +10196,10 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp:
 
+/opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp:
+
+/usr/include/c++/11/queue:
+
 /home/orin/ros2_ws/src/depthai-ros/depthai_bridge/src/ImuConverter.cpp:
 
 /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp:
@@ -9848,13 +10208,31 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/aarch64-linux-gnu/bits/dirent.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+/opt/ros/humble/include/depthai-shared/datatype/RawSystemInformation.hpp:
 
-/opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h:
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__struct.hpp:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp:
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp:
 
@@ -9866,6 +10244,16 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp:
 
+/opt/ros/humble/include/depthai-shared/common/ProcessorType.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
@@ -9874,19 +10262,29 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point32.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
+/home/orin/ros2_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/DisparityConverter.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
 
-/opt/ros/humble/include/tf2/tf2/time.h:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp:
+/opt/ros/humble/include/depthai/pipeline/datatype/CameraControl.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp:
 
 /opt/ros/humble/include/depthai-shared/datatype/RawImageManipConfig.hpp:
 
@@ -9902,19 +10300,23 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
+/opt/ros/humble/include/depthai-shared/pipeline/NodeIoInfo.hpp:
+
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/opt/ros/humble/include/depthai-shared/pipeline/NodeIoInfo.hpp:
-
 /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp:
 
@@ -9926,9 +10328,21 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /usr/include/kdl/utilities/kdl-config.h:
 
-/opt/ros/humble/include/tf2/tf2/convert.h:
+/usr/include/c++/11/bits/stl_bvector.h:
 
-/opt/ros/humble/include/tf2/tf2/exceptions.h:
+/opt/ros/humble/include/tf2/tf2/convert.hpp:
+
+/opt/ros/humble/include/tf2/tf2/impl/convert.hpp:
+
+/opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
+
+/usr/include/libintl.h:
+
+/opt/ros/humble/include/tf2/tf2/time.hpp:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp:
 
 /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:
 
@@ -9936,7 +10350,7 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/track_detection2_d_array.hpp:
 
-/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__builder.hpp:
+/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp:
 
 /opt/ros/humble/include/depthai-shared/common/CameraSensorType.hpp:
 
@@ -9946,74 +10360,6 @@ CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o: /home/orin/ros
 
 /opt/ros/humble/include/depthai/utility/LockingQueue.hpp:
 
-/usr/include/c++/11/queue:
-
 /usr/include/c++/11/bits/stl_queue.h:
 
 /opt/ros/humble/include/depthai/xlink/XLinkConnection.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
-
-/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/variant.h:
-
-/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/XLink/XLinkTime.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
-
-/opt/ros/humble/include/depthai-shared/xlink/XLinkConstants.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
-
-/opt/ros/humble/include/depthai/common/CameraBoardSocket.hpp:
-
-/opt/ros/humble/include/depthai/common/CameraFeatures.hpp:
-
-/opt/ros/humble/include/depthai/common/CameraSensorType.hpp:
-
-/usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/opencv4/opencv2/core/ovx.hpp:
-
-/opt/ros/humble/include/depthai-shared/common/UsbSpeed.hpp:
-
-/opt/ros/humble/include/depthai-shared/common/CameraModel.hpp:
-
-/opt/ros/humble/include/depthai/utility/Pimpl.hpp:
-
-/opt/ros/humble/include/depthai-shared/common/StereoPair.hpp:
-
-/opt/ros/humble/include/depthai/pipeline/datatype/SystemInformation.hpp:
-
-/opt/ros/humble/include/depthai/device/DeviceBootloader.hpp:
-
-/opt/ros/humble/include/depthai-shared/pipeline/Assets.hpp:
-
-/opt/ros/humble/include/depthai/pipeline/Node.hpp:
-
-/opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/enum.h:
-
-/opt/ros/humble/include/depthai/pipeline/node/AprilTag.hpp:
-
-/opt/ros/humble/include/depthai-shared/properties/AprilTagProperties.hpp:
-
-/opt/ros/humble/include/depthai-shared/datatype/RawAprilTagConfig.hpp:
-
-/opt/ros/humble/include/depthai/pipeline/datatype/AprilTagConfig.hpp:
-
-/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_bf16.h:
-
-/opt/ros/humble/include/depthai/pipeline/node/Camera.hpp:
-
-/opt/ros/humble/include/depthai/utility/span.hpp:
-
-/opt/ros/humble/include/depthai/pipeline/node/Cast.hpp:
-
-/opt/ros/humble/include/depthai/pipeline/node/ColorCamera.hpp:
-
-/usr/include/c++/11/cwctype:
-
-/opt/ros/humble/include/depthai/pipeline/node/DetectionNetwork.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/dirent_ext.h:
-
-/opt/ros/humble/include/depthai/pipeline/node/NeuralNetwork.hpp:

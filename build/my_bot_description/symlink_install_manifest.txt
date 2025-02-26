@@ -8,7 +8,6 @@
 /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_bot/wheel.yaml
 /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/my_controllers.yaml
 /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/config/twist_mux.yaml
-/home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/camera.xacro
 /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/depth_camera.xacro
 /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/gazebo_control.xacro
 /home/orin/ros2_ws/install/my_bot_description/share/my_bot_description/description/imu.xacro

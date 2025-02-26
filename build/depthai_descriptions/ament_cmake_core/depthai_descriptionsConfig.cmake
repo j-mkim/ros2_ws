@@ -16,7 +16,7 @@ set(_depthai_descriptions_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT depthai_descriptions_FIND_QUIETLY)
-  message(STATUS "Found depthai_descriptions: 2.10.4 (${depthai_descriptions_DIR})")
+  message(STATUS "Found depthai_descriptions: 2.11.0 (${depthai_descriptions_DIR})")
 endif()
 
 # warn when using a deprecated package

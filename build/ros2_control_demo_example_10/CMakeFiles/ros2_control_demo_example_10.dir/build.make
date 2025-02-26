@@ -83,30 +83,14 @@ CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orin/ros2_ws/src/ros2_control_demos/example_10/hardware/rrbot.cpp -o CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.s
 
-CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o: CMakeFiles/ros2_control_demo_example_10.dir/flags.make
-CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o: /home/orin/ros2_ws/src/ros2_control_demos/example_10/controllers/gpio_controller.cpp
-CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o: CMakeFiles/ros2_control_demo_example_10.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/ros2_control_demo_example_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o -MF CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o.d -o CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o -c /home/orin/ros2_ws/src/ros2_control_demos/example_10/controllers/gpio_controller.cpp
-
-CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orin/ros2_ws/src/ros2_control_demos/example_10/controllers/gpio_controller.cpp > CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.i
-
-CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orin/ros2_ws/src/ros2_control_demos/example_10/controllers/gpio_controller.cpp -o CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.s
-
 # Object files for target ros2_control_demo_example_10
 ros2_control_demo_example_10_OBJECTS = \
-"CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o" \
-"CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o"
+"CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o"
 
 # External object files for target ros2_control_demo_example_10
 ros2_control_demo_example_10_EXTERNAL_OBJECTS =
 
 libros2_control_demo_example_10.so: CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o
-libros2_control_demo_example_10.so: CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o
 libros2_control_demo_example_10.so: CMakeFiles/ros2_control_demo_example_10.dir/build.make
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -183,6 +167,7 @@ libros2_control_demo_example_10.so: /opt/ros/humble/lib/libtrajectory_msgs__rosi
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libcontrol_msgs__rosidl_generator_py.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_c.so
@@ -213,8 +198,7 @@ libros2_control_demo_example_10.so: /opt/ros/humble/lib/liblifecycle_msgs__rosid
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcpputils.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcutils.so
+libros2_control_demo_example_10.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/librclcpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcl_lifecycle.so
@@ -224,28 +208,16 @@ libros2_control_demo_example_10.so: /opt/ros/humble/lib/liblifecycle_msgs__rosid
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcpputils.so
+libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcutils.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-libros2_control_demo_example_10.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/libcontroller_interface.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libcontrol_msgs__rosidl_generator_c.so
@@ -253,9 +225,12 @@ libros2_control_demo_example_10.so: /opt/ros/humble/lib/libaction_msgs__rosidl_t
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
+libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_c.so
+libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+libros2_control_demo_example_10.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -290,10 +265,10 @@ libros2_control_demo_example_10.so: /opt/ros/humble/lib/libbuiltin_interfaces__r
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcl_yaml_param_parser.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/libyaml.so
@@ -317,7 +292,7 @@ libros2_control_demo_example_10.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libros2_control_demo_example_10.so: /opt/ros/humble/lib/librcutils.so
 libros2_control_demo_example_10.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libros2_control_demo_example_10.so: CMakeFiles/ros2_control_demo_example_10.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orin/ros2_ws/build/ros2_control_demo_example_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libros2_control_demo_example_10.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orin/ros2_ws/build/ros2_control_demo_example_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libros2_control_demo_example_10.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ros2_control_demo_example_10.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -153,10 +153,24 @@ CMakeFiles/depthai_filters.dir/src/features_3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depthai_filters.dir/src/features_3d.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orin/ros2_ws/src/depthai-ros/depthai_filters/src/features_3d.cpp -o CMakeFiles/depthai_filters.dir/src/features_3d.cpp.s
 
+CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o: CMakeFiles/depthai_filters.dir/flags.make
+CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o: /home/orin/ros2_ws/src/depthai-ros/depthai_filters/src/thermal_temp.cpp
+CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o: CMakeFiles/depthai_filters.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/depthai_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o -MF CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o.d -o CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o -c /home/orin/ros2_ws/src/depthai-ros/depthai_filters/src/thermal_temp.cpp
+
+CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orin/ros2_ws/src/depthai-ros/depthai_filters/src/thermal_temp.cpp > CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.i
+
+CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orin/ros2_ws/src/depthai-ros/depthai_filters/src/thermal_temp.cpp -o CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.s
+
 CMakeFiles/depthai_filters.dir/src/utils.cpp.o: CMakeFiles/depthai_filters.dir/flags.make
 CMakeFiles/depthai_filters.dir/src/utils.cpp.o: /home/orin/ros2_ws/src/depthai-ros/depthai_filters/src/utils.cpp
 CMakeFiles/depthai_filters.dir/src/utils.cpp.o: CMakeFiles/depthai_filters.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/depthai_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orin/ros2_ws/build/depthai_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depthai_filters.dir/src/utils.cpp.o -MF CMakeFiles/depthai_filters.dir/src/utils.cpp.o.d -o CMakeFiles/depthai_filters.dir/src/utils.cpp.o -c /home/orin/ros2_ws/src/depthai-ros/depthai_filters/src/utils.cpp
 
 CMakeFiles/depthai_filters.dir/src/utils.cpp.i: cmake_force
@@ -175,6 +189,7 @@ depthai_filters_OBJECTS = \
 "CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o" \
 "CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o" \
 "CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o" \
+"CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o" \
 "CMakeFiles/depthai_filters.dir/src/utils.cpp.o"
 
 # External object files for target depthai_filters
@@ -186,6 +201,7 @@ libdepthai_filters.so: CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o
 libdepthai_filters.so: CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o
 libdepthai_filters.so: CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o
 libdepthai_filters.so: CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o
+libdepthai_filters.so: CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o
 libdepthai_filters.so: CMakeFiles/depthai_filters.dir/src/utils.cpp.o
 libdepthai_filters.so: CMakeFiles/depthai_filters.dir/build.make
 libdepthai_filters.so: /opt/ros/humble/lib/libcomponent_manager.so
@@ -374,7 +390,7 @@ libdepthai_filters.so: /usr/lib/aarch64-linux-gnu/libopencv_cudaarithm.so.4.10.0
 libdepthai_filters.so: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.10.0
 libdepthai_filters.so: /usr/lib/aarch64-linux-gnu/libopencv_cudev.so.4.10.0
 libdepthai_filters.so: CMakeFiles/depthai_filters.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orin/ros2_ws/build/depthai_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libdepthai_filters.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orin/ros2_ws/build/depthai_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libdepthai_filters.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/depthai_filters.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

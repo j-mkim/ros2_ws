@@ -66,11 +66,19 @@ include CMakeFiles/passthrough_controller_parameters.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/passthrough_controller_parameters.dir/progress.make
 
-passthrough_controller_parameters/include/passthrough_controller_parameters.hpp: /home/orin/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller_parameters.yaml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orin/ros2_ws/build/ros2_control_demo_example_12/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/orin/ros2_ws/build/ros2_control_demo_example_12/passthrough_controller_parameters/include//passthrough_controller_parameters.hpp /home/orin/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller_parameters.yaml \`"
-	/opt/ros/humble/bin/generate_parameter_library_cpp /home/orin/ros2_ws/build/ros2_control_demo_example_12/passthrough_controller_parameters/include//passthrough_controller_parameters.hpp /home/orin/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller_parameters.yaml
+include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp: /home/orin/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller_parameters.yaml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orin/ros2_ws/build/ros2_control_demo_example_12/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp /home/orin/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller_parameters.yaml \`"
+	/opt/ros/humble/bin/generate_parameter_library_cpp /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp /home/orin/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller_parameters.yaml
 
-passthrough_controller_parameters: passthrough_controller_parameters/include/passthrough_controller_parameters.hpp
+include/passthrough_controller_parameters.hpp: include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orin/ros2_ws/build/ros2_control_demo_example_12/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Creating deprecated header file /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp"
+	/usr/bin/cmake -E echo "#pragma message(\"#include \\\"passthrough_controller_parameters.hpp\\\" is deprecated. Use #include <ros2_control_demo_example_12/passthrough_controller_parameters.hpp> instead.\")" >> /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp
+	/usr/bin/cmake -E cat /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp > /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp.tmp
+	/usr/bin/cmake -E copy /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp.tmp /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp
+	/usr/bin/cmake -E remove /home/orin/ros2_ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp.tmp
+
+passthrough_controller_parameters: include/passthrough_controller_parameters.hpp
+passthrough_controller_parameters: include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp
 passthrough_controller_parameters: CMakeFiles/passthrough_controller_parameters.dir/build.make
 .PHONY : passthrough_controller_parameters
 

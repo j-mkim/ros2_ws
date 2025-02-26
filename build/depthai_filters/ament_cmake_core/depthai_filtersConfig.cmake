@@ -16,7 +16,7 @@ set(_depthai_filters_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT depthai_filters_FIND_QUIETLY)
-  message(STATUS "Found depthai_filters: 2.10.4 (${depthai_filters_DIR})")
+  message(STATUS "Found depthai_filters: 2.11.0 (${depthai_filters_DIR})")
 endif()
 
 # warn when using a deprecated package

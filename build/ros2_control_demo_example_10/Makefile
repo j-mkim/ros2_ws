@@ -210,30 +210,6 @@ ros2_control_demo_example_10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_control_demo_example_10.dir/build.make CMakeFiles/ros2_control_demo_example_10.dir/build
 .PHONY : ros2_control_demo_example_10/fast
 
-controllers/gpio_controller.o: controllers/gpio_controller.cpp.o
-.PHONY : controllers/gpio_controller.o
-
-# target to build an object file
-controllers/gpio_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_control_demo_example_10.dir/build.make CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o
-.PHONY : controllers/gpio_controller.cpp.o
-
-controllers/gpio_controller.i: controllers/gpio_controller.cpp.i
-.PHONY : controllers/gpio_controller.i
-
-# target to preprocess a source file
-controllers/gpio_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_control_demo_example_10.dir/build.make CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.i
-.PHONY : controllers/gpio_controller.cpp.i
-
-controllers/gpio_controller.s: controllers/gpio_controller.cpp.s
-.PHONY : controllers/gpio_controller.s
-
-# target to generate assembly for a file
-controllers/gpio_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_control_demo_example_10.dir/build.make CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.s
-.PHONY : controllers/gpio_controller.cpp.s
-
 hardware/rrbot.o: hardware/rrbot.cpp.o
 .PHONY : hardware/rrbot.o
 
@@ -274,9 +250,6 @@ help:
 	@echo "... ros2_control_demo_example_10_uninstall"
 	@echo "... uninstall"
 	@echo "... ros2_control_demo_example_10"
-	@echo "... controllers/gpio_controller.o"
-	@echo "... controllers/gpio_controller.i"
-	@echo "... controllers/gpio_controller.s"
 	@echo "... hardware/rrbot.o"
 	@echo "... hardware/rrbot.i"
 	@echo "... hardware/rrbot.s"

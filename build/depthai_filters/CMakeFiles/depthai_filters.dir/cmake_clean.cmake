@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o.d"
   "CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o"
   "CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o.d"
+  "CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o"
+  "CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o.d"
   "CMakeFiles/depthai_filters.dir/src/utils.cpp.o"
   "CMakeFiles/depthai_filters.dir/src/utils.cpp.o.d"
   "CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o"

@@ -209,8 +209,8 @@ bool my_bot_imu::readEulerAngles(int file, int16_t &heading, int16_t &roll, int1
         return false;
     }
     heading = (int16_t)((buffer[1] << 8) | buffer[0]);
-    roll = (int16_t)((buffer[3] << 8) | buffer[2]);
-    pitch = (int16_t)((buffer[5] << 8) | buffer[4]);
+    roll    = (int16_t)((buffer[3] << 8) | buffer[2]);
+    pitch   = (int16_t)((buffer[5] << 8) | buffer[4]);
     return true;
 }
 
@@ -220,10 +220,10 @@ bool my_bot_imu::readCalibrationStatus(int file, uint8_t &sysCalib, uint8_t &gyr
     if (readByte(file, BNO055_CALIB_STAT_ADDR, calibStat) < 0) {
         return false;
     }
-    sysCalib = (calibStat >> 6) & 0x03;
-    gyroCalib = (calibStat >> 4) & 0x03;
+    sysCalib   = (calibStat >> 6) & 0x03;
+    gyroCalib  = (calibStat >> 4) & 0x03;
     accelCalib = (calibStat >> 2) & 0x03;
-    magCalib = calibStat & 0x03;
+    magCalib   = calibStat & 0x03;
     return true;
 }
 
@@ -260,7 +260,8 @@ my_bot_imu::my_bot_imu()
     // Create publishers with Reliable QoS
     rclcpp::QoS qos_settings(10);  // History depth of 10
     qos_settings.reliable();       // Set reliability to Reliable
-    imu_publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("imu/data", qos_settings);
+    // qos_settings.best_effort();
+    imu_publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("/imu", qos_settings);
     // mag_publisher_ = this->create_publisher<sensor_msgs::msg::MagneticField>("mag/data", qos_settings);
 
     // Create timer
@@ -329,8 +330,8 @@ void my_bot_imu::timer_callback() {
     // Assign orientation (from Euler angles)
     double euler_scale = 1.0 / 16.0; // 16 LSB per degree
     double h = heading * euler_scale * (M_PI / 180.0);
-    double r = roll * euler_scale * (M_PI / 180.0);
-    double p = -pitch * euler_scale * (M_PI / 180.0);
+    double r =    roll * euler_scale * (M_PI / 180.0);
+    double p =  -pitch * euler_scale * (M_PI / 180.0);
 
     // Convert Euler angles to quaternion
     tf2::Quaternion q;

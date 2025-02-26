@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "depthai_ros_msgs")
-set(depthai_ros_msgs_VERSION "2.10.4")
+set(depthai_ros_msgs_VERSION "2.11.0")
 set(depthai_ros_msgs_MAINTAINER "Adam Serafin <adam.serafin@luxonis.com>")
 set(depthai_ros_msgs_BUILD_DEPENDS "builtin_interfaces" "rclcpp" "rosidl_default_generators" "sensor_msgs" "std_msgs" "geometry_msgs" "vision_msgs")
 set(depthai_ros_msgs_BUILDTOOL_DEPENDS "ament_cmake")

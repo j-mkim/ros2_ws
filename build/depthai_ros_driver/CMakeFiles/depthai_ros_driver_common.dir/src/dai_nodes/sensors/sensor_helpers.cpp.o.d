@@ -135,30 +135,18 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /opt/ros/humble/include/depthai-shared/properties/ColorCameraProperties.hpp \
- /opt/ros/humble/include/depthai-shared/common/CameraBoardSocket.hpp \
- /opt/ros/humble/include/depthai-shared/common/CameraImageOrientation.hpp \
- /opt/ros/humble/include/depthai-shared/common/FrameEvent.hpp \
- /opt/ros/humble/include/depthai-shared/common/optional.hpp \
- /opt/ros/humble/include/depthai-shared/utility/Serialization.hpp \
- /usr/include/c++/11/cstddef \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/serializer.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/array.h \
- /usr/include/c++/11/array /usr/include/c++/11/utility \
+ /opt/ros/humble/include/depthai-shared/common/CameraSensorType.hpp \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nlohmann/json.hpp \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/encoding.h \
- /usr/include/c++/11/limits \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/encoding_byte.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/utility.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/is_template_base_of.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/void.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/status.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/result.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/enum.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/handle.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/handle.h \
+ /usr/include/c++/11/bits/stl_algo.h \
+ /usr/include/c++/11/bits/algorithmfwd.h \
+ /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/stl_tempbuf.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/include/c++/11/pstl/glue_algorithm_defs.h \
  /usr/include/c++/11/functional /usr/include/c++/11/tuple \
- /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/std_function.h /usr/include/c++/11/typeinfo \
  /usr/include/c++/11/unordered_map \
@@ -168,53 +156,8 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
- /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/map.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/numeric \
- /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
- /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/members.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/logical_buffer.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/detail/logical_buffer.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/detail/member_pointer.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/is_detected.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/optional.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/optional.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/is_comparable.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/pair.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/reference_wrapper.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/result.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/serializer.h \
- /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/shared_ptr.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/exception \
- /usr/include/c++/11/bits/exception_ptr.h \
- /usr/include/c++/11/bits/cxxabi_init_exception.h \
- /usr/include/c++/11/bits/nested_exception.h \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/string.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/table.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/table.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/macros.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/structure.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/compiler.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/sip_hash.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/bounded_reader.h \
+ /usr/include/c++/11/bits/erase_if.h \
+ /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/cstddef \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/c++/11/streambuf /usr/include/c++/11/bits/ios_base.h \
@@ -222,32 +165,29 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /usr/include/c++/11/bits/locale_classes.tcc \
  /usr/include/c++/11/system_error \
  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/streambuf.tcc \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/bounded_writer.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/tuple.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/value.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/variant.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/variant.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/detail/variant.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/vector.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/buffer_reader.h \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/stream_writer.h \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/bits/basic_ios.h \
- /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
- /usr/include/wctype.h /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
- /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
- /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc \
- /opt/ros/humble/include/depthai-shared/utility/NlohmannJsonCompat.hpp \
- /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nlohmann/json.hpp \
- /usr/include/c++/11/algorithm \
- /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
+ /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11/bits/nested_exception.h \
+ /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/unique_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/ext/concurrence.h \
+ /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/bits/atomic_base.h \
+ /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h /usr/include/c++/11/numeric \
+ /usr/include/c++/11/bits/stl_numeric.h \
+ /usr/include/c++/11/pstl/glue_numeric_defs.h \
  /usr/include/c++/11/forward_list /usr/include/c++/11/bits/forward_list.h \
- /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/valarray \
+ /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/valarray \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -258,7 +198,8 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/tr1/gamma.tcc \
+ /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/limits \
+ /usr/include/c++/11/tr1/gamma.tcc \
  /usr/include/c++/11/tr1/special_function_util.h \
  /usr/include/c++/11/tr1/bessel_function.tcc \
  /usr/include/c++/11/tr1/beta_function.tcc \
@@ -279,8 +220,66 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h /usr/include/c++/11/cassert \
- /usr/include/assert.h /usr/include/c++/11/istream \
+ /usr/include/assert.h /usr/include/c++/11/cstring /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/11/istream \
+ /usr/include/c++/11/ios /usr/include/c++/11/bits/basic_ios.h \
+ /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
+ /usr/include/wctype.h /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
+ /usr/include/c++/11/bits/locale_facets.tcc \
+ /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
+ /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
+ /opt/ros/humble/include/depthai-shared/properties/ColorCameraProperties.hpp \
+ /opt/ros/humble/include/depthai-shared/common/CameraBoardSocket.hpp \
+ /opt/ros/humble/include/depthai-shared/common/CameraImageOrientation.hpp \
+ /opt/ros/humble/include/depthai-shared/common/FrameEvent.hpp \
+ /opt/ros/humble/include/depthai-shared/common/optional.hpp \
+ /opt/ros/humble/include/depthai-shared/utility/Serialization.hpp \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/serializer.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/array.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/encoding.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/encoding_byte.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/utility.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/is_template_base_of.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/void.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/status.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/result.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/enum.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/handle.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/handle.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/map.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/members.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/logical_buffer.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/detail/logical_buffer.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/detail/member_pointer.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/is_detected.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/optional.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/optional.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/traits/is_comparable.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/pair.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/reference_wrapper.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/result.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/serializer.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/string.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/table.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/table.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/macros.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/structure.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/compiler.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/sip_hash.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/bounded_reader.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/bounded_writer.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/tuple.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/value.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/variant.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/variant.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/types/detail/variant.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/base/vector.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/buffer_reader.h \
+ /opt/ros/humble/lib/aarch64-linux-gnu/cmake/depthai/dependencies/include/nop/utility/stream_writer.h \
+ /opt/ros/humble/include/depthai-shared/utility/NlohmannJsonCompat.hpp \
  /opt/ros/humble/include/depthai-shared/3rdparty/tl/optional.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/RawCameraControl.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/DatatypeEnum.hpp \
@@ -385,6 +384,12 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
+ /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -393,6 +398,7 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
@@ -403,24 +409,23 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
  /usr/include/c++/11/future /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/optional \
  /usr/include/c++/11/variant /opt/ros/humble/include/rcl/rcl/client.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rcl/rcl/event_callback.h \
  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
  /opt/ros/humble/include/rcl/rcl/wait.h \
  /opt/ros/humble/include/rcl/rcl/service.h \
  /opt/ros/humble/include/rcl/rcl/subscription.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
  /opt/ros/humble/include/rcl/rcl/timer.h \
  /opt/ros/humble/include/rcl/rcl/time.h \
@@ -462,12 +467,13 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
- /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
  /opt/ros/humble/include/rmw/rmw/error_handling.h \
  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -516,6 +522,7 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
@@ -549,6 +556,8 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+ /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+ /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
@@ -570,13 +579,16 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+ /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -607,21 +619,23 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp \
  /opt/ros/humble/include/image_transport/image_transport/single_subscriber_publisher.hpp \
  /opt/ros/humble/include/image_transport/image_transport/visibility_control.hpp \
- /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
- /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
  /opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp \
  /opt/ros/humble/include/camera_info_manager/camera_info_manager/visibility_control.h \
  /opt/ros/humble/include/depthai/pipeline/Pipeline.hpp \
  /opt/ros/humble/include/depthai/device/CalibrationHandler.hpp \
@@ -648,7 +662,6 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/depthai/common/CameraBoardSocket.hpp \
  /opt/ros/humble/include/depthai/common/CameraFeatures.hpp \
  /opt/ros/humble/include/depthai-shared/common/CameraFeatures.hpp \
- /opt/ros/humble/include/depthai-shared/common/CameraSensorType.hpp \
  /opt/ros/humble/include/depthai-shared/common/Rect.hpp \
  /opt/ros/humble/include/depthai/common/CameraImageOrientation.hpp \
  /opt/ros/humble/include/depthai/common/CameraSensorType.hpp \
@@ -677,12 +690,15 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/depthai-shared/properties/GlobalProperties.hpp \
  /opt/ros/humble/include/depthai/pipeline/node/VideoEncoder.hpp \
  /opt/ros/humble/include/depthai-shared/properties/VideoEncoderProperties.hpp \
+ /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
+ /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
  /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
  /usr/include/opencv4/opencv2/core/core.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
@@ -743,8 +759,12 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cp
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__struct.hpp \
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__builder.hpp \
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__traits.hpp \
+ /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__type_support.hpp \
+ /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/image_transport/image_transport/image_transport.hpp \
  /opt/ros/humble/include/image_transport/image_transport/camera_subscriber.hpp \
  /opt/ros/humble/include/image_transport/image_transport/publisher.hpp \

@@ -331,8 +331,8 @@ ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/depthai-ros/depthai_ro
 # install(FILES "/home/orin/ros2_ws/build/depthai_ros_driver/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/depthai_ros_driver/environment")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver" FILES "/home/orin/ros2_ws/build/depthai_ros_driver/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/depthai_ros_driver/environment")
 
-# install(DIRECTORY "/home/orin/ros2_ws/build/depthai_ros_driver/ament_cmake_python/depthai_ros_driver/depthai_ros_driver.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/depthai_ros_driver-2.10.4-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver" DIRECTORY "/home/orin/ros2_ws/build/depthai_ros_driver/ament_cmake_python/depthai_ros_driver/depthai_ros_driver.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/depthai_ros_driver-2.10.4-py3.10.egg-info")
+# install(DIRECTORY "/home/orin/ros2_ws/build/depthai_ros_driver/ament_cmake_python/depthai_ros_driver/depthai_ros_driver.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver" DIRECTORY "/home/orin/ros2_ws/build/depthai_ros_driver/ament_cmake_python/depthai_ros_driver/depthai_ros_driver.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.0-py3.10.egg-info")
 
 # install(DIRECTORY "/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/depthai_ros_driver/" "DESTINATION" "local/lib/python3.10/dist-packages/depthai_ros_driver" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver" DIRECTORY "/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/depthai_ros_driver/" "DESTINATION" "local/lib/python3.10/dist-packages/depthai_ros_driver" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")

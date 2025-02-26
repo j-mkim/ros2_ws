@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "camera_info_manager;cv_bridge;depthai_ros_msgs;image_transport;rclcpp;sensor_msgs;stereo_msgs;std_msgs;vision_msgs;tf2_ros;tf2_geometry_msgs;tf2;composition_interfaces;ffmpeg_image_transport_msgs")
+set(_exported_dependencies "ament_index_cpp;camera_info_manager;cv_bridge;depthai_ros_msgs;image_transport;rclcpp;sensor_msgs;stereo_msgs;std_msgs;vision_msgs;tf2_ros;tf2_geometry_msgs;tf2;composition_interfaces;ffmpeg_image_transport_msgs")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

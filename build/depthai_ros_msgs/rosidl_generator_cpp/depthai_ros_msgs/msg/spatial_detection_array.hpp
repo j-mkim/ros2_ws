@@ -7,5 +7,6 @@
 #include "depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp"
 #include "depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp"
 #include "depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp"
+#include "depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp"
 
 #endif  // DEPTHAI_ROS_MSGS__MSG__SPATIAL_DETECTION_ARRAY_HPP_

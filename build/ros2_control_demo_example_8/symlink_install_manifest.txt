@@ -1,5 +1,4 @@
 /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8//ros2_control_demo_example_8.xml
-/home/orin/ros2_ws/install/ros2_control_demo_example_8/include/ros2_control_demo_example_8/ros2_control_demo_example_8/rrbot.hpp
 /home/orin/ros2_ws/install/ros2_control_demo_example_8/include/ros2_control_demo_example_8/ros2_control_demo_example_8/rrbot_transmissions_system_position_only.hpp
 /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/launch/view_robot.launch.py
 /home/orin/ros2_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/ros2_control/rrbot_transmissions_system_position_only.ros2_control.xacro

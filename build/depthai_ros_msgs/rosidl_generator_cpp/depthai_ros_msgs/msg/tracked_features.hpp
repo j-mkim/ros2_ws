@@ -7,5 +7,6 @@
 #include "depthai_ros_msgs/msg/detail/tracked_features__struct.hpp"
 #include "depthai_ros_msgs/msg/detail/tracked_features__builder.hpp"
 #include "depthai_ros_msgs/msg/detail/tracked_features__traits.hpp"
+#include "depthai_ros_msgs/msg/detail/tracked_features__type_support.hpp"
 
 #endif  // DEPTHAI_ROS_MSGS__MSG__TRACKED_FEATURES_HPP_

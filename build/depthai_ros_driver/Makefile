@@ -648,6 +648,30 @@ src/dai_nodes/sensors/sync.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depthai_ros_driver_sensor_nodes.dir/build.make CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.s
 .PHONY : src/dai_nodes/sensors/sync.cpp.s
 
+src/dai_nodes/sensors/thermal.o: src/dai_nodes/sensors/thermal.cpp.o
+.PHONY : src/dai_nodes/sensors/thermal.o
+
+# target to build an object file
+src/dai_nodes/sensors/thermal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depthai_ros_driver_sensor_nodes.dir/build.make CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o
+.PHONY : src/dai_nodes/sensors/thermal.cpp.o
+
+src/dai_nodes/sensors/thermal.i: src/dai_nodes/sensors/thermal.cpp.i
+.PHONY : src/dai_nodes/sensors/thermal.i
+
+# target to preprocess a source file
+src/dai_nodes/sensors/thermal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depthai_ros_driver_sensor_nodes.dir/build.make CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.i
+.PHONY : src/dai_nodes/sensors/thermal.cpp.i
+
+src/dai_nodes/sensors/thermal.s: src/dai_nodes/sensors/thermal.cpp.s
+.PHONY : src/dai_nodes/sensors/thermal.s
+
+# target to generate assembly for a file
+src/dai_nodes/sensors/thermal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depthai_ros_driver_sensor_nodes.dir/build.make CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.s
+.PHONY : src/dai_nodes/sensors/thermal.cpp.s
+
 src/dai_nodes/sensors/tof.o: src/dai_nodes/sensors/tof.cpp.o
 .PHONY : src/dai_nodes/sensors/tof.o
 
@@ -1051,6 +1075,9 @@ help:
 	@echo "... src/dai_nodes/sensors/sync.o"
 	@echo "... src/dai_nodes/sensors/sync.i"
 	@echo "... src/dai_nodes/sensors/sync.s"
+	@echo "... src/dai_nodes/sensors/thermal.o"
+	@echo "... src/dai_nodes/sensors/thermal.i"
+	@echo "... src/dai_nodes/sensors/thermal.s"
 	@echo "... src/dai_nodes/sensors/tof.o"
 	@echo "... src/dai_nodes/sensors/tof.i"
 	@echo "... src/dai_nodes/sensors/tof.s"

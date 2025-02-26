@@ -70,50 +70,63 @@ CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/hand_landmark.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/hand_landmark_array.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/tracked_feature.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/tracked_features.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/spatial_detection.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/spatial_detection_array.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/track_detection2_d.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/track_detection2_d_array.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/trigger_named.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__type_support.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/normalized_image_crop.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__builder.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.hpp
 CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.hpp
+CMakeFiles/depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -260,6 +273,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.hpp: ro
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__traits.hpp
 
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.hpp
+
 rosidl_generator_cpp/depthai_ros_msgs/msg/hand_landmark.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/hand_landmark.hpp
 
@@ -271,6 +287,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__struct.hpp: rosi
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__traits.hpp
+
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__type_support.hpp
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/hand_landmark_array.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/hand_landmark_array.hpp
@@ -284,6 +303,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.hpp
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__traits.hpp
 
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.hpp
+
 rosidl_generator_cpp/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp
 
@@ -295,6 +317,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp
+
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/tracked_feature.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/tracked_feature.hpp
@@ -308,6 +333,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__struct.hpp: ro
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__traits.hpp
 
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__type_support.hpp
+
 rosidl_generator_cpp/depthai_ros_msgs/msg/tracked_features.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/tracked_features.hpp
 
@@ -319,6 +347,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__struct.hpp: r
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__traits.hpp
+
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__type_support.hpp
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/spatial_detection.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/spatial_detection.hpp
@@ -332,6 +363,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp: 
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp
 
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__type_support.hpp
+
 rosidl_generator_cpp/depthai_ros_msgs/msg/spatial_detection_array.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/spatial_detection_array.hpp
 
@@ -343,6 +377,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__struct
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp
+
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/track_detection2_d.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/track_detection2_d.hpp
@@ -356,6 +393,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__struct.hpp:
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__traits.hpp
 
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.hpp
+
 rosidl_generator_cpp/depthai_ros_msgs/msg/track_detection2_d_array.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/track_detection2_d_array.hpp
 
@@ -367,6 +407,9 @@ rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__struc
 
 rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__traits.hpp
+
+rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp
 
 rosidl_generator_cpp/depthai_ros_msgs/srv/trigger_named.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/srv/trigger_named.hpp
@@ -380,6 +423,9 @@ rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__struct.hpp: rosi
 rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__traits.hpp
 
+rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__type_support.hpp
+
 rosidl_generator_cpp/depthai_ros_msgs/srv/normalized_image_crop.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/srv/normalized_image_crop.hpp
 
@@ -392,38 +438,51 @@ rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.h
 rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp
 
+rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.hpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.hpp
+
 depthai_ros_msgs__cpp: CMakeFiles/depthai_ros_msgs__cpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_feature__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/detail/tracked_features__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/hand_landmark.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/hand_landmark_array.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp
@@ -436,9 +495,11 @@ depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/msg/tracked_feature
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__builder.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__struct.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__traits.hpp
+depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/detail/trigger_named__type_support.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/normalized_image_crop.hpp
 depthai_ros_msgs__cpp: rosidl_generator_cpp/depthai_ros_msgs/srv/trigger_named.hpp
 depthai_ros_msgs__cpp: CMakeFiles/depthai_ros_msgs__cpp.dir/build.make

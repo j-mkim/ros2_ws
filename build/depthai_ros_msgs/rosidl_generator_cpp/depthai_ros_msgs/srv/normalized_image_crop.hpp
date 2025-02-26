@@ -7,5 +7,6 @@
 #include "depthai_ros_msgs/srv/detail/normalized_image_crop__struct.hpp"
 #include "depthai_ros_msgs/srv/detail/normalized_image_crop__builder.hpp"
 #include "depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp"
+#include "depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.hpp"
 
 #endif  // DEPTHAI_ROS_MSGS__SRV__NORMALIZED_IMAGE_CROP_HPP_

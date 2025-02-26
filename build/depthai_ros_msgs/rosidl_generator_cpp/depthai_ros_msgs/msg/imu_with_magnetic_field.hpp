@@ -7,5 +7,6 @@
 #include "depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp"
 #include "depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp"
 #include "depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp"
+#include "depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp"
 
 #endif  // DEPTHAI_ROS_MSGS__MSG__IMU_WITH_MAGNETIC_FIELD_HPP_

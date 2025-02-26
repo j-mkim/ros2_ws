@@ -16,7 +16,7 @@ set(_depthai_bridge_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT depthai_bridge_FIND_QUIETLY)
-  message(STATUS "Found depthai_bridge: 2.10.4 (${depthai_bridge_DIR})")
+  message(STATUS "Found depthai_bridge: 2.11.0 (${depthai_bridge_DIR})")
 endif()
 
 # warn when using a deprecated package

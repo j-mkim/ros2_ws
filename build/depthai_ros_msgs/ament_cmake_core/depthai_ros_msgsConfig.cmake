@@ -16,7 +16,7 @@ set(_depthai_ros_msgs_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT depthai_ros_msgs_FIND_QUIETLY)
-  message(STATUS "Found depthai_ros_msgs: 2.10.4 (${depthai_ros_msgs_DIR})")
+  message(STATUS "Found depthai_ros_msgs: 2.11.0 (${depthai_ros_msgs_DIR})")
 endif()
 
 # warn when using a deprecated package

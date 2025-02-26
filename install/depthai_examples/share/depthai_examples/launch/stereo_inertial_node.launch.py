@@ -29,8 +29,8 @@ def generate_launch_description():
     camera_model = LaunchConfiguration('camera_model',  default = 'OAK-D')
     tf_prefix    = LaunchConfiguration('tf_prefix',     default = 'oak')
     mode         = LaunchConfiguration('mode', default = 'depth')
-    base_frame   = LaunchConfiguration('base_frame',    default='imu_link')#default = 'oak-d_frame')
-    parent_frame = LaunchConfiguration('parent_frame',  default='imu_link')#default = 'oak-d-base-frame')
+    base_frame   = LaunchConfiguration('base_frame',    default = 'oak-d_frame')
+    parent_frame = LaunchConfiguration('parent_frame',  default = 'oak-d-base-frame')
     imuMode      = LaunchConfiguration('imuMode', default = '1')
 
     cam_pos_x    = LaunchConfiguration('cam_pos_x',     default = '0.0')

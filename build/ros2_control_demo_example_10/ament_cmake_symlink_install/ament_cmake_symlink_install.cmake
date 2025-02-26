@@ -313,14 +313,8 @@ message(STATUS "Execute custom install script")
 # install(FILES "ros2_control_demo_example_10.xml" "DESTINATION" "share/ros2_control_demo_example_10/")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_10" FILES "ros2_control_demo_example_10.xml" "DESTINATION" "share/ros2_control_demo_example_10/")
 
-# install(FILES "ros2_control_demo_example_10.xml" "DESTINATION" "share/ros2_control_demo_example_10/")
-ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_10" FILES "ros2_control_demo_example_10.xml" "DESTINATION" "share/ros2_control_demo_example_10/")
-
 # install(DIRECTORY "hardware/include/" "DESTINATION" "include/ros2_control_demo_example_10")
 ament_cmake_symlink_install_directory("/home/orin/ros2_ws/src/ros2_control_demos/example_10" DIRECTORY "hardware/include/" "DESTINATION" "include/ros2_control_demo_example_10")
-
-# install(DIRECTORY "controllers/include/" "DESTINATION" "include/ros2_control_demo_example_10")
-ament_cmake_symlink_install_directory("/home/orin/ros2_ws/src/ros2_control_demos/example_10" DIRECTORY "controllers/include/" "DESTINATION" "include/ros2_control_demo_example_10")
 
 # install(DIRECTORY "description/launch" "description/ros2_control" "description/urdf" "DESTINATION" "share/ros2_control_demo_example_10")
 ament_cmake_symlink_install_directory("/home/orin/ros2_ws/src/ros2_control_demos/example_10" DIRECTORY "description/launch" "description/ros2_control" "description/urdf" "DESTINATION" "share/ros2_control_demo_example_10")
@@ -372,9 +366,6 @@ ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/exa
 
 # install(FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_10/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_10" "DESTINATION" "share/ament_index/resource_index/hardware_interface__pluginlib__plugin")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_10" FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_10/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_10" "DESTINATION" "share/ament_index/resource_index/hardware_interface__pluginlib__plugin")
-
-# install(FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_10/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_10" "DESTINATION" "share/ament_index/resource_index/controller_interface__pluginlib__plugin")
-ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_10" FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_10/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_10" "DESTINATION" "share/ament_index/resource_index/controller_interface__pluginlib__plugin")
 
 # install(FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_10/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_control_demo_example_10/cmake")
 ament_cmake_symlink_install_files("/home/orin/ros2_ws/src/ros2_control_demos/example_10" FILES "/home/orin/ros2_ws/build/ros2_control_demo_example_10/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_control_demo_example_10/cmake")

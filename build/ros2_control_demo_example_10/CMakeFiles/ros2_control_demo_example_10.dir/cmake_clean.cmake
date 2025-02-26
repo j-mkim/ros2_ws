@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o"
-  "CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o.d"
   "CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o"
   "CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o.d"
   "libros2_control_demo_example_10.pdb"

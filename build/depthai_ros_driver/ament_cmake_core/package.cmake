@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "depthai_ros_driver")
-set(depthai_ros_driver_VERSION "2.10.4")
+set(depthai_ros_driver_VERSION "2.11.0")
 set(depthai_ros_driver_MAINTAINER "Adam Serafin <adam.serafin@luxonis.com>")
 set(depthai_ros_driver_BUILD_DEPENDS "ament_cmake_auto" "camera_calibration" "rclcpp" "rclcpp_components" "sensor_msgs" "vision_msgs" "std_msgs" "std_srvs" "cv_bridge" "image_transport" "image_transport_plugins" "image_pipeline" "depthai" "depthai_bridge" "depthai_descriptions" "depthai_ros_msgs" "depthai_examples" "pluginlib" "diagnostic_updater" "diagnostic_msgs" "ffmpeg_image_transport_msgs")
 set(depthai_ros_driver_BUILDTOOL_DEPENDS "ament_cmake")

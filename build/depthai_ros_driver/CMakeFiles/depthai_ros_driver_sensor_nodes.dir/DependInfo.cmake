@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/sensor_wrapper.cpp" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sensor_wrapper.cpp.o" "gcc" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sensor_wrapper.cpp.o.d"
   "/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/stereo.cpp" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.o" "gcc" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.o.d"
   "/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/sync.cpp" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o" "gcc" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o.d"
+  "/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/thermal.cpp" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o" "gcc" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o.d"
   "/home/orin/ros2_ws/src/depthai-ros/depthai_ros_driver/src/dai_nodes/sensors/tof.cpp" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o" "gcc" "CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o.d"
   )
 

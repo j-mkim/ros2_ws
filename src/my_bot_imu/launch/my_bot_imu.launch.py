@@ -14,17 +14,17 @@ def generate_launch_description():
                 'i2c_device': '/dev/i2c-7',  # Update if needed
                 'update_rate': 100,
             }],
-            # remappings=[
-            #     ('base_link','/imu/data')
-            #     ]
+            #  remappings=[
+            #      ('/imu','/base_link')
+            #      ]
         ),
-        Node(
-            package='robot_localization',
-            executable='ekf_node',
-            name='ekf_filter_node',
-            output='screen',
-            parameters=['/opt/ros/humble/share/robot_localization/params/ekf.yaml']
-        ),
+        # Node(
+        #     package='robot_localization',
+        #     executable='ekf_node',
+        #     name='ekf_filter_node',
+        #     output='screen',
+        #     parameters=['/opt/ros/humble/share/robot_localization/params/ekf.yaml']
+        # ),
         # Static transform publisher (if dynamic transforms are not implemented)
         # Node(
         #     package='tf2_ros',

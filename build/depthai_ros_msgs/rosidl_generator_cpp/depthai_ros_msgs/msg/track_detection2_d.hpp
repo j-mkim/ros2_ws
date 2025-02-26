@@ -7,5 +7,6 @@
 #include "depthai_ros_msgs/msg/detail/track_detection2_d__struct.hpp"
 #include "depthai_ros_msgs/msg/detail/track_detection2_d__builder.hpp"
 #include "depthai_ros_msgs/msg/detail/track_detection2_d__traits.hpp"
+#include "depthai_ros_msgs/msg/detail/track_detection2_d__type_support.hpp"
 
 #endif  // DEPTHAI_ROS_MSGS__MSG__TRACK_DETECTION2_D_HPP_

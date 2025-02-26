@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "depthai_examples")
-set(depthai_examples_VERSION "2.10.4")
+set(depthai_examples_VERSION "2.11.0")
 set(depthai_examples_MAINTAINER "Adam Serafin <adam.serafin@luxonis.com>")
 set(depthai_examples_BUILD_DEPENDS "rclcpp" "cv_bridge" "camera_info_manager" "depthai" "depthai_ros_msgs" "depthai_bridge" "depthai_descriptions" "image_transport" "libopencv-dev" "ros_environment" "sensor_msgs" "std_msgs" "stereo_msgs" "vision_msgs" "foxglove_msgs" "rviz_imu_plugin")
 set(depthai_examples_BUILDTOOL_DEPENDS "ament_cmake")
