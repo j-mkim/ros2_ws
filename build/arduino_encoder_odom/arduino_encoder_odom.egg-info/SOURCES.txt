@@ -10,6 +10,7 @@ setup.py
 ../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/top_level.txt
 ../../build/arduino_encoder_odom/arduino_encoder_odom.egg-info/zip-safe
 arduino_encoder_odom/__init__.py
+arduino_encoder_odom/arduino_encoder_odom.py
 resource/arduino_encoder_odom
 test/test_copyright.py
 test/test_flake8.py
