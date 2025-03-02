@@ -1,0 +1,28 @@
+[2.286s] Invoking command in '/home/orin/ros2_ws/src/keyboard_control': PYTHONPATH=/home/orin/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/orin/ros2_ws/build/keyboard_control/build install --record /home/orin/ros2_ws/build/keyboard_control/install.log --single-version-externally-managed install_data
+[3.059s] running egg_info
+[3.113s] writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+[3.114s] writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+[3.115s] writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+[3.115s] writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+[3.116s] writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+[3.237s] reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[3.238s] adding license file 'LICENSE'
+[3.240s] writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[3.241s] running build
+[3.241s] running build_py
+[3.241s] copying keyboard_control/__init__.py -> /home/orin/ros2_ws/build/keyboard_control/build/lib/keyboard_control
+[3.242s] copying keyboard_control/keyboard_control.py -> /home/orin/ros2_ws/build/keyboard_control/build/lib/keyboard_control
+[3.243s] running install
+[3.254s] running install_lib
+[3.308s] copying /home/orin/ros2_ws/build/keyboard_control/build/lib/keyboard_control/keyboard_control.py -> /home/orin/ros2_ws/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+[3.310s] byte-compiling /home/orin/ros2_ws/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/keyboard_control.py to keyboard_control.cpython-310.pyc
+[3.312s] running install_data
+[3.313s] copying resource/keyboard_control -> /home/orin/ros2_ws/install/keyboard_control/share/ament_index/resource_index/packages
+[3.313s] copying package.xml -> /home/orin/ros2_ws/install/keyboard_control/share/keyboard_control
+[3.314s] running install_egg_info
+[3.371s] removing '/home/orin/ros2_ws/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info' (and everything under it)
+[3.372s] Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/orin/ros2_ws/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info
+[3.374s] running install_scripts
+[3.828s] Installing keyboard_control script to /home/orin/ros2_ws/install/keyboard_control/lib/keyboard_control
+[3.829s] writing list of installed files to '/home/orin/ros2_ws/build/keyboard_control/install.log'
+[3.909s] Invoked command in '/home/orin/ros2_ws/src/keyboard_control' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/orin/ros2_ws/build/keyboard_control/build install --record /home/orin/ros2_ws/build/keyboard_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000601] (-) JobUnselected: {'identifier': 'arduino_encoder_odom'}
+[0.001101] (-) JobUnselected: {'identifier': 'arduino_odometry'}
+[0.001435] (-) JobUnselected: {'identifier': 'arduino_serial_comm'}
+[0.001732] (-) JobUnselected: {'identifier': 'depthai-ros'}
+[0.001829] (-) JobUnselected: {'identifier': 'depthai_bridge'}
+[0.001907] (-) JobUnselected: {'identifier': 'depthai_descriptions'}
+[0.001981] (-) JobUnselected: {'identifier': 'depthai_examples'}
+[0.002052] (-) JobUnselected: {'identifier': 'depthai_filters'}
+[0.002118] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.002186] (-) JobUnselected: {'identifier': 'depthai_ros_msgs'}
+[0.002253] (-) JobUnselected: {'identifier': 'diffbot_description'}
+[0.002311] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.002376] (-) JobUnselected: {'identifier': 'encoder_odom'}
+[0.002431] (-) JobUnselected: {'identifier': 'encoder_ultrasonic_package'}
+[0.002487] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.002647] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.002720] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002764] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002812] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002868] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002919] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002981] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.003137] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003208] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003281] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003336] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.003377] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003415] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.003480] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003540] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003604] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003736] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.003802] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003844] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.003883] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.003923] (-) JobUnselected: {'identifier': 'hcsr04_sensor'}
+[0.003962] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.004004] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.004129] (-) JobUnselected: {'identifier': 'my_bot_imu'}
+[0.004191] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.004256] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.004300] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.004336] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.004370] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.004405] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.004439] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.004472] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.004505] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.004538] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.004572] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.004605] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.004638] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.004670] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.004703] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.004736] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.004809] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.004847] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.004880] (-) JobUnselected: {'identifier': 'simple_map_test'}
+[0.004914] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.004947] (-) JobUnselected: {'identifier': 'wheel_encoder_odometry'}
+[0.004991] (teleop_motor) JobQueued: {'identifier': 'teleop_motor', 'dependencies': OrderedDict()}
+[0.005037] (teleop_motor) JobStarted: {'identifier': 'teleop_motor'}
+[0.099245] (-) TimerEvent: {}
+[0.200118] (-) TimerEvent: {}
+[0.300996] (-) TimerEvent: {}
+[0.402085] (-) TimerEvent: {}
+[0.502713] (-) TimerEvent: {}
+[0.603325] (-) TimerEvent: {}
+[0.704388] (-) TimerEvent: {}
+[0.805013] (-) TimerEvent: {}
+[0.905686] (-) TimerEvent: {}
+[1.006299] (-) TimerEvent: {}
+[1.106924] (-) TimerEvent: {}
+[1.207538] (-) TimerEvent: {}
+[1.308154] (-) TimerEvent: {}
+[1.408768] (-) TimerEvent: {}
+[1.509434] (-) TimerEvent: {}
+[1.610072] (-) TimerEvent: {}
+[1.710734] (-) TimerEvent: {}
+[1.811360] (-) TimerEvent: {}
+[1.911992] (-) TimerEvent: {}
+[2.012627] (-) TimerEvent: {}
+[2.076307] (teleop_motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_motor', 'build', '--build-base', '/home/orin/ros2_ws/build/teleop_motor/build', 'install', '--record', '/home/orin/ros2_ws/build/teleop_motor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin/ros2_ws/src/teleop_motor', 'env': {'OPENBLAS_CORETYPE': 'ARMV8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/orin', 'OLDPWD': '/home/orin', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'SYSTEMD_EXEC_PID': '2995', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'orin', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421024233640', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orin', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/2286,unix/nano:/tmp/.ICE-unix/2286', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26366fdc_6a4c_4537_83c4_d64af7f848d3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/orin/ros2_ws/build/teleop_motor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/ros2_ws/build/teleop_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/teleop_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[2.112780] (-) TimerEvent: {}
+[2.213466] (-) TimerEvent: {}
+[2.314076] (-) TimerEvent: {}
+[2.414684] (-) TimerEvent: {}
+[2.515366] (-) TimerEvent: {}
+[2.616188] (-) TimerEvent: {}
+[2.716996] (-) TimerEvent: {}
+[2.782808] (teleop_motor) StdoutLine: {'line': b'running egg_info\n'}
+[2.817119] (-) TimerEvent: {}
+[2.833943] (teleop_motor) StdoutLine: {'line': b'writing ../../build/teleop_motor/teleop_motor.egg-info/PKG-INFO\n'}
+[2.835316] (teleop_motor) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_motor/teleop_motor.egg-info/dependency_links.txt\n'}
+[2.835895] (teleop_motor) StdoutLine: {'line': b'writing entry points to ../../build/teleop_motor/teleop_motor.egg-info/entry_points.txt\n'}
+[2.836437] (teleop_motor) StdoutLine: {'line': b'writing requirements to ../../build/teleop_motor/teleop_motor.egg-info/requires.txt\n'}
+[2.836818] (teleop_motor) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_motor/teleop_motor.egg-info/top_level.txt\n'}
+[2.891851] (teleop_motor) StdoutLine: {'line': b"reading manifest file '../../build/teleop_motor/teleop_motor.egg-info/SOURCES.txt'\n"}
+[2.894601] (teleop_motor) StdoutLine: {'line': b"writing manifest file '../../build/teleop_motor/teleop_motor.egg-info/SOURCES.txt'\n"}
+[2.895070] (teleop_motor) StdoutLine: {'line': b'running build\n'}
+[2.895277] (teleop_motor) StdoutLine: {'line': b'running install\n'}
+[2.905459] (teleop_motor) StdoutLine: {'line': b'running install_data\n'}
+[2.906271] (teleop_motor) StdoutLine: {'line': b'copying resource/teleop_motor -> /home/orin/ros2_ws/install/teleop_motor/share/ament_index/resource_index/packages\n'}
+[2.906981] (teleop_motor) StdoutLine: {'line': b'copying package.xml -> /home/orin/ros2_ws/install/teleop_motor/share/teleop_motor\n'}
+[2.907357] (teleop_motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.917244] (-) TimerEvent: {}
+[3.014810] (teleop_motor) StdoutLine: {'line': b"removing '/home/orin/ros2_ws/install/teleop_motor/lib/python3.10/site-packages/teleop_motor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.015609] (teleop_motor) StdoutLine: {'line': b'Copying ../../build/teleop_motor/teleop_motor.egg-info to /home/orin/ros2_ws/install/teleop_motor/lib/python3.10/site-packages/teleop_motor-0.0.0-py3.10.egg-info\n'}
+[3.017366] (-) TimerEvent: {}
+[3.018009] (teleop_motor) StdoutLine: {'line': b'running install_scripts\n'}
+[3.117574] (-) TimerEvent: {}
+[3.218375] (-) TimerEvent: {}
+[3.319035] (-) TimerEvent: {}
+[3.419732] (-) TimerEvent: {}
+[3.437346] (teleop_motor) StdoutLine: {'line': b'Installing teleop_motor script to /home/orin/ros2_ws/install/teleop_motor/lib/teleop_motor\n'}
+[3.437952] (teleop_motor) StdoutLine: {'line': b"writing list of installed files to '/home/orin/ros2_ws/build/teleop_motor/install.log'\n"}
+[3.517627] (teleop_motor) CommandEnded: {'returncode': 0}
+[3.519861] (-) TimerEvent: {}
+[3.558239] (teleop_motor) JobEnded: {'identifier': 'teleop_motor', 'rc': 0}
+[3.561451] (-) EventReactorShutdown: {}

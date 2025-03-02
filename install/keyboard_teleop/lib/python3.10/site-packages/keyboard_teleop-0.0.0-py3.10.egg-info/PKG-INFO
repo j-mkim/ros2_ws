@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: keyboard_teleop
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: orin
+Maintainer-email: jaemin.d.kim@gmail.com
+License: TODO: License declaration
+Requires-Dist: setuptools

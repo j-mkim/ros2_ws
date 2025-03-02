@@ -1,0 +1,2 @@
+[console_scripts]
+teleop_motor = teleop_motor.teleop_motor:main

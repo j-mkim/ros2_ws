@@ -1,0 +1,215 @@
+[0.022s] Invoking command in '/home/orin/ros2_ws/build/custom_msgs': /usr/bin/cmake /home/orin/ros2_ws/src/custom_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/custom_msgs
+[0.043s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.422s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.427s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.439s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.186s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.616s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.625s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.719s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.719s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.719s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.720s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.783s] -- Found PythonExtra: .so  
+[2.921s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.956s] -- Configuring done
+[3.033s] -- Generating done
+[3.056s] -- Build files have been written to: /home/orin/ros2_ws/build/custom_msgs
+[3.077s] Invoked command in '/home/orin/ros2_ws/build/custom_msgs' returned '0': /usr/bin/cmake /home/orin/ros2_ws/src/custom_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/custom_msgs
+[3.083s] Invoking command in '/home/orin/ros2_ws/build/custom_msgs': /usr/bin/cmake --build /home/orin/ros2_ws/build/custom_msgs -- -j6 -l6
+[3.178s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.199s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.221s] [  6%] Built target ament_cmake_python_copy_custom_msgs
+[3.747s] [  6%] Built target custom_msgs__cpp
+[3.767s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.790s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.791s] [ 16%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/motor_speeds__functions.c.o[0m
+[3.826s] running egg_info
+[3.827s] creating custom_msgs.egg-info
+[3.835s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.893s] writing custom_msgs.egg-info/PKG-INFO
+[3.894s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[3.894s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[3.896s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[3.985s] [ 22%] [32m[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so[0m
+[4.069s] [ 22%] Built target custom_msgs__rosidl_generator_c
+[4.070s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[4.070s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[4.097s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.101s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.177s] [ 29%] Built target ament_cmake_python_build_custom_msgs_egg
+[4.209s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.345s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/motor_speeds__type_support.cpp.o[0m
+[4.349s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/motor_speeds__type_support.cpp.o[0m
+[4.355s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/motor_speeds__type_support.cpp.o[0m
+[4.645s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/motor_speeds__type_support_c.cpp.o[0m
+[4.693s] [ 48%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/motor_speeds__type_support.c.o[0m
+[4.753s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/motor_speeds__type_support.cpp.o[0m
+[4.793s] [ 54%] [32m[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.833s] [ 58%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so[0m
+[4.856s] [ 58%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[4.927s] [ 58%] Built target custom_msgs__rosidl_typesupport_c
+[5.074s] [ 61%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so[0m
+[5.158s] [ 61%] Built target custom_msgs__rosidl_typesupport_cpp
+[5.359s] [ 64%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.378s] [ 67%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.423s] [ 70%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.447s] [ 70%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[5.548s] [ 70%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[5.601s] [ 70%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[5.648s] [ 70%] Built target custom_msgs
+[5.695s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.317s] [ 74%] Built target custom_msgs__py
+[6.359s] [ 77%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_motor_speeds_s.c.o[0m
+[6.673s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so[0m
+[6.761s] [ 80%] Built target custom_msgs__rosidl_generator_py
+[6.808s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.808s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.809s] [ 90%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.022s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.022s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.023s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.112s] [100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[7.117s] [100%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[7.117s] [100%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.150s] Invoked command in '/home/orin/ros2_ws/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/orin/ros2_ws/build/custom_msgs -- -j6 -l6
+[7.185s] Invoking command in '/home/orin/ros2_ws/build/custom_msgs': /usr/bin/cmake --install /home/orin/ros2_ws/build/custom_msgs
+[7.209s] -- Install configuration: ""
+[7.210s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[7.210s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[7.210s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[7.210s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.211s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[7.211s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__functions.c
+[7.211s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__type_support.h
+[7.212s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__struct.h
+[7.213s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__functions.h
+[7.213s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/motor_speeds.h
+[7.213s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[7.213s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[7.213s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[7.214s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""
+[7.214s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[7.215s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[7.215s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.215s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[7.215s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_c.h
+[7.215s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[7.216s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.216s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[7.216s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[7.216s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/motor_speeds.hpp
+[7.222s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.222s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[7.223s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__builder.hpp
+[7.223s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__struct.hpp
+[7.223s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__type_support.hpp
+[7.224s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__traits.hpp
+[7.224s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[7.224s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[7.224s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.225s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[7.225s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/dds_fastrtps
+[7.225s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_cpp.hpp
+[7.225s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.225s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.225s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[7.226s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[7.226s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.226s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[7.226s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__type_support.c
+[7.226s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__rosidl_typesupport_introspection_c.h
+[7.227s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[7.227s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.227s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[7.227s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""
+[7.227s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[7.227s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[7.228s] -- Up-to-date: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[7.228s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__rosidl_typesupport_introspection_cpp.hpp
+[7.228s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_speeds__type_support.cpp
+[7.229s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[7.230s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.230s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[7.231s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""
+[7.231s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[7.231s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[7.231s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info
+[7.231s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[7.231s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[7.231s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.231s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.232s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs
+[7.232s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py
+[7.233s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.233s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.233s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[7.233s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.233s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so
+[7.237s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg
+[7.237s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py
+[7.237s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_speeds.py
+[7.237s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_speeds_s.c
+[7.237s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.238s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.319s] Listing '/home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...
+[7.320s] Compiling '/home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...
+[7.320s] Listing '/home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...
+[7.320s] Compiling '/home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py'...
+[7.320s] Compiling '/home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_speeds.py'...
+[7.334s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.334s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.335s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.336s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.336s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.337s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.337s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[7.338s] -- Set runtime path of "/home/orin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""
+[7.339s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/MotorSpeeds.idl
+[7.339s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/MotorSpeeds.msg
+[7.340s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[7.340s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[7.341s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[7.341s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[7.341s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/path.sh
+[7.342s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[7.342s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.bash
+[7.343s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.sh
+[7.343s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[7.343s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[7.344s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/package.dsv
+[7.344s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[7.345s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[7.345s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.346s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.346s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.347s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[7.347s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.347s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.348s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.348s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.349s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[7.349s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.349s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.350s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.350s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[7.350s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.351s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[7.351s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.351s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[7.352s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.352s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.353s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.353s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.353s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.353s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.354s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[7.354s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[7.354s] -- Installing: /home/orin/ros2_ws/install/custom_msgs/share/custom_msgs/package.xml
+[7.360s] Invoked command in '/home/orin/ros2_ws/build/custom_msgs' returned '0': /usr/bin/cmake --install /home/orin/ros2_ws/build/custom_msgs

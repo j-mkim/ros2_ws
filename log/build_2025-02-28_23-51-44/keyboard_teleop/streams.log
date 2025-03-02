@@ -1,0 +1,27 @@
+[2.335s] Invoking command in '/home/orin/ros2_ws/src/keyboard_teleop': PYTHONPATH=/home/orin/ros2_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/orin/ros2_ws/build/keyboard_teleop/build install --record /home/orin/ros2_ws/build/keyboard_teleop/install.log --single-version-externally-managed install_data
+[3.141s] running egg_info
+[3.203s] writing ../../build/keyboard_teleop/keyboard_teleop.egg-info/PKG-INFO
+[3.204s] writing dependency_links to ../../build/keyboard_teleop/keyboard_teleop.egg-info/dependency_links.txt
+[3.204s] writing entry points to ../../build/keyboard_teleop/keyboard_teleop.egg-info/entry_points.txt
+[3.205s] writing requirements to ../../build/keyboard_teleop/keyboard_teleop.egg-info/requires.txt
+[3.205s] writing top-level names to ../../build/keyboard_teleop/keyboard_teleop.egg-info/top_level.txt
+[3.327s] reading manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[3.330s] writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[3.331s] running build
+[3.331s] running build_py
+[3.331s] copying keyboard_teleop/__init__.py -> /home/orin/ros2_ws/build/keyboard_teleop/build/lib/keyboard_teleop
+[3.332s] copying keyboard_teleop/keyboard_teleop.py -> /home/orin/ros2_ws/build/keyboard_teleop/build/lib/keyboard_teleop
+[3.333s] running install
+[3.343s] running install_lib
+[3.399s] copying /home/orin/ros2_ws/build/keyboard_teleop/build/lib/keyboard_teleop/keyboard_teleop.py -> /home/orin/ros2_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop
+[3.400s] byte-compiling /home/orin/ros2_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop/keyboard_teleop.py to keyboard_teleop.cpython-310.pyc
+[3.402s] running install_data
+[3.403s] copying resource/keyboard_teleop -> /home/orin/ros2_ws/install/keyboard_teleop/share/ament_index/resource_index/packages
+[3.404s] copying package.xml -> /home/orin/ros2_ws/install/keyboard_teleop/share/keyboard_teleop
+[3.404s] running install_egg_info
+[3.462s] removing '/home/orin/ros2_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[3.463s] Copying ../../build/keyboard_teleop/keyboard_teleop.egg-info to /home/orin/ros2_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info
+[3.465s] running install_scripts
+[3.917s] Installing keyboard_teleop script to /home/orin/ros2_ws/install/keyboard_teleop/lib/keyboard_teleop
+[3.918s] writing list of installed files to '/home/orin/ros2_ws/build/keyboard_teleop/install.log'
+[3.999s] Invoked command in '/home/orin/ros2_ws/src/keyboard_teleop' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/orin/ros2_ws/build/keyboard_teleop/build install --record /home/orin/ros2_ws/build/keyboard_teleop/install.log --single-version-externally-managed install_data

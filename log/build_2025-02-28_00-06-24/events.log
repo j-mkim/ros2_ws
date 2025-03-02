@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (-) JobUnselected: {'identifier': 'arduino_encoder_odom'}
+[0.001120] (-) JobUnselected: {'identifier': 'arduino_odometry'}
+[0.001409] (-) JobUnselected: {'identifier': 'arduino_serial_comm'}
+[0.001686] (-) JobUnselected: {'identifier': 'depthai-ros'}
+[0.001782] (-) JobUnselected: {'identifier': 'depthai_bridge'}
+[0.001832] (-) JobUnselected: {'identifier': 'depthai_descriptions'}
+[0.001906] (-) JobUnselected: {'identifier': 'depthai_examples'}
+[0.001972] (-) JobUnselected: {'identifier': 'depthai_filters'}
+[0.002038] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.002102] (-) JobUnselected: {'identifier': 'depthai_ros_msgs'}
+[0.002167] (-) JobUnselected: {'identifier': 'diffbot_description'}
+[0.002413] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.002494] (-) JobUnselected: {'identifier': 'encoder_odom'}
+[0.002541] (-) JobUnselected: {'identifier': 'encoder_ultrasonic_package'}
+[0.002601] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.002657] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.002792] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002858] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002927] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002973] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.003012] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.003053] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.003113] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003170] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003214] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003256] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.003362] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003423] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.003464] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003516] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003557] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003671] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.003729] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003791] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.003833] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.003871] (-) JobUnselected: {'identifier': 'hcsr04_sensor'}
+[0.003909] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.003972] (-) JobUnselected: {'identifier': 'my_bot_description'}
+[0.004075] (-) JobUnselected: {'identifier': 'my_bot_imu'}
+[0.004135] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.004176] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.004227] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.004268] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.004639] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.004716] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.006204] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.006308] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.006362] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.006403] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.006441] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.006576] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.006626] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.006705] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.006749] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.006808] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.007117] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.007213] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.007271] (-) JobUnselected: {'identifier': 'simple_map_test'}
+[0.007312] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.007523] (-) JobUnselected: {'identifier': 'wheel_encoder_odometry'}
+[0.007602] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.007665] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.099405] (-) TimerEvent: {}
+[0.200368] (-) TimerEvent: {}
+[0.301032] (-) TimerEvent: {}
+[0.401963] (-) TimerEvent: {}
+[0.502890] (-) TimerEvent: {}
+[0.603696] (-) TimerEvent: {}
+[0.704936] (-) TimerEvent: {}
+[0.805559] (-) TimerEvent: {}
+[0.906202] (-) TimerEvent: {}
+[1.006952] (-) TimerEvent: {}
+[1.107909] (-) TimerEvent: {}
+[1.208543] (-) TimerEvent: {}
+[1.309155] (-) TimerEvent: {}
+[1.409995] (-) TimerEvent: {}
+[1.510611] (-) TimerEvent: {}
+[1.611222] (-) TimerEvent: {}
+[1.712204] (-) TimerEvent: {}
+[1.814130] (-) TimerEvent: {}
+[1.914772] (-) TimerEvent: {}
+[2.015632] (-) TimerEvent: {}
+[2.101424] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/orin/ros2_ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/orin/ros2_ws/build/teleop_twist_keyboard/install.log', '--install-scripts', '$base/lib/teleop_twist_keyboard', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin/ros2_ws/src/teleop_twist_keyboard', 'env': {'OPENBLAS_CORETYPE': 'ARMV8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/orin', 'OLDPWD': '/home/orin/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'SYSTEMD_EXEC_PID': '3043', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'orin', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421024233640', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orin', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/2288,unix/nano:/tmp/.ICE-unix/2288', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fd5e930d_0d82_42fd_8126_acc0ed195475', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/orin/ros2_ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[2.115867] (-) TimerEvent: {}
+[2.217362] (-) TimerEvent: {}
+[2.317964] (-) TimerEvent: {}
+[2.418585] (-) TimerEvent: {}
+[2.441194] (teleop_twist_keyboard) StderrLine: {'line': b'/home/orin/.local/lib/python3.10/site-packages/setuptools/dist.py:452: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[2.441747] (teleop_twist_keyboard) StderrLine: {'line': b'!!\n'}
+[2.441924] (teleop_twist_keyboard) StderrLine: {'line': b'\n'}
+[2.442068] (teleop_twist_keyboard) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.442210] (teleop_twist_keyboard) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[2.442346] (teleop_twist_keyboard) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[2.442478] (teleop_twist_keyboard) StderrLine: {'line': b'\n'}
+[2.442606] (teleop_twist_keyboard) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[2.442735] (teleop_twist_keyboard) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[2.442862] (teleop_twist_keyboard) StderrLine: {'line': b'\n'}
+[2.442986] (teleop_twist_keyboard) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[2.443113] (teleop_twist_keyboard) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.443242] (teleop_twist_keyboard) StderrLine: {'line': b'\n'}
+[2.443365] (teleop_twist_keyboard) StderrLine: {'line': b'!!\n'}
+[2.443488] (teleop_twist_keyboard) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.502641] (teleop_twist_keyboard) StderrLine: {'line': b"/home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.503186] (teleop_twist_keyboard) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.518672] (-) TimerEvent: {}
+[2.619171] (-) TimerEvent: {}
+[2.719774] (-) TimerEvent: {}
+[2.817737] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[2.818859] (teleop_twist_keyboard) StdoutLine: {'line': b'creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info\n'}
+[2.819853] (-) TimerEvent: {}
+[2.870402] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[2.871474] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[2.871912] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[2.872294] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[2.872608] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[2.872958] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[2.919992] (-) TimerEvent: {}
+[2.978859] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[2.979402] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.981521] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[2.981987] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[2.982247] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[2.982453] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/orin/ros2_ws/build/teleop_twist_keyboard/build/lib\n'}
+[2.983078] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/orin/ros2_ws/build/teleop_twist_keyboard/build/lib\n'}
+[2.983453] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[2.993292] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[3.020101] (-) TimerEvent: {}
+[3.045634] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/orin/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages\n'}
+[3.047459] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc\n'}
+[3.049490] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[3.050151] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/orin/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[3.050807] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /home/orin/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[3.051484] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /home/orin/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[3.051873] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.107347] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.0.0-py3.10.egg-info\n'}
+[3.109341] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[3.120230] (-) TimerEvent: {}
+[3.220796] (-) TimerEvent: {}
+[3.321393] (-) TimerEvent: {}
+[3.422016] (-) TimerEvent: {}
+[3.522675] (-) TimerEvent: {}
+[3.534094] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/orin/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[3.534853] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/orin/ros2_ws/build/teleop_twist_keyboard/install.log'\n"}
+[3.618959] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[3.622834] (-) TimerEvent: {}
+[3.652416] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[3.656829] (-) EventReactorShutdown: {}

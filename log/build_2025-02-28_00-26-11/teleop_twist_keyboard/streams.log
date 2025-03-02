@@ -1,0 +1,42 @@
+[2.336s] Invoking command in '/home/orin/ros2_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/orin/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/orin/ros2_ws/build/teleop_twist_keyboard/build install --record /home/orin/ros2_ws/build/teleop_twist_keyboard/install.log --install-scripts $base/lib/teleop_twist_keyboard --single-version-externally-managed install_data
+[2.727s] /home/orin/.local/lib/python3.10/site-packages/setuptools/dist.py:452: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.727s] !!
+[2.727s] 
+[2.727s]         ********************************************************************************
+[2.727s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.728s]         versions. Please use the underscore name 'script_dir' instead.
+[2.728s] 
+[2.728s]         This deprecation is overdue, please update your project and remove deprecated
+[2.728s]         calls to avoid build errors in the future.
+[2.728s] 
+[2.728s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.728s]         ********************************************************************************
+[2.728s] 
+[2.729s] !!
+[2.729s]   opt = self.warn_dash_deprecation(opt, section)
+[3.123s] running egg_info
+[3.179s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[3.180s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[3.181s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[3.181s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[3.182s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[3.299s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[3.300s] adding license file 'LICENSE'
+[3.302s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[3.302s] running build
+[3.302s] running build_py
+[3.303s] copying teleop_twist_keyboard.py -> /home/orin/ros2_ws/build/teleop_twist_keyboard/build/lib
+[3.304s] running install
+[3.314s] running install_lib
+[3.371s] copying /home/orin/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[3.373s] byte-compiling /home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[3.375s] running install_data
+[3.376s] copying resource/teleop_twist_keyboard -> /home/orin/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[3.377s] copying package.xml -> /home/orin/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[3.377s] running install_egg_info
+[3.435s] removing '/home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.0.0-py3.10.egg-info' (and everything under it)
+[3.436s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.0.0-py3.10.egg-info
+[3.438s] running install_scripts
+[3.904s] Installing teleop_twist_keyboard script to /home/orin/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[3.905s] writing list of installed files to '/home/orin/ros2_ws/build/teleop_twist_keyboard/install.log'
+[3.988s] Invoked command in '/home/orin/ros2_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/orin/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/orin/ros2_ws/build/teleop_twist_keyboard/build install --record /home/orin/ros2_ws/build/teleop_twist_keyboard/install.log --install-scripts $base/lib/teleop_twist_keyboard --single-version-externally-managed install_data
