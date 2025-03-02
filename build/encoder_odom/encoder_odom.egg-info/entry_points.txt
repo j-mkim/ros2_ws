@@ -1,0 +1,2 @@
+[console_scripts]
+encoder_odom = encoder_odom.encoder_odom:main

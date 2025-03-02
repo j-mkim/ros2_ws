@@ -1,0 +1,27 @@
+[0.162s] Invoking command in '/home/orin/ros2_ws/build/ros2_control_demo_example_8': AMENT_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin/ros2_ws/src/ros2_control_demos/example_8 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/ros2_control_demo_example_8
+[0.224s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.719s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.811s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.060s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.076s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.115s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.971s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.988s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.112s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.166s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.219s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.241s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.520s] -- Found transmission_interface: 2.48.0 (/opt/ros/humble/share/transmission_interface/cmake)
+[2.565s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[8.069s] -- Configuring done
+[8.177s] -- Generating done
+[8.198s] -- Build files have been written to: /home/orin/ros2_ws/build/ros2_control_demo_example_8
+[8.233s] Invoked command in '/home/orin/ros2_ws/build/ros2_control_demo_example_8' returned '0': AMENT_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin/ros2_ws/src/ros2_control_demos/example_8 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/ros2_control_demo_example_8
+[8.234s] Invoking command in '/home/orin/ros2_ws/build/ros2_control_demo_example_8': AMENT_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin/ros2_ws/build/ros2_control_demo_example_8 -- -j6 -l6
+[8.372s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_8[0m
+[8.421s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_8.dir/hardware/rrbot_transmissions_system_position_only.cpp.o[0m
+[13.418s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_8.so[0m
+[13.868s] [100%] Built target ros2_control_demo_example_8

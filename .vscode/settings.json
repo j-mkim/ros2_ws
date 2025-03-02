@@ -4,6 +4,7 @@
         "chrono": "cpp",
         "memory": "cpp",
         "cmath": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "string_view": "cpp"
     }
 }

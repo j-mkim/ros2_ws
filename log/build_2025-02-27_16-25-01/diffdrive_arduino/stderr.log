@@ -1,0 +1,31 @@
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type diffdrive_arduino::DiffDriveArduinoHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:239:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble pos_prev[m[K’
+  239 |   double [01;31m[Kpos_prev[m[K = wheel_r_l_.pos;
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:231:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble pos_prev[m[K’ previously declared here
+  231 |   double [01;36m[Kpos_prev[m[K = wheel_f_l_.pos;
+      |          [01;36m[K^~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type diffdrive_arduino::DiffDriveArduinoHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:263:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_l_counts_per_loop[m[K’ was not declared in this scope; did you mean ‘[01m[Kmotor_r_l_counts_per_loop[m[K’?
+  263 |   comms_.set_motor_values([01;31m[Kmotor_l_counts_per_loop[m[K, motor_r_counts_per_loop);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                           [32m[Kmotor_r_l_counts_per_loop[m[K
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:263:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_r_counts_per_loop[m[K’ was not declared in this scope; did you mean ‘[01m[Kmotor_r_r_counts_per_loop[m[K’?
+  263 |   comms_.set_motor_values(motor_l_counts_per_loop, [01;31m[Kmotor_r_counts_per_loop[m[K);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                    [32m[Kmotor_r_r_counts_per_loop[m[K
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:258:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmotor_f_l_counts_per_loop[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  258 |   int [01;35m[Kmotor_f_l_counts_per_loop[m[K = wheel_f_l_.cmd / wheel_f_l_.rads_per_count / cfg_.loop_rate;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:259:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmotor_f_r_counts_per_loop[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  259 |   int [01;35m[Kmotor_f_r_counts_per_loop[m[K = wheel_f_r_.cmd / wheel_f_r_.rads_per_count / cfg_.loop_rate;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:260:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmotor_r_l_counts_per_loop[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  260 |   int [01;35m[Kmotor_r_l_counts_per_loop[m[K = wheel_r_l_.cmd / wheel_r_l_.rads_per_count / cfg_.loop_rate;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:261:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmotor_r_r_counts_per_loop[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  261 |   int [01;35m[Kmotor_r_r_counts_per_loop[m[K = wheel_r_r_.cmd / wheel_r_r_.rads_per_count / cfg_.loop_rate;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

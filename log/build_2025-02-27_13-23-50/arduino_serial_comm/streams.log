@@ -1,0 +1,23 @@
+[0.045s] Invoking command in '/home/orin/ros2_ws/build/arduino_serial_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/arduino_serial_comm -- -j6 -l6
+[1.092s] [100%] Built target serial_comm_node
+[1.157s] Invoked command in '/home/orin/ros2_ws/build/arduino_serial_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/arduino_serial_comm -- -j6 -l6
+[1.177s] Invoking command in '/home/orin/ros2_ws/build/arduino_serial_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/arduino_serial_comm
+[1.191s] -- Install configuration: ""
+[1.194s] -- Execute custom install script
+[1.194s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/lib/arduino_serial_comm/serial_comm_node
+[1.194s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/ament_index/resource_index/package_run_dependencies/arduino_serial_comm
+[1.195s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/ament_index/resource_index/parent_prefix_path/arduino_serial_comm
+[1.198s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/environment/ament_prefix_path.sh
+[1.198s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/environment/ament_prefix_path.dsv
+[1.200s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/environment/path.sh
+[1.200s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/environment/path.dsv
+[1.201s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/local_setup.bash
+[1.202s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/local_setup.sh
+[1.204s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/local_setup.zsh
+[1.209s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/local_setup.dsv
+[1.209s] -- Symlinking: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/package.dsv
+[1.257s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/ament_index/resource_index/packages/arduino_serial_comm
+[1.257s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/cmake/arduino_serial_commConfig.cmake
+[1.258s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/cmake/arduino_serial_commConfig-version.cmake
+[1.258s] -- Up-to-date symlink: /home/orin/ros2_ws/install/arduino_serial_comm/share/arduino_serial_comm/package.xml
+[1.268s] Invoked command in '/home/orin/ros2_ws/build/arduino_serial_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/ros2_ws/build/arduino_serial_comm

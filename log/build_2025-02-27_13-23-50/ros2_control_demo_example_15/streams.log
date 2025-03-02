@@ -1,0 +1,7 @@
+[0.301s] Invoking command in '/home/orin/ros2_ws/build/ros2_control_demo_example_15': AMENT_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_example_1:/home/orin/ros2_ws/install/ros2_control_demo_testing:/home/orin/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ros2_ws/install/ros2_control_demo_example_5:/home/orin/ros2_ws/install/ros2_control_demo_example_1:/home/orin/ros2_ws/install/ros2_control_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/orin/ros2_ws/install/ros2_control_demo_example_5/lib:/home/orin/ros2_ws/install/ros2_control_demo_example_1/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orin/ros2_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin/ros2_ws/src/ros2_control_demos/example_15 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/ros2_control_demo_example_15
+[0.386s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.732s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.770s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[3.907s] -- Configuring done
+[3.933s] -- Generating done
+[3.943s] -- Build files have been written to: /home/orin/ros2_ws/build/ros2_control_demo_example_15
