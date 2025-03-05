@@ -29,9 +29,9 @@ class keyboard_teleop(Node):
                 elif key == 's':
                     twist.linear.x = -255.0  # backward
                 elif key == 'a':
-                    twist.angular.z = 200.0  # turn left
+                    twist.angular.z = 300.0  # turn left
                 elif key == 'd':
-                    twist.angular.z = -200.0  # turn right
+                    twist.angular.z = -300.0  # turn right
                 elif key == ' ' or key == 'x':
                     twist.linear.x = 0.0
                     twist.angular.z = 0.0

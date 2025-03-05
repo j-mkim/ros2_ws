@@ -12,7 +12,7 @@ def generate_launch_description():
             parameters=[{
                 'frame_id': 'base_link',
                 'i2c_device': '/dev/i2c-7',  # Update if needed
-                'update_rate': 100,
+                'update_rate': 1,
             }],
             #  remappings=[
             #      ('/imu','/base_link')

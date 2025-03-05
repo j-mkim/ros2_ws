@@ -360,7 +360,7 @@ void my_bot_imu::timer_callback() {
     transform.transform.rotation = imu_msg.orientation;
 
     // Broadcast the transform
-    tf_broadcaster_->sendTransform(transform);
+    // tf_broadcaster_->sendTransform(transform);
 
     // Read magnetometer data
     // int16_t magn_x, magn_y, magn_z;

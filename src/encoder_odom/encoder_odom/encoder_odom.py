@@ -28,8 +28,8 @@ class EncoderOdom(Node):
         self.odom_pub = self.create_publisher(Odometry, 'odom', 10)
         
         # Robot parameters (adjust these to your robot)
-        self.wheel_radius = 0.03         # in meters (example: 3 cm radius)
-        self.wheel_separation = 0.15      # in meters (distance between wheels)
+        self.wheel_radius = 0.03         # in meters
+        self.wheel_separation = 0.15     # in meters (distance between wheels)
         self.ticks_per_rev = 576         # number of encoder ticks per wheel revolution
         
         # Scaling factor for converting velocity to PWM
@@ -148,7 +148,7 @@ class EncoderOdom(Node):
         right_pwm = int(max(min(right_velocity * self.scaling_factor, 255), -255))
         
         # Construct command string for four motors:
-        # Assuming motors 1 and 2 (first two) are left and motors 3 and 4 are right.
+        # Assuming motors 2 and 4 are left and motors 1 and 3 are right.
         command_str = f"({right_pwm}, {left_pwm}, {right_pwm}, {left_pwm})\n"
         try:
             self.ser.write(command_str.encode('utf-8'))
