@@ -92,7 +92,7 @@ mobilenet_node_EXTERNAL_OBJECTS =
 
 mobilenet_node: CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher.cpp.o
 mobilenet_node: CMakeFiles/mobilenet_node.dir/build.make
-mobilenet_node: /opt/ros/humble/lib/libdepthai_bridge.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_bridge/lib/libdepthai_bridge.so
 mobilenet_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
 mobilenet_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
 mobilenet_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -105,14 +105,14 @@ mobilenet_node: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.10.0
 mobilenet_node: /opt/ros/humble/lib/libcamera_info_manager.so
 mobilenet_node: /opt/ros/humble/lib/libcv_bridge.so
 mobilenet_node: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.10.0
-mobilenet_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
-mobilenet_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
-mobilenet_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
-mobilenet_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
-mobilenet_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
-mobilenet_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_py.so
-mobilenet_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
-mobilenet_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+mobilenet_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
 mobilenet_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_c.so
 mobilenet_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_c.so
 mobilenet_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so

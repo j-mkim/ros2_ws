@@ -1,9 +1,0 @@
-Metadata-Version: 2.1
-Name: wheel_encoder_odometry
-Version: 0.0.1
-Summary: Wheel Encoder Odometry Package
-Maintainer: Your Name
-Maintainer-email: your_email@example.com
-License: Apache License 2.0
-Requires-Dist: setuptools
-Requires-Dist: pyserial

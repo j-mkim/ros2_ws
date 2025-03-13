@@ -1,2 +1,0 @@
-[console_scripts]
-encoder_ultrasonic_node = encoder_ultrasonic_package.encoder_ultrasonic_node:main

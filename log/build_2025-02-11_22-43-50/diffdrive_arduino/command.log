@@ -1,4 +1,0 @@
-Invoking command in '/home/orin/ros2_ws/build/diffdrive_arduino': /usr/bin/cmake --build /home/orin/ros2_ws/build/diffdrive_arduino -- -j6 -l6
-Invoked command in '/home/orin/ros2_ws/build/diffdrive_arduino' returned '0': /usr/bin/cmake --build /home/orin/ros2_ws/build/diffdrive_arduino -- -j6 -l6
-Invoking command in '/home/orin/ros2_ws/build/diffdrive_arduino': /usr/bin/cmake --install /home/orin/ros2_ws/build/diffdrive_arduino
-Invoked command in '/home/orin/ros2_ws/build/diffdrive_arduino' returned '0': /usr/bin/cmake --install /home/orin/ros2_ws/build/diffdrive_arduino

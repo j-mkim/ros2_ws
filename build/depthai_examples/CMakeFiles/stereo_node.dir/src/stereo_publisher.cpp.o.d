@@ -705,7 +705,7 @@ CMakeFiles/stereo_node.dir/src/stereo_publisher.cpp.o: \
  /opt/ros/humble/include/depthai/pipeline/datatype/StereoDepthConfig.hpp \
  /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
  /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
- /opt/ros/humble/include/depthai_bridge/BridgePublisher.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/BridgePublisher.hpp \
  /opt/ros/humble/include/image_transport/image_transport/image_transport.hpp \
  /opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp \
  /opt/ros/humble/include/image_transport/image_transport/single_subscriber_publisher.hpp \
@@ -720,12 +720,12 @@ CMakeFiles/stereo_node.dir/src/stereo_publisher.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/depthai_bridge/DisparityConverter.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/DisparityConverter.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/ImgFrame.hpp \
  /opt/ros/humble/include/depthai/build/config.hpp \
  /opt/ros/humble/include/depthai/common/CameraExposureOffset.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
- /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \

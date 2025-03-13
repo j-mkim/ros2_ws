@@ -1,4 +1,0 @@
-[ 33%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_5.dir/hardware/external_rrbot_force_torque_sensor.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_5.dir/hardware/rrbot.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library libros2_control_demo_example_5.so[0m
-[100%] Built target ros2_control_demo_example_5

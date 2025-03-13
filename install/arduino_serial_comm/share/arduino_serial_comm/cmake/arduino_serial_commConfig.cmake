@@ -1,1 +1,0 @@
-/home/orin/ros2_ws/build/arduino_serial_comm/ament_cmake_core/arduino_serial_commConfig.cmake

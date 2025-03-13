@@ -92,7 +92,7 @@ rgb_stereo_node_EXTERNAL_OBJECTS =
 
 rgb_stereo_node: CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o
 rgb_stereo_node: CMakeFiles/rgb_stereo_node.dir/build.make
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_bridge.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_bridge/lib/libdepthai_bridge.so
 rgb_stereo_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
 rgb_stereo_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
 rgb_stereo_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -105,14 +105,14 @@ rgb_stereo_node: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.10.0
 rgb_stereo_node: /opt/ros/humble/lib/libcamera_info_manager.so
 rgb_stereo_node: /opt/ros/humble/lib/libcv_bridge.so
 rgb_stereo_node: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.10.0
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_py.so
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
-rgb_stereo_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+rgb_stereo_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
 rgb_stereo_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_c.so
 rgb_stereo_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_c.so
 rgb_stereo_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so

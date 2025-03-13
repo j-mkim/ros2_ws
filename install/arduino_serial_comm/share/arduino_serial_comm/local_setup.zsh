@@ -1,1 +1,0 @@
-/home/orin/ros2_ws/build/arduino_serial_comm/ament_cmake_environment_hooks/local_setup.zsh

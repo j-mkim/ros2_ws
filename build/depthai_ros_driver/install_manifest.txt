@@ -5,6 +5,7 @@
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_segmentation.launch.py
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/stereo_from_rosbag.launch.py
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/pointcloud.launch.py
+/home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/oak_t.launch.py
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera_as_part_of_a_robot.launch.py
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_marker_publish.launch.py
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera.launch.py
@@ -17,6 +18,7 @@
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/camera.yaml
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rgbd.yaml
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/pcl.yaml
+/home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_t.yaml
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/sr_poe_rgbd.yaml
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/right.yaml
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/left.yaml
@@ -45,10 +47,10 @@
 /home/orin/ros2_ws/install/depthai_ros_driver/lib/depthai_ros_driver/camera_node
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.sh
 /home/orin/ros2_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.dsv
-/home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.10.4-py3.10.egg-info/PKG-INFO
-/home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.10.4-py3.10.egg-info/top_level.txt
-/home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.10.4-py3.10.egg-info/SOURCES.txt
-/home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.10.4-py3.10.egg-info/dependency_links.txt
+/home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.0-py3.10.egg-info/PKG-INFO
+/home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.0-py3.10.egg-info/top_level.txt
+/home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.0-py3.10.egg-info/SOURCES.txt
+/home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.0-py3.10.egg-info/dependency_links.txt
 /home/orin/ros2_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver/__init__.py
 /home/orin/ros2_ws/install/depthai_ros_driver/lib/depthai_ros_driver/obj_pub.py
 /home/orin/ros2_ws/install/depthai_ros_driver/include/depthai_ros_driver/camera.hpp
@@ -79,6 +81,7 @@
 /home/orin/ros2_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/imu.hpp
 /home/orin/ros2_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/mono.hpp
 /home/orin/ros2_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_wrapper.hpp
+/home/orin/ros2_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/thermal.hpp
 /home/orin/ros2_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/feature_tracker.hpp
 /home/orin/ros2_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_types.hpp
 /home/orin/ros2_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/pipeline_generator.hpp

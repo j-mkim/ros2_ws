@@ -92,7 +92,7 @@ feature_tracker_EXTERNAL_OBJECTS =
 
 feature_tracker: CMakeFiles/feature_tracker.dir/src/feature_tracker_publisher.cpp.o
 feature_tracker: CMakeFiles/feature_tracker.dir/build.make
-feature_tracker: /opt/ros/humble/lib/libdepthai_bridge.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_bridge/lib/libdepthai_bridge.so
 feature_tracker: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
 feature_tracker: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
 feature_tracker: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -105,14 +105,14 @@ feature_tracker: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.10.0
 feature_tracker: /opt/ros/humble/lib/libcamera_info_manager.so
 feature_tracker: /opt/ros/humble/lib/libcv_bridge.so
 feature_tracker: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.10.0
-feature_tracker: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
-feature_tracker: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
-feature_tracker: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
-feature_tracker: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
-feature_tracker: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
-feature_tracker: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_py.so
-feature_tracker: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
-feature_tracker: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+feature_tracker: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
 feature_tracker: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_c.so
 feature_tracker: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_c.so
 feature_tracker: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so

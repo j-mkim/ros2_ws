@@ -5,7 +5,7 @@ set(my_bot_description_BUILD_DEPENDS "control_msgs" "geometry_msgs" "rclcpp_acti
 set(my_bot_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(my_bot_description_BUILD_EXPORT_DEPENDS "joint_state_publisher" "robot_state_publisher" "rviz2")
 set(my_bot_description_BUILDTOOL_EXPORT_DEPENDS )
-set(my_bot_description_EXEC_DEPENDS "ament_index_python" "control_msgs" "effort_controllers" "geometry_msgs" "hardware_interface" "ign_ros2_control" "imu_sensor_broadcaster" "joint_trajectory_controller" "launch" "launch_ros" "rclcpp" "ros_ign_gazebo" "ros_gz_bridge" "ros2controlcli" "std_msgs" "velocity_controllers" "controller_manager" "diff_drive_controller" "joint_state_broadcaster" "joint_state_publisher" "joint_state_publisher_gui" "robot_state_publisher" "ros2controlcli" "ros2launch" "ros2_control_demo_description" "ros2_controllers_test_nodes" "xacro" "rviz2" "depth_image_proc")
+set(my_bot_description_EXEC_DEPENDS "ament_index_python" "control_msgs" "effort_controllers" "geometry_msgs" "hardware_interface" "ign_ros2_control" "imu_sensor_broadcaster" "joint_trajectory_controller" "launch" "launch_ros" "rclcpp" "ros_ign_gazebo" "ros_gz_bridge" "ros2controlcli" "std_msgs" "velocity_controllers" "controller_manager" "diff_drive_controller" "joint_state_broadcaster" "joint_state_publisher" "joint_state_publisher_gui" "robot_state_publisher" "ros2controlcli" "ros2launch" "ros2_control_demo_description" "ros2_controllers_test_nodes" "xacro" "rviz2" "depth_image_proc" "robot_localization")
 set(my_bot_description_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(my_bot_description_GROUP_DEPENDS )
 set(my_bot_description_MEMBER_OF_GROUPS )

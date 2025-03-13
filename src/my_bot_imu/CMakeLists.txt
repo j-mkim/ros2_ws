@@ -22,12 +22,6 @@ find_package(tf2_geometry_msgs REQUIRED)
 # Add executable
 add_executable(my_bot_imu src/my_bot_imu.cpp)
 
-# target_link_libraries(my_bot_imu
-#   tf2
-#   tf2_ros
-# )
-
-
 # Include directories
 target_include_directories(my_bot_imu PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>

@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 
+#include "depthai-shared/common/CameraSensorType.hpp"
 #include "depthai-shared/properties/ColorCameraProperties.hpp"
 #include "depthai-shared/properties/MonoCameraProperties.hpp"
 #include "depthai/pipeline/Node.hpp"
@@ -44,7 +45,7 @@ struct ImageSensor {
     std::string name;
     std::string defaultResolution;
     std::vector<std::string> allowedResolutions;
-    bool color;
+    dai::CameraSensorType sensorType;
 };
 extern std::vector<ImageSensor> availableSensors;
 extern const std::unordered_map<dai::CameraBoardSocket, std::string> socketNameMap;
@@ -56,6 +57,7 @@ extern const std::unordered_map<std::string, dai::ColorCameraProperties::SensorR
 extern const std::unordered_map<std::string, dai::CameraControl::FrameSyncMode> fSyncModeMap;
 extern const std::unordered_map<std::string, dai::CameraImageOrientation> cameraImageOrientationMap;
 bool rsCompabilityMode(std::shared_ptr<rclcpp::Node> node);
+std::string tfPrefix(std::shared_ptr<rclcpp::Node> node);
 std::string getSocketName(std::shared_ptr<rclcpp::Node> node, dai::CameraBoardSocket socket);
 std::string getNodeName(std::shared_ptr<rclcpp::Node> node, NodeNameEnum name);
 void basicCameraPub(const std::string& /*name*/,

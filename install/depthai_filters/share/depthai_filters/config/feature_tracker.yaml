@@ -1,1 +1,6 @@
-/home/orin/ros2_ws/src/depthai-ros/depthai_filters/config/feature_tracker.yaml
+/oak:
+  ros__parameters:
+    camera:
+      i_nn_type: none
+    rgb:
+      i_enable_feature_tracker: true

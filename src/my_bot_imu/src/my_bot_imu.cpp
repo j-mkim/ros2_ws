@@ -68,6 +68,11 @@ private:
     std::shared_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
 
     int i2c_file_;
+    double filtered_ang_vel_x_ = 0.0, filtered_ang_vel_y_ = 0.0, filtered_ang_vel_z_ = 0.0;
+    double filtered_lin_acc_x_ = 0.0, filtered_lin_acc_y_ = 0.0, filtered_lin_acc_z_ = 0.0;
+    
+    // Smoothing factor: Adjust between 0 (max smoothing) and 1 (no smoothing)
+    const double alpha_ = 0.2;
 };
 
 // Sleep function
@@ -190,18 +195,6 @@ bool my_bot_imu::readGyroscope(int file, int16_t &x, int16_t &y, int16_t &z) {
     return true;
 }
 
-// Function to read magnetometer data
-bool my_bot_imu::readMagnetometer(int file, int16_t &x, int16_t &y, int16_t &z) {
-    uint8_t buffer[6];
-    if (readBytes(file, BNO055_MAG_DATA_X_LSB, buffer, 6) < 0) {
-        return false;
-    }
-    x = (int16_t)((buffer[1] << 8) | buffer[0]);
-    y = (int16_t)((buffer[3] << 8) | buffer[2]);
-    z = (int16_t)((buffer[5] << 8) | buffer[4]);
-    return true;
-}
-
 // Function to read Euler angles (heading, roll, pitch)
 bool my_bot_imu::readEulerAngles(int file, int16_t &heading, int16_t &roll, int16_t &pitch) {
     uint8_t buffer[6];
@@ -256,13 +249,10 @@ my_bot_imu::my_bot_imu()
         return;
     }
 
-    // Create publishers
     // Create publishers with Reliable QoS
     rclcpp::QoS qos_settings(10);  // History depth of 10
     qos_settings.reliable();       // Set reliability to Reliable
-    // qos_settings.best_effort();
     imu_publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("/imu", qos_settings);
-    // mag_publisher_ = this->create_publisher<sensor_msgs::msg::MagneticField>("mag/data", qos_settings);
 
     // Create timer
     timer_ = this->create_wall_timer(
@@ -314,7 +304,7 @@ void my_bot_imu::timer_callback() {
     imu_msg.header.frame_id = "base_link";
 
     // Convert raw data to SI units
-    double accel_scale = 0.001 * 9.80665;        // 1 LSB = 1 mg, convert to m/s²
+    double accel_scale = 0.001 * 9.81;        // 1 LSB = 1 mg, convert to m/s²
     double gyro_scale = (1.0 / 16.0) * (M_PI / 180.0); // 16 LSB per °/s, convert to rad/s
 
     // Assign accelerometer data
@@ -339,7 +329,7 @@ void my_bot_imu::timer_callback() {
     imu_msg.orientation.x = q.x();
     imu_msg.orientation.y = q.y();
     imu_msg.orientation.z = q.z();
-    imu_msg.orientation.w = q.w();
+    imu_msg.orientation.w = -q.w();
 
     
     imu_publisher_->publish(imu_msg);
@@ -354,37 +344,14 @@ void my_bot_imu::timer_callback() {
 
     // Set translation (adjust based on IMU placement on the robot)
     transform.transform.translation.x = 0.0162;
-    transform.transform.translation.y = -0.0122;
-    transform.transform.translation.z = -0.1103; // Adjust as necessary
+    transform.transform.translation.y = 0.0122;
+    transform.transform.translation.z = 0.1103; // Adjust as necessary
     // Set rotation based on IMU orientation
     transform.transform.rotation = imu_msg.orientation;
 
     // Broadcast the transform
     // tf_broadcaster_->sendTransform(transform);
 
-    // Read magnetometer data
-    // int16_t magn_x, magn_y, magn_z;
-    // if (!readMagnetometer(i2c_file_, magn_x, magn_y, magn_z)) {
-    //     RCLCPP_WARN(this->get_logger(), "Failed to read magnetometer data.");
-    //     return;
-    // }
-
-    // auto mag_msg = sensor_msgs::msg::MagneticField();
-
-    // // Set header
-    // mag_msg.header.stamp = this->get_clock()->now();
-    // mag_msg.header.frame_id = "mag_link";
-
-    // // Assign magnetometer data
-    // double magn_scale = 1.0 / 16.0 * 1e-6; // 16 LSB per µT, convert to Tesla
-    // mag_msg.magnetic_field.x = magn_x * magn_scale;
-    // mag_msg.magnetic_field.y = magn_y * magn_scale;
-    // mag_msg.magnetic_field.z = magn_z * magn_scale;
-
-    // // Publish the MagneticField message
-    // mag_publisher_->publish(mag_msg);
-
-    
 }
 
 int main(int argc, char *argv[]) {

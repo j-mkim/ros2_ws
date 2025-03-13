@@ -1,1 +1,6 @@
-/home/orin/ros2_ws/build/depthai_ros_msgs/ament_cmake_python/depthai_ros_msgs/depthai_ros_msgs.egg-info/SOURCES.txt
+setup.py
+depthai_ros_msgs/__init__.py
+depthai_ros_msgs.egg-info/PKG-INFO
+depthai_ros_msgs.egg-info/SOURCES.txt
+depthai_ros_msgs.egg-info/dependency_links.txt
+depthai_ros_msgs.egg-info/top_level.txt

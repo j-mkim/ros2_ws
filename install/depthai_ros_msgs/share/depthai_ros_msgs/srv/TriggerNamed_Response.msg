@@ -1,1 +1,3 @@
-/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_cmake/srv/TriggerNamed_Response.msg
+
+bool success
+string message

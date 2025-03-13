@@ -92,7 +92,7 @@ tracker_yolov4_spatial_node_EXTERNAL_OBJECTS =
 
 tracker_yolov4_spatial_node: CMakeFiles/tracker_yolov4_spatial_node.dir/src/tracker_yolov4_spatial_publisher.cpp.o
 tracker_yolov4_spatial_node: CMakeFiles/tracker_yolov4_spatial_node.dir/build.make
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_bridge.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_bridge/lib/libdepthai_bridge.so
 tracker_yolov4_spatial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
 tracker_yolov4_spatial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
 tracker_yolov4_spatial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -105,14 +105,14 @@ tracker_yolov4_spatial_node: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.1
 tracker_yolov4_spatial_node: /opt/ros/humble/lib/libcamera_info_manager.so
 tracker_yolov4_spatial_node: /opt/ros/humble/lib/libcv_bridge.so
 tracker_yolov4_spatial_node: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.10.0
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_py.so
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
-tracker_yolov4_spatial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+tracker_yolov4_spatial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
 tracker_yolov4_spatial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_c.so
 tracker_yolov4_spatial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_c.so
 tracker_yolov4_spatial_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so

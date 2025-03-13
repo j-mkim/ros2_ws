@@ -1,5 +1,0 @@
-In file included from [01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/diffbot_system.cpp:15[m[K:
-[01m[K/home/orin/ros2_ws/src/my_bot_description/hardware/include/my_bot_ros2_control/diffbot_system.hpp:38:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
-   38 |   RCLCPP_SHARED_PTR_DEFINITIONS(DiffBotSystemHardware)[01;35m[K;[m[K
-      |                                                       [01;35m[K^[m[K
-      |                                                       [31m[K-[m[K

@@ -11,7 +11,11 @@ setup.py
 hcsr04_sensor/__init__.py
 hcsr04_sensor/hcsr04_publisher.py
 hcsr04_sensor/hcsr04_subscriber.py
+hcsr04_sensor.egg-info/PKG-INFO
+hcsr04_sensor.egg-info/SOURCES.txt
+hcsr04_sensor.egg-info/dependency_links.txt
+hcsr04_sensor.egg-info/entry_points.txt
+hcsr04_sensor.egg-info/requires.txt
+hcsr04_sensor.egg-info/top_level.txt
+hcsr04_sensor.egg-info/zip-safe
 resource/hcsr04_sensor
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

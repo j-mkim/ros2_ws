@@ -1,3 +1,0 @@
-Invoking command in '/home/orin/ros2_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/gazebo_ros_pkgs/gazebo_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/gazebo_msgs
-Invoked command in '/home/orin/ros2_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/ros2_ws/src/gazebo_ros_pkgs/gazebo_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/gazebo_msgs
-Invoking command in '/home/orin/ros2_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/ros2_ws/build/gazebo_msgs

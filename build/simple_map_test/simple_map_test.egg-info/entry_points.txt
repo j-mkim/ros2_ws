@@ -1,2 +1,0 @@
-[console_scripts]
-simple_map_publisher = simple_map_test.simple_map_publisher:main

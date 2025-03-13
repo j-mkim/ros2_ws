@@ -1,2 +1,0 @@
-[console_scripts]
-encoder_odometry_node = wheel_encoder_odometry.encoder_odometry_node:main

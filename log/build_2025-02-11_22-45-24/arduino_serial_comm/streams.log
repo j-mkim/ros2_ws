@@ -1,1 +1,0 @@
-[4.744s] Invoking command in '/home/orin/ros2_ws/build/arduino_serial_comm': /usr/bin/cmake /home/orin/ros2_ws/src/arduino_serial_comm -DCMAKE_INSTALL_PREFIX=/home/orin/ros2_ws/install/arduino_serial_comm

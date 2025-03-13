@@ -538,7 +538,7 @@ CMakeFiles/tracker_yolov4_spatial_node.dir/src/tracker_yolov4_spatial_publisher.
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp \
  /opt/ros/humble/include/camera_info_manager/camera_info_manager/visibility_control.h \
- /opt/ros/humble/include/depthai_bridge/BridgePublisher.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/BridgePublisher.hpp \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
  /opt/ros/humble/include/depthai/device/DataQueue.hpp \
@@ -633,7 +633,7 @@ CMakeFiles/tracker_yolov4_spatial_node.dir/src/tracker_yolov4_spatial_publisher.
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
@@ -715,14 +715,14 @@ CMakeFiles/tracker_yolov4_spatial_node.dir/src/tracker_yolov4_spatial_publisher.
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__traits.hpp \
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__type_support.hpp \
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/depthai_bridge/TrackSpatialDetectionConverter.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/TrackSpatialDetectionConverter.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/Tracklets.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/RawTracklets.hpp \
  /opt/ros/humble/include/depthai-shared/common/Rect.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/RawImgDetections.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/track_detection2_d_array.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__struct.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__struct.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/track_detection2_d_array.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__struct.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
@@ -732,9 +732,9 @@ CMakeFiles/tracker_yolov4_spatial_node.dir/src/tracker_yolov4_spatial_publisher.
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__builder.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__traits.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__traits.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__builder.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__traits.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
@@ -744,8 +744,8 @@ CMakeFiles/tracker_yolov4_spatial_node.dir/src/tracker_yolov4_spatial_publisher.
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.hpp \

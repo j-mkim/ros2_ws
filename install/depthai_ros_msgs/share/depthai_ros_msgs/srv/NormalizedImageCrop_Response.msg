@@ -1,1 +1,2 @@
-/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_cmake/srv/NormalizedImageCrop_Response.msg
+
+int64 status

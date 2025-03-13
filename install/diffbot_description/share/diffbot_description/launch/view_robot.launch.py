@@ -1,1 +1,0 @@
-/home/orin/ros2_ws/src/diffbot_description/description/launch/view_robot.launch.py

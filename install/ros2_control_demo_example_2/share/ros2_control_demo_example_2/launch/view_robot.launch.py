@@ -1,1 +1,0 @@
-/home/orin/ros2_ws/src/ros2_control_demos/example_2/description/launch/view_robot.launch.py

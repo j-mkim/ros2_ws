@@ -92,7 +92,7 @@ yolov4_node_EXTERNAL_OBJECTS =
 
 yolov4_node: CMakeFiles/yolov4_node.dir/src/yolov4_publisher.cpp.o
 yolov4_node: CMakeFiles/yolov4_node.dir/build.make
-yolov4_node: /opt/ros/humble/lib/libdepthai_bridge.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_bridge/lib/libdepthai_bridge.so
 yolov4_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
 yolov4_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
 yolov4_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -105,14 +105,14 @@ yolov4_node: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.10.0
 yolov4_node: /opt/ros/humble/lib/libcamera_info_manager.so
 yolov4_node: /opt/ros/humble/lib/libcv_bridge.so
 yolov4_node: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.10.0
-yolov4_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
-yolov4_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
-yolov4_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
-yolov4_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
-yolov4_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
-yolov4_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_py.so
-yolov4_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
-yolov4_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+yolov4_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
 yolov4_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_c.so
 yolov4_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_c.so
 yolov4_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so

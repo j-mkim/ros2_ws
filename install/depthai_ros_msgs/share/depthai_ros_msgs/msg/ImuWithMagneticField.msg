@@ -1,1 +1,3 @@
-/home/orin/ros2_ws/src/depthai-ros/depthai_ros_msgs/msg/ImuWithMagneticField.msg
+std_msgs/Header header
+sensor_msgs/Imu imu
+sensor_msgs/MagneticField field

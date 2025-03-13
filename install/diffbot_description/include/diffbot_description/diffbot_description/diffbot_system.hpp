@@ -1,1 +1,0 @@
-/home/orin/ros2_ws/src/diffbot_description/hardware/include/diffbot_description/diffbot_system.hpp

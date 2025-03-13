@@ -43,11 +43,278 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/orin/ros2_ws/build/depthai_examples/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE DIRECTORY FILES "/home/orin/ros2_ws/src/depthai-ros/depthai_examples/params")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE DIRECTORY FILES "/home/orin/ros2_ws/src/depthai-ros/depthai_examples/rviz")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE DIRECTORY FILES "/home/orin/ros2_ws/src/depthai-ros/depthai_examples/resources")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples/launch" TYPE DIRECTORY FILES "/home/orin/ros2_ws/src/depthai-ros/depthai_examples/launch/" FILES_MATCHING REGEX "/[^/]*\\.py$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/crop_control_service" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/crop_control_service")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/crop_control_service"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/crop_control_service")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/crop_control_service" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/crop_control_service")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/crop_control_service"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/crop_control_service")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/mobilenet_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/mobilenet_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/mobilenet_node"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/mobilenet_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/mobilenet_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/mobilenet_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/mobilenet_node"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/mobilenet_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/rgb_stereo_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/rgb_stereo_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/rgb_stereo_node"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/rgb_stereo_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/rgb_stereo_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/rgb_stereo_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/rgb_stereo_node"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/rgb_stereo_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_inertial_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_inertial_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_inertial_node"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/stereo_inertial_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_inertial_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_inertial_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_inertial_node"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_inertial_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_node"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/stereo_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_node"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/stereo_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_spatial_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_spatial_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_spatial_node"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/yolov4_spatial_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_spatial_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_spatial_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_spatial_node"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_spatial_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_node"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/yolov4_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_node"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/yolov4_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/feature_tracker" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/feature_tracker")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/feature_tracker"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/feature_tracker")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/feature_tracker" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/feature_tracker")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/feature_tracker"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/feature_tracker")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_node"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/tracker_yolov4_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_node"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_spatial_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_spatial_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_spatial_node"
+         RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_examples" TYPE EXECUTABLE FILES "/home/orin/ros2_ws/build/depthai_examples/tracker_yolov4_spatial_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_spatial_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_spatial_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_spatial_node"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "/usr/local/cuda/lib64:/home/orin/ros2_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/home/orin/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/depthai_examples/tracker_yolov4_spatial_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/depthai_examples")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/depthai_examples")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples/environment" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples/environment" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_index/share/ament_index/resource_index/packages/depthai_examples")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples/cmake" TYPE FILE FILES
+    "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_core/depthai_examplesConfig.cmake"
+    "/home/orin/ros2_ws/build/depthai_examples/ament_cmake_core/depthai_examplesConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depthai_examples" TYPE FILE FILES "/home/orin/ros2_ws/src/depthai-ros/depthai_examples/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

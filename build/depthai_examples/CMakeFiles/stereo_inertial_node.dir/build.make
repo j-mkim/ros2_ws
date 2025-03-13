@@ -92,7 +92,7 @@ stereo_inertial_node_EXTERNAL_OBJECTS =
 
 stereo_inertial_node: CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o
 stereo_inertial_node: CMakeFiles/stereo_inertial_node.dir/build.make
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_bridge.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_bridge/lib/libdepthai_bridge.so
 stereo_inertial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
 stereo_inertial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
 stereo_inertial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -105,14 +105,14 @@ stereo_inertial_node: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.10.0
 stereo_inertial_node: /opt/ros/humble/lib/libcamera_info_manager.so
 stereo_inertial_node: /opt/ros/humble/lib/libcv_bridge.so
 stereo_inertial_node: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.10.0
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_py.so
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
-stereo_inertial_node: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+stereo_inertial_node: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
 stereo_inertial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_c.so
 stereo_inertial_node: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_c.so
 stereo_inertial_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so

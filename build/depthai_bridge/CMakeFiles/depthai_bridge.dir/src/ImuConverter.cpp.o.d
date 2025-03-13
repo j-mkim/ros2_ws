@@ -704,22 +704,22 @@ CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp \
- /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp \
- /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp \
- /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp \
- /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp \
- /home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp \

@@ -92,7 +92,7 @@ crop_control_service_EXTERNAL_OBJECTS =
 
 crop_control_service: CMakeFiles/crop_control_service.dir/src/crop_control_service.cpp.o
 crop_control_service: CMakeFiles/crop_control_service.dir/build.make
-crop_control_service: /opt/ros/humble/lib/libdepthai_bridge.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_bridge/lib/libdepthai_bridge.so
 crop_control_service: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
 crop_control_service: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
 crop_control_service: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -105,14 +105,14 @@ crop_control_service: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.10.0
 crop_control_service: /opt/ros/humble/lib/libcamera_info_manager.so
 crop_control_service: /opt/ros/humble/lib/libcv_bridge.so
 crop_control_service: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.10.0
-crop_control_service: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
-crop_control_service: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
-crop_control_service: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
-crop_control_service: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
-crop_control_service: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
-crop_control_service: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_py.so
-crop_control_service: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
-crop_control_service: /opt/ros/humble/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+crop_control_service: /home/orin/ros2_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
 crop_control_service: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_c.so
 crop_control_service: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_c.so
 crop_control_service: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so

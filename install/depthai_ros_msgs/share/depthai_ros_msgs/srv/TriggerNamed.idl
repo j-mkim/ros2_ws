@@ -1,1 +1,17 @@
-/home/orin/ros2_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs/srv/TriggerNamed.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from depthai_ros_msgs/srv/TriggerNamed.srv
+// generated code does not contain a copyright notice
+
+
+module depthai_ros_msgs {
+  module srv {
+    struct TriggerNamed_Request {
+      string name;
+    };
+    struct TriggerNamed_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -19,7 +19,7 @@ class EncoderOdom(Node):
             exit(1)
         
         # Create a timer to call read_serial periodically (every 10ms)
-        self.create_timer(0.2, self.read_serial)
+        self.create_timer(0.1, self.read_serial)
         
         # Subscription for teleop commands
         self.create_subscription(Twist, '/cmd_vel', self.cmd_vel_callback, 10)
@@ -28,8 +28,8 @@ class EncoderOdom(Node):
         self.odom_pub = self.create_publisher(Odometry, 'odom', 10)
         
         # Robot parameters (adjust these to your robot)
-        self.wheel_radius = 0.03         # in meters
-        self.wheel_separation = 0.15     # in meters (distance between wheels)
+        self.wheel_radius = 0.03175      # in meters
+        self.wheel_separation = 0.9906   # in meters (distance between wheels)
         self.ticks_per_rev = 576         # number of encoder ticks per wheel revolution
         
         # Scaling factor for converting velocity to PWM

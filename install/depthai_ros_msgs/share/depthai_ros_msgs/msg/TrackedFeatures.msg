@@ -1,1 +1,2 @@
-/home/orin/ros2_ws/src/depthai-ros/depthai_ros_msgs/msg/TrackedFeatures.msg
+std_msgs/Header header
+depthai_ros_msgs/TrackedFeature[] features

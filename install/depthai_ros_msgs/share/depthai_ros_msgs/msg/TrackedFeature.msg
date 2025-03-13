@@ -1,1 +1,10 @@
-/home/orin/ros2_ws/src/depthai-ros/depthai_ros_msgs/msg/TrackedFeature.msg
+std_msgs/Header header
+
+geometry_msgs/Point position
+uint32 id
+
+uint32 age
+
+float32 harris_score
+
+float32 tracking_error

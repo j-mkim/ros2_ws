@@ -537,24 +537,24 @@ CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp \
  /opt/ros/humble/include/camera_info_manager/camera_info_manager/visibility_control.h \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection_array.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection_array.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
@@ -737,7 +737,7 @@ CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o: \
  /opt/ros/humble/include/depthai-shared/properties/XLinkInProperties.hpp \
  /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
  /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
- /opt/ros/humble/include/depthai_bridge/BridgePublisher.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/BridgePublisher.hpp \
  /opt/ros/humble/include/image_transport/image_transport/image_transport.hpp \
  /opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp \
  /opt/ros/humble/include/image_transport/image_transport/single_subscriber_publisher.hpp \
@@ -752,12 +752,12 @@ CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/depthai_bridge/DisparityConverter.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/DisparityConverter.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/ImgFrame.hpp \
  /opt/ros/humble/include/depthai/build/config.hpp \
  /opt/ros/humble/include/depthai/common/CameraExposureOffset.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
- /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
@@ -822,9 +822,9 @@ CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o: \
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__traits.hpp \
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/detail/ffmpeg_packet__type_support.hpp \
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/depthai_bridge/ImuConverter.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/ImuConverter.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/IMUData.hpp \
- /opt/ros/humble/include/depthai_bridge/depthaiUtility.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/depthaiUtility.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
@@ -932,17 +932,17 @@ CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp \
+ /home/orin/ros2_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp \
- /opt/ros/humble/include/depthai_bridge/SpatialDetectionConverter.hpp \
+ /home/orin/ros2_ws/install/depthai_bridge/include/depthai_bridge/SpatialDetectionConverter.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/SpatialImgDetections.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/RawSpatialImgDetections.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/RawImgDetections.hpp \

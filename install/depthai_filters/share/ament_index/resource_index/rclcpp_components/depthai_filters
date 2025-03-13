@@ -1,1 +1,7 @@
-/home/orin/ros2_ws/build/depthai_filters/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/depthai_filters
+depthai_filters::Detection2DOverlay;lib/libdepthai_filters.so
+depthai_filters::SegmentationOverlay;lib/libdepthai_filters.so
+depthai_filters::WLSFilter;lib/libdepthai_filters.so
+depthai_filters::SpatialBB;lib/libdepthai_filters.so
+depthai_filters::FeatureTrackerOverlay;lib/libdepthai_filters.so
+depthai_filters::Features3D;lib/libdepthai_filters.so
+depthai_filters::ThermalTemp;lib/libdepthai_filters.so
